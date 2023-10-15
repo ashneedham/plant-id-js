@@ -4,17 +4,20 @@
  *
  */
 
-const round_length = 10;
+const round_length = 4;
 document.addEventListener("DOMContentLoaded", function() {
     let sample_card = document.getElementById('sample-card'),
         blank_card = sample_card.cloneNode(true),
         deck = document.getElementById('deck'),
-        score_board = document.getElementById('score-board'),
+        score = document.getElementById('score'),
         score_board_players_score = document.getElementById('players-score'),
         score_board_rounds_played = document.getElementById('rounds-played'),
+        final_score_modal = document.getElementById('final-score'),
+        final_score_inner = final_score_modal.getElementsByClassName('inner')[0],
         plant_list_in_play = plant_list.slice(),
         rounds_played = 0,
         players_score = 0,
+        current_round = 0,
         rounds_correct_answers = [];
 
     blank_card.removeAttribute('id');
@@ -22,7 +25,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
     // Start game
-
     playRound(plant_list_in_play, 1);
 
     /**
@@ -33,11 +35,15 @@ document.addEventListener("DOMContentLoaded", function() {
      */
     function playRound(plant_list_provided, round_number) {
         let new_card = blank_card.cloneNode(true)
+            new_card.style.zIndex = 100+round_number,
             chosen_plant = getRandomPlant(plant_list_provided),
             picture = new_card.getElementsByClassName('picture')[0],
             answer_buttons = new_card.getElementsByTagName('button'),
             answers = generateAnswerList(chosen_plant);
 
+        // Remove chosen plant from list to prevent playing it more than once
+        plant_list_provided = removePlantFromList(plant_list_provided, chosen_plant);
+        current_round = round_number;
         new_card.setAttribute('id', 'card_'+round_number);
         picture.style.backgroundImage = 'url("img/'+getRandomPicture(chosen_plant)+'")';
 
@@ -45,11 +51,11 @@ document.addEventListener("DOMContentLoaded", function() {
             answer_buttons[index].innerText = answer.name;
             answer_buttons[index].dataset.index = index;
             if (answer.correct) {
-                rounds_correct_answers[round_number] = index;
                 answer_buttons[index].addEventListener('click', function() {
                     if (!isCardLocked(new_card)){
                         lockCard(new_card);
-                        correctAnswer(this);
+                        correctAnswer(this, round_number, index);
+                        playNextRoundOrShowFinalScore(plant_list_provided);
                     }
                 });
             } else {
@@ -57,6 +63,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     if (!isCardLocked(new_card)) {
                         lockCard(new_card);
                         wrongAnswer(this);
+                        playNextRoundOrShowFinalScore(plant_list_provided);
                     }
                 });
             }
@@ -70,10 +77,30 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     /**
+     * Check rounds left to play and trigger if so
+     * @param updated_plant_list
+     */
+    function playNextRoundOrShowFinalScore(updated_plant_list) {
+        if (rounds_played < round_length) {
+            setTimeout(function() {
+                playRound(updated_plant_list, rounds_played+1);
+            }, 2000);
+        } else {
+            setTimeout(function() {
+                final_score_inner.innerHTML = score.innerHTML;
+                final_score_modal.showModal();
+            }, 2000);
+        }
+    }
+
+    /**
      * User guessed correctly
      * @param element
+     * @param round_number
+     * @param correct_index
      */
-    function correctAnswer(element) {
+    function correctAnswer(element, round_number, correct_index) {
+        rounds_correct_answers[round_number] = correct_index;
         element.classList.add('correct');
         updateScore(true);
     }
