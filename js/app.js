@@ -7,6 +7,7 @@
 const round_length = 4;
 document.addEventListener("DOMContentLoaded", function() {
     let sample_card = document.getElementById('sample-card'),
+        start_button = document.getElementById('start'),
         blank_card = sample_card.cloneNode(true),
         deck = document.getElementById('deck'),
         score = document.getElementById('score'),
@@ -25,7 +26,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
     // Start game
-    playRound(plant_list_in_play, 1);
+    start_button.addEventListener('click', function() {
+        this.style.display = 'none';
+        playRound(plant_list_in_play, 1);
+    });
 
     /**
      * Displays a new card for a given round and set triggers for correct answer
@@ -84,12 +88,12 @@ document.addEventListener("DOMContentLoaded", function() {
         if (rounds_played < round_length) {
             setTimeout(function() {
                 playRound(updated_plant_list, rounds_played+1);
-            }, 2000);
+            }, 1000);
         } else {
             setTimeout(function() {
                 final_score_inner.innerHTML = score.innerHTML;
                 final_score_modal.showModal();
-            }, 2000);
+            }, 1000);
         }
     }
 

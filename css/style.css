@@ -21,6 +21,9 @@ h1 {
   width: 35rem;
   min-height: 30rem;
 }
+#deck #start {
+  margin: 4em auto;
+}
 
 /**
 Buttons
@@ -35,7 +38,7 @@ Buttons
   cursor: pointer;
   display: flex;
   font-family: Inter, sans-serif;
-  font-size: 16px;
+  font-size: 1.1em;
   height: 48px;
   justify-content: center;
   line-height: 1em;
@@ -48,6 +51,15 @@ Buttons
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+}
+.btn.giant {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.5em;
+  height: 60px;
+}
+.btn.giant:after {
+  height: 60px;
 }
 .btn:after {
   background-color: #111;
@@ -168,6 +180,17 @@ Cards
 #score-board {
   padding: 2em 0;
   font-size: 1.5rem;
+}
+
+#final-score h2 {
+  font-size: 1.6em;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+}
+#final-score .inner {
+  font-size: 1.3em;
+  margin-bottom: 1em;
 }
 
 /**
