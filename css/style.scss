@@ -1,0 +1,83 @@
+@import "reset.css";
+
+html {
+  font-family: Arial;
+  font-size: 14px;
+}
+
+body {
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+#deck {
+  position: relative;
+  margin: 3em 0;
+}
+
+/**
+Cards
+ */
+.card {
+  border: #e3e3e3 solid 1px;
+  border-radius: 0.5rem;
+  padding: 2rem 2rem 0.5rem 2rem;
+  display: inline-block;
+  position: absolute;
+  width: 35rem;
+  top: 0;
+  left: 0;
+  transition: all 2s;
+  box-shadow: #999 0 0 2em 0;
+
+  &.hidden {
+    opacity: 0;
+    transition: all 2s;
+  }
+
+  .picture {
+    display: block;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    border: #666 solid 1px;
+    margin-bottom: 2rem;
+    background-size: cover;
+    background-position: center;
+  }
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    li {
+      width: 48%;
+      margin-bottom: 1.5rem;
+
+      button {
+        height: 4rem;
+        width: 100%;
+        background: #29ab87;
+        border-radius: 0.5rem;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        transition: all 0.2s;
+
+        &:hover {
+          background: #51c878;
+          transition: all 0.2s;
+        }
+      }
+
+    }
+  }
+
+}
