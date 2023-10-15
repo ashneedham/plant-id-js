@@ -9,11 +9,19 @@ document.addEventListener("DOMContentLoaded", function() {
     let sample_card = document.getElementById('sample-card'),
         blank_card = sample_card.cloneNode(true),
         deck = document.getElementById('deck'),
+        score_board = document.getElementById('score-board'),
+        score_board_players_score = document.getElementById('players-score'),
+        score_board_rounds_played = document.getElementById('rounds-played'),
         plant_list_in_play = plant_list.slice(),
-        players_score = 0;
+        rounds_played = 0,
+        players_score = 0,
+        rounds_correct_answers = [];
 
     blank_card.removeAttribute('id');
     sample_card.remove();
+
+
+    // Start game
 
     playRound(plant_list_in_play, 1);
 
@@ -21,6 +29,7 @@ document.addEventListener("DOMContentLoaded", function() {
      * Displays a new card for a given round and set triggers for correct answer
      * @param plant_list_provided
      * @param round_number
+     * @return {{botanical_name: string, common_name: string, pictures: string[]}|{botanical_name: string, common_name: string, pictures}|{botanical_name: string, common_name: string, pictures: string[]}|{botanical_name: string, common_name: string, pictures: string[]}}
      */
     function playRound(plant_list_provided, round_number) {
         let new_card = blank_card.cloneNode(true)
@@ -34,11 +43,55 @@ document.addEventListener("DOMContentLoaded", function() {
 
         answers.forEach(function(answer, index) {
             answer_buttons[index].innerText = answer.name;
+            answer_buttons[index].dataset.index = index;
+            if (answer.correct) {
+                rounds_correct_answers[round_number] = index;
+                answer_buttons[index].addEventListener('click', function() {
+                    correctAnswer(this);
+                });
+            } else {
+                answer_buttons[index].addEventListener('click', function() {
+                    wrongAnswer(this);
+                });
+            }
         });
 
         // show
         deck.appendChild(new_card);
         new_card.classList.remove('hidden');
+
+        return chosen_plant
+    }
+
+    /**
+     * User guessed correctly
+     * @param element
+     */
+    function correctAnswer(element) {
+        element.classList.add('correct');
+        updateScore(true);
+    }
+
+    /**
+     * User guessed incorrectly
+     * @param element
+     */
+    function wrongAnswer(element) {
+        element.classList.add('incorrect');
+        updateScore();
+    }
+
+    /**
+     * Update the score and rounds played and score board
+     * @param correct
+     */
+    function updateScore(correct = false) {
+        rounds_played++;
+        if (correct) {
+            players_score++;
+        }
+        score_board_players_score.innerText = players_score;
+        score_board_rounds_played.innerText = rounds_played;
     }
 
     /**
@@ -69,11 +122,10 @@ document.addEventListener("DOMContentLoaded", function() {
      */
     function getThreeIncorrectNames(plant, plant_list) {
         let output = [],
-            plant_index = plant_list.map(e => e.name).indexOf(plant.botanical_name),
             plant_list_clone = plant_list.slice();
 
         // Remove provided plant
-        plant_list_clone.splice(plant_index, 1);
+        plant_list_clone = removePlantFromList(plant_list_clone, plant);
 
         while (output.length < 3) {
             let index = Math.floor(Math.random() * plant_list_clone.length),
@@ -83,6 +135,17 @@ document.addEventListener("DOMContentLoaded", function() {
         }
 
         return output;
+    }
+
+    /**
+     * Removes a given plant from a list
+     * @param list
+     * @param plant
+     * @returns {object[]}
+     */
+    function removePlantFromList(list, plant) {
+        list.splice(list.map(e => e.botanical_name).indexOf(plant.botanical_name), 1);
+        return list;
     }
 
     /**

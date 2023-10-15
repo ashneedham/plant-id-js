@@ -41,7 +41,7 @@ Cards
   .picture {
     display: block;
     width: 100%;
-    height: 400px;
+    height: 20rem;
     overflow: hidden;
     border: #666 solid 1px;
     margin-bottom: 2rem;
@@ -61,9 +61,9 @@ Cards
       button {
         height: 4rem;
         width: 100%;
-        background: #29ab87;
+        background: #A5C9D2;
         border-radius: 0.5rem;
-        border: none;
+        border: #3E7C8C solid 3px;
         cursor: pointer;
         display: flex;
         align-items: center;
@@ -72,12 +72,28 @@ Cards
         transition: all 0.2s;
 
         &:hover {
-          background: #51c878;
+          background: #3EB6C0;
+          transition: all 0.2s;
+        }
+
+        &.correct {
+          background: #3EB66D;
+          border-color: #007A55;
+          transition: all 0.2s;
+        }
+
+        &.incorrect {
+          background: #C80024;
+          border-color: #901200;
           transition: all 0.2s;
         }
       }
 
     }
   }
+}
 
+#score-board {
+  padding: 2em 0;
+  font-size: 1.5rem;
 }
