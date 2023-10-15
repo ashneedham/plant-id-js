@@ -8,6 +8,7 @@ const round_length = 4;
 document.addEventListener("DOMContentLoaded", function() {
     let sample_card = document.getElementById('sample-card'),
         start_button = document.getElementById('start'),
+        play_again_button = document.getElementById('play-again'),
         blank_card = sample_card.cloneNode(true),
         deck = document.getElementById('deck'),
         score = document.getElementById('score'),
@@ -28,6 +29,22 @@ document.addEventListener("DOMContentLoaded", function() {
     // Start game
     start_button.addEventListener('click', function() {
         this.style.display = 'none';
+        playRound(plant_list_in_play, 1);
+    });
+
+    // Play again
+    play_again_button.addEventListener('click', function() {
+        let cards = deck.getElementsByClassName('card');
+        Array.from(cards).forEach(function (element) {
+            element.remove();
+        });
+        rounds_played = 0;
+        players_score = 0;
+        current_round = 0;
+        rounds_correct_answers = [];
+        plant_list_in_play = plant_list.slice();
+        final_score_modal.close();
+        resetScore();
         playRound(plant_list_in_play, 1);
     });
 
@@ -146,6 +163,14 @@ document.addEventListener("DOMContentLoaded", function() {
         }
         score_board_players_score.innerText = players_score;
         score_board_rounds_played.innerText = rounds_played;
+    }
+
+    /**
+     * Reset the score
+     */
+    function resetScore() {
+        score_board_players_score.innerText = '-';
+        score_board_rounds_played.innerText = '-';
     }
 
     /**
