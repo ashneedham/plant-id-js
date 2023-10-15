@@ -82,6 +82,18 @@ Cards
   border-color: #901200;
   transition: all 0.2s;
 }
+.card.answered button:hover {
+  background: #A5C9D2;
+  cursor: not-allowed;
+}
+.card.answered button.correct:hover {
+  background: #3EB66D;
+  cursor: not-allowed;
+}
+.card.answered button.incorrect:hover {
+  background: #C80024;
+  cursor: not-allowed;
+}
 
 #score-board {
   padding: 2em 0;

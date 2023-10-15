@@ -47,11 +47,17 @@ document.addEventListener("DOMContentLoaded", function() {
             if (answer.correct) {
                 rounds_correct_answers[round_number] = index;
                 answer_buttons[index].addEventListener('click', function() {
-                    correctAnswer(this);
+                    if (!isCardLocked(new_card)){
+                        lockCard(new_card);
+                        correctAnswer(this);
+                    }
                 });
             } else {
                 answer_buttons[index].addEventListener('click', function() {
-                    wrongAnswer(this);
+                    if (!isCardLocked(new_card)) {
+                        lockCard(new_card);
+                        wrongAnswer(this);
+                    }
                 });
             }
         });
@@ -79,6 +85,23 @@ document.addEventListener("DOMContentLoaded", function() {
     function wrongAnswer(element) {
         element.classList.add('incorrect');
         updateScore();
+    }
+
+    /**
+     * Mark a card as answered
+     * @param element
+     */
+    function lockCard(element) {
+        element.classList.add('answered');
+    }
+
+    /**
+     * Check to see if a card has been answered
+     * @param element
+     * @returns {boolean}
+     */
+    function isCardLocked(element) {
+        return element.classList.contains('answered');
     }
 
     /**
