@@ -7,6 +7,7 @@ html {
 
 body {
   padding: 2rem;
+  text-align: center;
 }
 
 h1 {
@@ -15,7 +16,9 @@ h1 {
 
 #deck {
   position: relative;
-  margin: 3em 0;
+  margin: 3em auto;
+  width: 35rem;
+  min-height: 30rem;
 }
 
 /**
@@ -24,14 +27,30 @@ Cards
 .card {
   border: #e3e3e3 solid 1px;
   border-radius: 0.5rem;
+  background: #fff;
   padding: 2rem 2rem 0.5rem 2rem;
   display: inline-block;
   position: absolute;
   width: 35rem;
+  transition: all 0.4s cubic-bezier(.63,.15,.03,1.12);
+  transform: translateX(0) rotate(2deg);
+  animation-fill-mode: backwards;
+  animation: slideInRight 0.5s ease forwards;
+  opacity: 1;
+  filter: blur(0);
+  box-shadow: #999 0 0 2em 0;
   top: 0;
   left: 0;
-  transition: all 2s;
-  box-shadow: #999 0 0 2em 0;
+
+  &:nth-child(4n+2) {
+    transform: translateX(0.2em) rotate(-1deg);
+  }
+  &:nth-child(4n+3) {
+    transform: translateX(0.4em) rotate(-2deg);
+  }
+  &:nth-child(4n) {
+    transform: translateX(-0.2em) rotate(1deg);
+  }
 
   &.hidden {
     opacity: 0;
@@ -112,4 +131,16 @@ Cards
 #score-board {
   padding: 2em 0;
   font-size: 1.5rem;
+}
+
+/**
+Animations
+ */
+@keyframes slideInRight {
+  from {
+    transform: translateX(30em) rotate(-5deg);
+    filter: blur(4);
+    opacity: 0;
+  }
+  to {}
 }
