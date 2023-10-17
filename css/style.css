@@ -1,41 +1,4 @@
 @import "reset.css";
-body, html {
-  min-height: 100vh;
-  padding: 0;
-  margin: 0;
-}
-@media screen and (min-width: 48em) {
-  body, html {
-    font-size: 14px;
-  }
-}
-@media screen and (min-width: 85.375em) {
-  body, html {
-    font-size: 16px;
-  }
-}
-
-body {
-  padding: 2rem;
-  text-align: center;
-  background-color: #dee5db;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='88' height='24' viewBox='0 0 88 24'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='autumn' fill='%239bac92' fill-opacity='0.13'%3E%3Cpath d='M10 0l30 15 2 1V2.18A10 10 0 0 0 41.76 0H39.7a8 8 0 0 1 .3 2.18v10.58L14.47 0H10zm31.76 24a10 10 0 0 0-5.29-6.76L4 1 2 0v13.82a10 10 0 0 0 5.53 8.94L10 24h4.47l-6.05-3.02A8 8 0 0 1 4 13.82V3.24l31.58 15.78A8 8 0 0 1 39.7 24h2.06zM78 24l2.47-1.24A10 10 0 0 0 86 13.82V0l-2 1-32.47 16.24A10 10 0 0 0 46.24 24h2.06a8 8 0 0 1 4.12-4.98L84 3.24v10.58a8 8 0 0 1-4.42 7.16L73.53 24H78zm0-24L48 15l-2 1V2.18A10 10 0 0 1 46.24 0h2.06a8 8 0 0 0-.3 2.18v10.58L73.53 0H78z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  overflow: hidden;
-}
-body.unlocked {
-  overflow: auto;
-}
-
-h1 {
-  font-size: 3rem;
-}
-@media screen and (min-width: 48em) and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  h1 {
-    font-size: 5rem;
-  }
-}
-
 @keyframes slideInRight {
   from {
     transform: translateX(30em);
@@ -57,6 +20,39 @@ h1 {
     opacity: 0;
   }
 }
+h1 {
+  font-size: 3em;
+}
+@media screen and (min-width: 48em) {
+  h1 {
+    font-size: 5rem;
+  }
+}
+
+#logo {
+  font-size: 1em;
+  background-image: url("../img/plantle-logo.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  max-width: 30em;
+  min-height: 10em;
+  margin: 0 auto;
+}
+#logo span {
+  display: none;
+}
+
+#tagline {
+  color: #14474E;
+  font-weight: bold;
+  text-transform: lowercase;
+}
+
+h2 {
+  font-size: 1.8em;
+}
+
 .btn {
   align-items: center;
   background-color: #f3f3f3;
@@ -81,7 +77,7 @@ h1 {
   -webkit-user-select: none;
   touch-action: manipulation;
 }
-@media screen and (min-width: 48em) and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+@media screen and (min-width: 48em) {
   .btn {
     font-size: 96px;
     border-radius: 16px;
@@ -94,7 +90,7 @@ h1 {
   font-size: 1.5em;
   height: 60px;
 }
-@media screen and (min-width: 48em) and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+@media screen and (min-width: 48em) {
   .btn.giant {
     font-size: 3em;
     padding: 0 4em;
@@ -104,7 +100,7 @@ h1 {
 .btn.giant:after {
   height: 60px;
 }
-@media screen and (min-width: 48em) and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+@media screen and (min-width: 48em) {
   .btn.giant:after {
     height: 120px;
   }
@@ -272,6 +268,34 @@ dialog::backdrop {
   backdrop-filter: blur(10px);
 }
 
+body, html {
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+}
+@media screen and (min-width: 48em) {
+  body, html {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 85.375em) {
+  body, html {
+    font-size: 16px;
+  }
+}
+
+body {
+  padding: 0 2rem 0 2rem;
+  text-align: center;
+  background-color: #dee5db;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  overflow: hidden;
+}
+body.unlocked {
+  overflow: auto;
+}
+
 #deck {
   position: relative;
   margin: 3em auto;
@@ -290,14 +314,14 @@ dialog::backdrop {
   padding: 2em 0;
   font-size: 1.5rem;
 }
-@media screen and (min-width: 48em) and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+@media screen and (min-width: 48em) {
   #score-board {
     font-size: 3rem;
   }
 }
 
 #final-score h2 {
-  font-size: 1.6em;
+  font-size: 1.6rem;
   font-weight: 600;
   text-transform: uppercase;
   margin-bottom: 1em;
