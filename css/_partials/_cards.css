@@ -1,0 +1,88 @@
+.card {
+  border: none;
+  border-radius: 1.25rem;
+  background: #fff;
+  padding: 0;
+  display: inline-block;
+  position: absolute;
+  width: 270px;
+  height: 430px;
+  font-weight: bolder;
+  color: #000;
+  transition: all 0.4s cubic-bezier(0.63, 0.15, 0.03, 1.12);
+  animation-fill-mode: backwards;
+  animation: slideInRight 0.5s ease forwards;
+  opacity: 1;
+  filter: blur(0);
+  filter: drop-shadow(3px 3px 3px black);
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+.card .front, .card .back {
+  width: 100%;
+  height: 100%;
+}
+.card.hidden {
+  opacity: 0;
+  transition: all 2s;
+}
+.card .picture {
+  display: block;
+  width: 100%;
+  height: 15rem;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+}
+.card ul {
+  padding: 1.7em;
+  display: block;
+  text-align: left;
+}
+.card ul li {
+  display: block;
+}
+.card ul li:last-child button {
+  border-bottom: none;
+}
+.card ul li button {
+  width: 100%;
+  background: none;
+  padding: 0.5em 0;
+  font-size: 1.2em;
+  font-weight: 500;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  color: #000;
+  text-align: left;
+  border: none;
+  border-bottom: #e3e3e3 dashed 1px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.card ul li button:hover {
+  padding-left: 1em;
+  transition: all 0.2s;
+}
+.card ul li button.correct {
+  background: #3EB66D;
+  transition: all 0.2s;
+}
+.card ul li button.incorrect {
+  background: #C80024;
+  transition: all 0.2s;
+}
+.card.answered button:hover {
+  background: #A5C9D2;
+  cursor: not-allowed;
+}
+.card.answered button.correct:hover {
+  background: #3EB66D;
+  cursor: not-allowed;
+}
+.card.answered button.incorrect:hover {
+  background: #C80024;
+  cursor: not-allowed;
+}
+
+/*# sourceMappingURL=_cards.css.map */

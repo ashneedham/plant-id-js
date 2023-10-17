@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
     let sample_card = document.getElementById('sample-card'),
         start_button = document.getElementById('start'),
         play_again_button = document.getElementById('play-again'),
+        view_cards_button = document.getElementById('view-cards'),
         blank_card = sample_card.cloneNode(true),
         deck = document.getElementById('deck'),
         score = document.getElementById('score'),
@@ -46,6 +47,12 @@ document.addEventListener("DOMContentLoaded", function() {
         final_score_modal.close();
         resetScore();
         playRound(plant_list_in_play, 1);
+    });
+
+    view_cards_button.addEventListener('click', function() {
+       final_score_modal.close();
+       document.body.classList.add('unlocked');
+       deck.classList.add('spread');
     });
 
     /**

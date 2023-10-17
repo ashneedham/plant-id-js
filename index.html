@@ -7,6 +7,7 @@
 
     <script src="js/plant-list.js"></script>
     <script src="js/app.js"></script>
+    <script src="https://kit.fontawesome.com/ac330c1e3a.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -23,31 +24,25 @@
     <main id="deck">
         <button id="start" class="btn giant">Start</button>
         <div id="sample-card" class="card hidden">
-            <div class="picture"></div>
-            <ul class="answers">
-                <li><button class="btn small-shadow">Answer 1</button></li>
-                <li><button class="btn small-shadow">Answer 2</button></li>
-                <li><button class="btn small-shadow">Answer 3</button></li>
-                <li><button class="btn small-shadow">Answer 4</button></li>
-            </ul>
+            <div class="front">
+                <div class="picture"></div>
+                <ul class="answers">
+                    <li><button>Answer 1</button></li>
+                    <li><button>Answer 2</button></li>
+                    <li><button>Answer 3</button></li>
+                    <li><button>Answer 4</button></li>
+                </ul>
+            </div>
+            <div class="back"></div>
         </div>
     </main>
 
-    <div id="correct answer" class="container">
-        <div class="icon-wrapper-2">
-            <span class="icon"><i class="fa fa-thumbs-up"></i></span>
-            <div class="border"><span></span></div>
-            <div class="spark">
-                <span></span><span></span><span></span><span></span>
-                <span></span><span></span><span></span><span></span>
-                <span></span><span></span><span></span><span></span>
-                <span></span><span></span><span></span><span></span>
-                <span></span><span></span><span></span><span></span>
-            </div>
-        </div>
-    </div>
-
-    <dialog id="final-score"><h2>Final score!</h2><div class="inner"></div><button id="play-again" class="btn">Play again</button></dialog>
+    <dialog id="final-score">
+        <h2>Final score!</h2>
+        <div class="inner"></div>
+        <button id="view-cards" class="btn">View cards</button>
+        <button id="play-again" class="btn">Play again</button>
+    </dialog>
 
 </body>
 </html>
