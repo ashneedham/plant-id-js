@@ -1,0 +1,26 @@
+@keyframes slideInRight {
+  from {
+    transform: translateX(30em);
+    filter: blur(4);
+    opacity: 0;
+  }
+  to {}
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-3em);
+    filter: blur(4);
+    opacity: 0;
+  }
+  to {}
+}
+
+@keyframes slideUpFromBottom {
+  from {
+    transform: translatey(20em) rotate(5deg);
+    filter: blur(4);
+    opacity: 0;
+  }
+  to {}
+}
