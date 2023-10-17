@@ -79,7 +79,7 @@ h2 {
 }
 @media screen and (min-width: 48em) {
   .btn {
-    font-size: 96px;
+    font-size: 1.8rem;
     border-radius: 16px;
     border: 4px solid #111;
   }
@@ -92,7 +92,7 @@ h2 {
 }
 @media screen and (min-width: 48em) {
   .btn.giant {
-    font-size: 3em;
+    font-size: 2.2rem;
     padding: 0 4em;
     height: 120px;
   }
@@ -308,16 +308,33 @@ body.unlocked {
 #deck.spread {
   width: 100%;
   transition: all 2s;
+  padding-bottom: 5.8rem;
 }
 
 #score-board {
-  padding: 2em 0;
-  font-size: 1.5rem;
+  padding: 1em 0;
+  font-size: 1.3rem;
+  text-align: center;
+  background: #fff;
+  position: fixed;
+  bottom: 0;
+  min-width: 30rem;
+  margin: 0 auto;
+  width: 30rem;
+  left: calc(50vw - 15rem);
+  border-radius: 1.25rem 1.25rem 0 0;
+  text-transform: uppercase;
+  z-index: 500;
+  filter: drop-shadow(3px 3px 3px black);
 }
 @media screen and (min-width: 48em) {
   #score-board {
-    font-size: 3rem;
+    font-size: 1.5rem;
   }
+}
+#score-board h3 {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
 }
 
 #final-score h2 {

@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
         view_cards_button = document.getElementById('view-cards'),
         blank_card = sample_card.cloneNode(true),
         deck = document.getElementById('deck'),
+        score_board = document.getElementById('score-board'),
         score = document.getElementById('score'),
         score_board_players_score = document.getElementById('players-score'),
         score_board_rounds_played = document.getElementById('rounds-played'),
