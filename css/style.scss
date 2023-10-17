@@ -49,7 +49,7 @@ body {
 
 #score-board {
   padding: 1em 0;
-  font-size: 1.3rem;
+  font-size: 1.15rem;
   text-align: center;
   background: #fff;
   position: fixed;
@@ -63,8 +63,8 @@ body {
   z-index: 500;
   filter: drop-shadow(3px 3px 3px black);
 
-  @media screen and #{$mq-small} {
-    font-size: 1.5rem;
+  @media screen and #{$mq-large} {
+    font-size: 1.4rem;
   }
 
   h3 {

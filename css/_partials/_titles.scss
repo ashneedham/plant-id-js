@@ -13,8 +13,12 @@ h1 {
   background-size: contain;
   background-position: center;
   max-width: 30em;
-  min-height: 10em;
+  min-height: 8em;
   margin: 0 auto;
+
+  @media screen and #{$mq-medium} {
+    min-height: 10em;
+  }
 
   span {
     display: none;
@@ -25,6 +29,11 @@ h1 {
   color: #14474E;
   font-weight: bold;
   text-transform: lowercase;
+  font-size: 1.5rem;
+
+  @media screen and #{$mq-medium} {
+    font-size: 2.2rem;
+  }
 }
 
 h2 {

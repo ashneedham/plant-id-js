@@ -36,8 +36,13 @@ h1 {
   background-size: contain;
   background-position: center;
   max-width: 30em;
-  min-height: 10em;
+  min-height: 8em;
   margin: 0 auto;
+}
+@media screen and (min-width: 64em) {
+  #logo {
+    min-height: 10em;
+  }
 }
 #logo span {
   display: none;
@@ -47,6 +52,12 @@ h1 {
   color: #14474E;
   font-weight: bold;
   text-transform: lowercase;
+  font-size: 1.5rem;
+}
+@media screen and (min-width: 64em) {
+  #tagline {
+    font-size: 2.2rem;
+  }
 }
 
 h2 {
@@ -308,7 +319,7 @@ body.unlocked {
 
 #score-board {
   padding: 1em 0;
-  font-size: 1.3rem;
+  font-size: 1.15rem;
   text-align: center;
   background: #fff;
   position: fixed;
@@ -322,9 +333,9 @@ body.unlocked {
   z-index: 500;
   filter: drop-shadow(3px 3px 3px black);
 }
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 85.375em) {
   #score-board {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 }
 #score-board h3 {
