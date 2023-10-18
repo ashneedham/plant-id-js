@@ -25,8 +25,10 @@ document.addEventListener("DOMContentLoaded", function() {
         rounds_correct_answers = [];
 
     // Hide the address bar:
-    window.scrollTo(0, 200 );
-    alert('hi');
+    setTimeout(function(){
+        window.scrollTo(0, 200 );
+        alert('hi');
+    }, 5000);
 
     blank_card.removeAttribute('id');
     sample_card.remove();
