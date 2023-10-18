@@ -72,13 +72,14 @@ document.addEventListener("DOMContentLoaded", function() {
             chosen_plant = getRandomPlant(plant_list_provided),
             picture = new_card.getElementsByClassName('picture')[0],
             answer_buttons = new_card.getElementsByTagName('button'),
-            answers = generateAnswerList(chosen_plant);
+            answers = generateAnswerList(chosen_plant),
+            photo = getRandomPicture(chosen_plant);
 
         // Remove chosen plant from list to prevent playing it more than once
         plant_list_provided = removePlantFromList(plant_list_provided, chosen_plant);
         current_round = round_number;
         new_card.setAttribute('id', 'card_'+round_number);
-        picture.style.backgroundImage = 'url("img/'+getRandomPicture(chosen_plant)+'")';
+        picture.style.backgroundImage = 'url("img/photos/'+photo.filename+'")';
 
         answers.forEach(function(answer, index) {
             answer_buttons[index].innerText = answer.name;
