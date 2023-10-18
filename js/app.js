@@ -24,6 +24,11 @@ document.addEventListener("DOMContentLoaded", function() {
         current_round = 0,
         rounds_correct_answers = [];
 
+    // Hide the address bar:
+    setTimeout(function(){
+        window.scrollTo(0, 1);
+    }, 0);
+
     blank_card.removeAttribute('id');
     sample_card.remove();
 
