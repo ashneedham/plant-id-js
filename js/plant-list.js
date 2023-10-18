@@ -190,4 +190,38 @@ let plant_list = [
             }
         ]
     },
+    {
+        "common_name": "Ground elder",
+        "botanical_name": "Aegopodium podagraria",
+        "pictures": [
+            {
+                "credit_owner": "Daniel Cahen, CC BY 4.0, via Wikimedia Commons",
+                "credit_date": "2021-03-28",
+                "credit_url": "https://commons.wikimedia.org/wiki/File:Aegopodium_podagraria_117870829.jpg",
+                "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "filename": "Aegopodium_podagraria_1.jpg"
+            },
+            {
+                "credit_owner": "Christian Kahle ",
+                "credit_date": "2022-03-24",
+                "credit_url": "https://www.inaturalist.org/users/1584261",
+                "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "filename": "Aegopodium_podagraria_2.jpg"
+            },
+            {
+                "credit_owner": "Christian Kahle ",
+                "credit_date": "2022-03-22",
+                "credit_url": "https://www.inaturalist.org/users/1584261",
+                "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "filename": "Aegopodium_podagraria_3.jpg"
+            },
+            {
+                "credit_owner": "Michel Langeveld, CC BY-SA 4.0, via Wikimedia Commons",
+                "credit_date": "2022-04-16",
+                "credit_url": "https://www.inaturalist.org/users/3599717",
+                "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "filename": "Aegopodium_podagraria_4.jpg"
+            }
+        ]
+    },
 ]
