@@ -31,10 +31,14 @@ body {
 }
 
 header {
-  padding-top: 1.5em;
-  height: 14rem;
+  padding: 1.5em 1.5em 0 1.5em;
+  height: 12rem;
   background: $colour-primary;
   transition: all 1s;
+
+  @media screen and #{$mq-large} {
+    height: 14rem;
+  }
 }
 body.unlocked header {
   position: sticky;
@@ -48,18 +52,31 @@ body.unlocked header {
 
 #deck {
   position: relative;
-  margin: 3em auto;
+  margin: 2em auto;
   width: 19.28rem;
   min-height: 30.71rem;
 
+  @media screen and #{$mq-large} {
+    margin: 3em auto;
+  }
+
   #start {
     margin: 4em auto;
+  }
+  #play-again {
+    display: none;
   }
 
   &.spread {
     width: 100%;
     transition: all 2s;
-    padding: 0 2rem 5.8rem 2rem;
+    padding: 0 2rem 3.5rem 2rem;
+    margin-bottom: 0;
+    min-width: 0;
+
+    #play-again {
+      display: inline-block;
+    }
   }
 }
 
@@ -89,16 +106,24 @@ body.unlocked header {
   }
 }
 
+body.unlocked #score-board {
+  position: relative;
+}
+
 #final-score {
   h2 {
-    font-size: 1.6rem;
+    font-size: 2.2rem;
     font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 1em;
   }
 
   .inner {
-    font-size: 1.3em;
+    font-size: 1.6em;
     margin-bottom: 1em;
+  }
+
+  button {
+    margin: 0 auto;
   }
 }

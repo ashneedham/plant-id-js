@@ -62,7 +62,9 @@ h2 {
   display: flex;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 1.1em;
+  font-weight: bold;
   height: 48px;
+  text-transform: uppercase;
   justify-content: center;
   line-height: 1em;
   max-width: 100%;
@@ -290,10 +292,15 @@ body.unlocked {
 }
 
 header {
-  padding-top: 1.5em;
-  height: 14rem;
+  padding: 1.5em 1.5em 0 1.5em;
+  height: 12rem;
   background: #dee5db;
   transition: all 1s;
+}
+@media screen and (min-width: 85.375em) {
+  header {
+    height: 14rem;
+  }
 }
 
 body.unlocked header {
@@ -308,17 +315,30 @@ body.unlocked header {
 
 #deck {
   position: relative;
-  margin: 3em auto;
+  margin: 2em auto;
   width: 19.28rem;
   min-height: 30.71rem;
+}
+@media screen and (min-width: 85.375em) {
+  #deck {
+    margin: 3em auto;
+  }
 }
 #deck #start {
   margin: 4em auto;
 }
+#deck #play-again {
+  display: none;
+}
 #deck.spread {
   width: 100%;
   transition: all 2s;
-  padding: 0 2rem 5.8rem 2rem;
+  padding: 0 2rem 3.5rem 2rem;
+  margin-bottom: 0;
+  min-width: 0;
+}
+#deck.spread #play-again {
+  display: inline-block;
 }
 
 #score-board {
@@ -347,15 +367,22 @@ body.unlocked header {
   margin-bottom: 0.5rem;
 }
 
+body.unlocked #score-board {
+  position: relative;
+}
+
 #final-score h2 {
-  font-size: 1.6rem;
+  font-size: 2.2rem;
   font-weight: 600;
   text-transform: uppercase;
   margin-bottom: 1em;
 }
 #final-score .inner {
-  font-size: 1.3em;
+  font-size: 1.6em;
   margin-bottom: 1em;
+}
+#final-score button {
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=style.css.map */

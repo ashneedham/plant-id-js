@@ -39,14 +39,10 @@
         <h2 id="tagline">The plant identification challenge</h2>
     </header>
 
-    <aside id="score-board">
-        <h3>Score</h3>
-        <div id="score"><span id="players-score">-</span> / <span id="rounds-played">-</span></div>
-    </aside>
-
 
     <main id="deck">
         <button id="start" class="btn giant">Start</button>
+        <button id="play-again" class="btn">Play again</button>
         <div id="sample-card" class="card hidden">
             <div class="front">
                 <div class="picture"></div>
@@ -61,11 +57,15 @@
         </div>
     </main>
 
+    <aside id="score-board">
+        <h3>Score</h3>
+        <div id="score"><span id="players-score">-</span> / <span id="rounds-played">-</span></div>
+    </aside>
+
     <dialog id="final-score">
         <h2>Final score!</h2>
         <div class="inner"></div>
-        <button id="view-cards" class="btn">View cards</button>
-        <button id="play-again" class="btn">Play again</button>
+        <button class="btn modal-close">View results</button>
     </dialog>
 
 </body>

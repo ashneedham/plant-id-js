@@ -9,7 +9,6 @@ document.addEventListener("DOMContentLoaded", function() {
     let sample_card = document.getElementById('sample-card'),
         start_button = document.getElementById('start'),
         play_again_button = document.getElementById('play-again'),
-        view_cards_button = document.getElementById('view-cards'),
         blank_card = sample_card.cloneNode(true),
         deck = document.getElementById('deck'),
         score_board = document.getElementById('score-board'),
@@ -19,6 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
         final_score_modal = document.getElementById('final-score'),
         final_score_inner = final_score_modal.getElementsByClassName('inner')[0],
         plant_list_in_play = plant_list.slice(),
+        modal_close_buttons = document.getElementsByClassName('modal-close'),
         rounds_played = 0,
         players_score = 0,
         current_round = 0,
@@ -46,15 +46,19 @@ document.addEventListener("DOMContentLoaded", function() {
         rounds_correct_answers = [];
         plant_list_in_play = plant_list.slice();
         final_score_modal.close();
+        document.body.classList.remove('unlocked');
+        deck.classList.remove('spread');
         resetScore();
         playRound(plant_list_in_play, 1);
     });
 
-    view_cards_button.addEventListener('click', function() {
-       final_score_modal.close();
-       document.body.classList.add('unlocked');
-       deck.classList.add('spread');
-    });
+    // Modal close buttons
+    for (let btn of modal_close_buttons) {
+        btn.addEventListener('click', function () {
+            this.parentNode.close();
+        });
+    }
+
 
     /**
      * Displays a new card for a given round and set triggers for correct answer
@@ -116,9 +120,13 @@ document.addEventListener("DOMContentLoaded", function() {
             }, 1000);
         } else {
             setTimeout(function() {
+                document.body.classList.add('unlocked');
+                deck.classList.add('spread');
+            }, 1000);
+            setTimeout(function() {
                 final_score_inner.innerHTML = score.innerHTML;
                 final_score_modal.showModal();
-            }, 1000);
+            }, 2500);
         }
     }
 
