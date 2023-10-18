@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Hide the address bar:
     setTimeout(function(){
-        window.scrollTo(0, 1);
+        window.scrollTo(0, 200);
     }, 0);
 
     blank_card.removeAttribute('id');
