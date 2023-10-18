@@ -13,7 +13,7 @@ body, html {
   font-size: 13px;
 
   @media screen and #{$mq-large} {
-    font-size: 16px;
+    font-size: 15px;
   }
 }
 
@@ -36,7 +36,7 @@ header {
   transition: all 1s;
 
   @media screen and #{$mq-large} {
-    height: 14rem;
+    height: 12rem;
   }
 }
 body.unlocked header {
@@ -49,6 +49,22 @@ body.unlocked header {
   transition: all 1s;
 }
 
+#controls {
+  #start {
+    margin: 4em auto 0 auto;
+  }
+  #play-again {
+    display: none;
+  }
+}
+
+body.unlocked #controls {
+  #play-again {
+    display: inline-block;
+    margin: 1em 0;
+  }
+}
+
 #deck {
   position: relative;
   margin: 1em auto;
@@ -56,15 +72,10 @@ body.unlocked header {
   min-height: 30rem;
 
   @media screen and #{$mq-large} {
-    margin: 3em auto;
+    margin: 2em auto;
   }
 
-  #start {
-    margin: 4em auto 0 auto;
-  }
-  #play-again {
-    display: none;
-  }
+
 
   &.spread {
     width: 100%;
@@ -72,11 +83,6 @@ body.unlocked header {
     padding: 0 2rem 3.5rem 2rem;
     margin-bottom: 0;
     min-width: 0;
-
-    #play-again {
-      display: inline-block;
-      margin: 1em 0;
-    }
   }
 }
 
@@ -129,6 +135,10 @@ body.unlocked header {
     font-weight: bold;
     display: inline;
     margin-right: 1.5em;
+
+    @media screen and #{$mq-large} {
+      font-size: 1.2rem;
+    }
   }
   #score {
     display: inline;
