@@ -31,33 +31,20 @@ h1 {
 
 #logo {
   font-size: 1em;
-  background-image: url("../img/plantle-logo.svg");
+  background-image: url("../img/plantle-logo-with-tagline.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
   max-width: 30em;
-  min-height: 8em;
+  height: 100%;
   margin: 0 auto;
-}
-@media screen and (min-width: 64em) {
-  #logo {
-    min-height: 10em;
-  }
 }
 #logo span {
   display: none;
 }
 
 #tagline {
-  color: #14474E;
-  font-weight: bold;
-  text-transform: lowercase;
-  font-size: 1.5rem;
-}
-@media screen and (min-width: 64em) {
-  #tagline {
-    font-size: 2.2rem;
-  }
+  display: none;
 }
 
 h2 {
@@ -292,7 +279,7 @@ body, html {
 }
 
 body {
-  padding: 0 2rem 0 2rem;
+  padding: 0;
   text-align: center;
   background-color: #dee5db;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -300,6 +287,23 @@ body {
 }
 body.unlocked {
   overflow: auto;
+}
+
+header {
+  padding-top: 1.5em;
+  height: 14rem;
+  background: #dee5db;
+  transition: all 1s;
+}
+
+body.unlocked header {
+  position: sticky;
+  top: 0;
+  z-index: 500;
+  height: 7rem;
+  padding-top: 1em;
+  border-bottom: #14474e dotted 1px;
+  transition: all 1s;
 }
 
 #deck {
@@ -314,7 +318,7 @@ body.unlocked {
 #deck.spread {
   width: 100%;
   transition: all 2s;
-  padding-bottom: 5.8rem;
+  padding: 0 2rem 5.8rem 2rem;
 }
 
 #score-board {

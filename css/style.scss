@@ -19,15 +19,31 @@ body, html {
 }
 
 body {
-  padding: 0 2rem 0 2rem;
+  padding: 0;
   text-align: center;
-  background-color: #dee5db;
+  background-color: $colour-primary;
   font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
   overflow: hidden;
 
   &.unlocked {
     overflow: auto;
   }
+}
+
+header {
+  padding-top: 1.5em;
+  height: 14rem;
+  background: $colour-primary;
+  transition: all 1s;
+}
+body.unlocked header {
+  position: sticky;
+  top: 0;
+  z-index: 500;
+  height: 7rem;
+  padding-top: 1em;
+  border-bottom: $colour-secondary dotted 1px;
+  transition: all 1s;
 }
 
 #deck {
@@ -43,7 +59,7 @@ body {
   &.spread {
     width: 100%;
     transition: all 2s;
-    padding-bottom: 5.8rem;
+    padding: 0 2rem 5.8rem 2rem;
   }
 }
 

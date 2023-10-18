@@ -8,17 +8,13 @@ h1 {
 
 #logo {
   font-size: 1em;
-  background-image: url("../img/plantle-logo.svg");
+  background-image: url("../img/plantle-logo-with-tagline.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
   max-width: 30em;
-  min-height: 8em;
+  height: 100%;
   margin: 0 auto;
-
-  @media screen and #{$mq-medium} {
-    min-height: 10em;
-  }
 
   span {
     display: none;
@@ -26,14 +22,7 @@ h1 {
 }
 
 #tagline {
-  color: #14474E;
-  font-weight: bold;
-  text-transform: lowercase;
-  font-size: 1.5rem;
-
-  @media screen and #{$mq-medium} {
-    font-size: 2.2rem;
-  }
+  display: none;
 }
 
 h2 {
