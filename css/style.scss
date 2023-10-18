@@ -7,11 +7,10 @@
 @import "_partials/modals";
 
 body, html {
-  min-height: 200vh;
+  min-height: 100vh;
   padding: 0;
   margin: 0;
-  font-size: 14px;
-
+  font-size: 13px;
 
   @media screen and #{$mq-large} {
     font-size: 16px;
@@ -23,7 +22,7 @@ body {
   text-align: center;
   background-color: $colour-primary;
   font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
-  //overflow: hidden;
+  overflow: hidden;
 
   &.unlocked {
     overflow: auto;
@@ -32,7 +31,7 @@ body {
 
 header {
   padding: 1.5em 1.5em 0 1.5em;
-  height: 12rem;
+  height: 10rem;
   background: $colour-primary;
   transition: all 1s;
 
@@ -52,16 +51,16 @@ body.unlocked header {
 
 #deck {
   position: relative;
-  margin: 2em auto;
+  margin: 1em auto;
   width: 19.28rem;
-  min-height: 30.71rem;
+  min-height: 30rem;
 
   @media screen and #{$mq-large} {
     margin: 3em auto;
   }
 
   #start {
-    margin: 4em auto;
+    margin: 4em auto 0 auto;
   }
   #play-again {
     display: none;
@@ -76,25 +75,51 @@ body.unlocked header {
 
     #play-again {
       display: inline-block;
+      margin: 1em 0;
     }
   }
 }
 
 #score-board {
-  padding: 1em 0;
-  font-size: 1.15rem;
-  text-align: center;
-  background: #fff;
-  position: fixed;
-  bottom: 0;
-  min-width: 30rem;
-  margin: 0 auto;
-  width: 30rem;
-  left: calc(50vw - 15rem);
-  border-radius: 1.25rem 1.25rem 0 0;
+  display: inline-block;
+  border: 2px solid $colour-secondary;
+  font-size: 1.2rem;
+  border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
   text-transform: uppercase;
-  z-index: 500;
-  filter: drop-shadow(3px 3px 3px black);
+  text-align: center;
+  width: 16rem;
+  letter-spacing: 0.3ch;
+  line-height: 1;
+  position: absolute;
+  bottom: 0.5em;
+  padding: 1rem;
+  left: calc(50% - 8rem);
+
+
+  &::before {
+    content: '';
+    border: 2px solid $colour-secondary;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0) scale(1.015) rotate(0.5deg);
+    border-radius: 1% 1% 2% 4% / 2% 6% 5% 4%;
+  }
+  &::after {
+    content: '';
+    border: 2px solid $colour-secondary;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0) scale(0.99) rotate(-0.8deg);
+    border-radius: 2% 6% 2% 4% / 2% 6% 5% 4%;
+  }
 
   @media screen and #{$mq-large} {
     font-size: 1.4rem;
@@ -102,12 +127,18 @@ body.unlocked header {
 
   h3 {
     font-weight: bold;
-    margin-bottom: 0.5rem;
+    display: inline;
+    margin-right: 1.5em;
+  }
+  #score {
+    display: inline;
   }
 }
 
 body.unlocked #score-board {
   position: relative;
+  left: auto;
+  margin-bottom: 1.5em;
 }
 
 #final-score {

@@ -24,12 +24,6 @@ document.addEventListener("DOMContentLoaded", function() {
         current_round = 0,
         rounds_correct_answers = [];
 
-    // Hide the address bar:
-    setTimeout(function(){
-        window.scrollTo(0, 200 );
-        alert('hi');
-    }, 5000);
-
     blank_card.removeAttribute('id');
     sample_card.remove();
 
@@ -132,7 +126,7 @@ document.addEventListener("DOMContentLoaded", function() {
             setTimeout(function() {
                 final_score_inner.innerHTML = score.innerHTML;
                 final_score_modal.showModal();
-            }, 2500);
+            }, 1500);
         }
     }
 
