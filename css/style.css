@@ -269,7 +269,7 @@ dialog::backdrop {
 }
 
 body, html {
-  min-height: 100vh;
+  min-height: 110vh;
   padding: 0;
   margin: 0;
   font-size: 14px;
