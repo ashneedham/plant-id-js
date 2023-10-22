@@ -449,5 +449,39 @@
                 "filename": "Capsella_bursa-pastoris_4.jpg"
             }
         ]
+    },
+    {
+        "common_name": "Greater plantain",
+        "botanical_name": "Plantago major",
+        "pictures": [
+            {
+                "credit_owner": "Krzysztof Ziarnek, Kenraiz",
+                "credit_date": "2022-07-20 09:23:11",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Plantago_major_kz08.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Plantago_major_1.jpg"
+            },
+            {
+                "credit_owner": "Michel Langeveld",
+                "credit_date": "2021-08-29",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Plantago_major_153931544.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Plantago_major_2.jpg"
+            },
+            {
+                "credit_owner": "AnemoneProjectors (talk)",
+                "credit_date": "2010-10-22 16:16",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Greater_Plantain_(Plantago_major)_(5168960489).jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/2.0",
+                "filename": "Plantago_major_3.jpg"
+            },
+            {
+                "credit_owner": "Ryan Hodnett",
+                "credit_date": "2020-08-26 18:51",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Greater_Plantain_(Plantago_major)_-_Oslo,_Norway_2020-08-26.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Plantago_major_4.jpg"
+            }
+        ]
     }
 ]

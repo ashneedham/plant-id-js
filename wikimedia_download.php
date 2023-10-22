@@ -5,6 +5,7 @@ $name_of_plants = [];
 foreach ($plants as $plant) {
     $name_of_plants[] = $plant->botanical_name;
 }
+$name_of_plants = array_reverse($name_of_plants);
 
 $image_path = filter_input(INPUT_POST, 'image_path', FILTER_SANITIZE_SPECIAL_CHARS);
 $selected_plant = filter_input(INPUT_POST, 'selected_plant', FILTER_SANITIZE_SPECIAL_CHARS);
