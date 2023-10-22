@@ -654,5 +654,39 @@
                 "filename": "Liriope_muscari_5.jpg"
             }
         ]
+    },
+    {
+        "common_name": "Lenton rose",
+        "botanical_name": "Helleborus x hybridus `Garnet`",
+        "pictures": [
+            {
+                "credit_owner": "",
+                "credit_date": null,
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Ruhland,_Grenzstr._3,_Lenzrose_bl%C3%BChend,_Vorfr%C3%BChling,_02.jpg",
+                "licence_url": null,
+                "filename": "Helleborus_x_hybridus_`Garnet`_1.jpg"
+            },
+            {
+                "credit_owner": "Wildfeuer",
+                "credit_date": "2007-02-23",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:2007-02-15Helleborus08.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by\/2.5",
+                "filename": "Helleborus_x_hybridus_`Garnet`_2.jpg"
+            },
+            {
+                "credit_owner": "Wildfeuer",
+                "credit_date": "2007-01-30",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:2007-01-30Helleborus01.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by\/2.5",
+                "filename": "Helleborus_x_hybridus_`Garnet`_3.jpg"
+            },
+            {
+                "credit_owner": "",
+                "credit_date": null,
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Ruhland,_Grenzstr._3,_Lenzrose_bl%C3%BChend,_Vorfr%C3%BChling,_04.jpg",
+                "licence_url": null,
+                "filename": "Helleborus_x_hybridus_`Garnet`_4.jpg"
+            }
+        ]
     }
 ]
