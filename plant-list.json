@@ -251,5 +251,46 @@
                 "filename": "Aegopodium_podagraria_6.jpg"
             }
         ]
+    },
+    {
+        "common_name": "Hedge bindweed",
+        "botanical_name": "Calystegia sepium",
+        "pictures": [
+            {
+                "credit_owner": "Alvesgaspar",
+                "credit_date": "2008-04",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Calystegia_April_2008-1.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/3.0",
+                "filename": "Calystegia_sepium_1.jpg"
+            },
+            {
+                "credit_owner": "Krzysztof Ziarnek, Kenraiz",
+                "credit_date": "2023-09-14 14:03:27",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Calystegia_sepium_kz05.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Calystegia_sepium_2.jpg"
+            },
+            {
+                "credit_owner": "Michel Langeveld",
+                "credit_date": "2021-08-08",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Calystegia_sepium_149400743.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Calystegia_sepium_3.jpg"
+            },
+            {
+                "credit_owner": "Ryan Hodnett",
+                "credit_date": "2018-06-05 16:03:26",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Hedge_Bindweed_(Calystegia_sepium)_-_Kitchener,_Ontario_2018-06-05_(02).jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Calystegia_sepium_4.jpg"
+            },
+            {
+                "credit_owner": "Matt Lavin",
+                "credit_date": "2022-08-05 14:10:01",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Calystegia_sepium_-_hedge_bindweed_-_52267547309.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/2.0",
+                "filename": "Calystegia_sepium_5.jpg"
+            }
+        ]
     }
 ]
