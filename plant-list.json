@@ -722,5 +722,39 @@
                 "filename": "Ophiopogon_planiscapus_`Kokuryu`_4.jpg"
             }
         ]
+    },
+    {
+        "common_name": "Greater periwinkle",
+        "botanical_name": "Vinca major `Variegata`",
+        "pictures": [
+            {
+                "credit_owner": "Photo by David J. Stang",
+                "credit_date": "2006-04-12",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Vinca_major_Variegata_0zz.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Vinca_major_`Variegata`_1.jpg"
+            },
+            {
+                "credit_owner": "Famartin",
+                "credit_date": "2023-04-29 15:32:14",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:2023-04-29_15_32_14_Bigleaf_Periwinkle_flower_along_High_Acres_Avenue_in_the_Mountainview_section_of_Ewing_Township,_Mercer_County,_New_Jersey.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Vinca_major_`Variegata`_2.jpg"
+            },
+            {
+                "credit_owner": "Famartin",
+                "credit_date": "2021-04-10 18:52:14",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:2021-04-10_18_52_14_Bigleaf_Periwinkle_blooming_along_Kinross_Circle_in_the_Chantilly_Highlands_section_of_Oak_Hill,_Fairfax_County,_Virginia.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Vinca_major_`Variegata`_3.jpg"
+            },
+            {
+                "credit_owner": "Ricardo Tulio Gandelman from Rio de Janeiro, Brazil",
+                "credit_date": "2012-04-15 10:28",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Alon_Shvut_P1110775_(6962939822).jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by\/2.0",
+                "filename": "Vinca_major_`Variegata`_4.jpg"
+            }
+        ]
     }
 ]
