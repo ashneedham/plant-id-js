@@ -824,5 +824,53 @@
                 "filename": "Acer_griseum_4.jpg"
             }
         ]
+    },
+    {
+        "common_name": "Horse chestnut tree",
+        "botanical_name": "Aesculus hippocastanum",
+        "pictures": [
+            {
+                "credit_owner": "Krzysztof Ziarnek, Kenraiz",
+                "credit_date": "2013-05-01 13:46:03",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Aesculus_hippocastanum_kz02.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Aesculus_hippocastanum_1.jpg"
+            },
+            {
+                "credit_owner": "Mannivu",
+                "credit_date": "26 July 2020\u00a0(according to <a href=\"https:\/\/en.wikipedia.org\/wiki\/Exchangeable_image_file_format\" class=\"extiw\" title=\"en:Exchangeable image file format\">Exif<\/a> data)",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Aesculus_hippocastanum_fruit_shells.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Aesculus_hippocastanum_2.jpg"
+            },
+            {
+                "credit_owner": "A. Barra",
+                "credit_date": "1999-09",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Aesculus_hippocastanum_RJB1.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by\/3.0",
+                "filename": "Aesculus_hippocastanum_3.jpg"
+            },
+            {
+                "credit_owner": "Agnieszka Kwiecie\u0144 (Nova)",
+                "credit_date": "2005-07-23",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Aesculus_hippocastanum015.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/3.0",
+                "filename": "Aesculus_hippocastanum_4.jpg"
+            },
+            {
+                "credit_owner": "Holger M\u00fcller",
+                "credit_date": "2006-08-17",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Aesculus_hippocastanum_3_fruits.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/2.5",
+                "filename": "Aesculus_hippocastanum_5.jpg"
+            },
+            {
+                "credit_owner": "Rosser1954",
+                "credit_date": "2019-03-05 14:37:34",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Aesculus_hippocastanum_bud_and_its_sticky_cataphylls,_Spiers_Old_School_Grounds,_Beith.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Aesculus_hippocastanum_6.jpg"
+            }
+        ]
     }
 ]
