@@ -579,5 +579,39 @@
                 "filename": "Asplenium_scolopendrium_4.jpg"
             }
         ]
+    },
+    {
+        "common_name": "Ivy-leaved cyclamen",
+        "botanical_name": "Cyclamen hederifolium",
+        "pictures": [
+            {
+                "credit_owner": "Ashley Needham",
+                "credit_date": "2023-10-20",
+                "credit_url": "https:\/\/plants.needham.online",
+                "licence_url": "http:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/",
+                "filename": "Cyclamen_hederifolium_1.jpg"
+            },
+            {
+                "credit_owner": "Dominicus Johannes Bergsma",
+                "credit_date": "2022-11-29 10:06:27",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Blad_van_Cyclamen_hederifolium_tussen_herfstbladeren._29-11-2022._(d.j.b)_01.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Cyclamen_hederifolium_2.jpg"
+            },
+            {
+                "credit_owner": "Meneerke bloem",
+                "credit_date": "0200-12-28",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Cyclamen_hederifolium_winter.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/3.0",
+                "filename": "Cyclamen_hederifolium_3.jpg"
+            },
+            {
+                "credit_owner": "Meneerke bloem",
+                "credit_date": "2010-10-27",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Cyclamen_hederifolium_group2.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/3.0",
+                "filename": "Cyclamen_hederifolium_4.jpg"
+            }
+        ]
     }
 ]
