@@ -374,5 +374,46 @@
                 "filename": "Ceratophyllum_demersum_5.jpg"
             }
         ]
+    },
+    {
+        "common_name": "English daisy",
+        "botanical_name": "Bellis perennis",
+        "pictures": [
+            {
+                "credit_owner": "",
+                "credit_date": null,
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:00_4448_G%C3%A4nsebl%C3%BCmchen_(Bellis_perennis).jpg",
+                "licence_url": null,
+                "filename": "Bellis_perennis_1.jpg"
+            },
+            {
+                "credit_owner": "Grand-Duc",
+                "credit_date": "2010-07-01",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Bellis_perennis_full_plant.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/3.0\/de\/deed.en",
+                "filename": "Bellis_perennis_2.jpg"
+            },
+            {
+                "credit_owner": "Zeynel Cebeci",
+                "credit_date": "2020-03-07 11:54:29",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Bellis_perennis_-_Lawndaisy_01.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Bellis_perennis_3.jpg"
+            },
+            {
+                "credit_owner": "Zeynel Cebeci",
+                "credit_date": "2020-03-07 11:54:59",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Bellis_perennis_-_Lawndaisy_02.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Bellis_perennis_4.jpg"
+            },
+            {
+                "credit_owner": "SK53",
+                "credit_date": "2021-01-01",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Bellis_perennis_108888869.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Bellis_perennis_5.jpg"
+            }
+        ]
     }
 ]
