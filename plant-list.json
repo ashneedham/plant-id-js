@@ -872,5 +872,53 @@
                 "filename": "Aesculus_hippocastanum_6.jpg"
             }
         ]
+    },
+    {
+        "common_name": "Century plant",
+        "botanical_name": "Agave americana",
+        "pictures": [
+            {
+                "credit_owner": "Prahlad balaji",
+                "credit_date": "2020-08-30 09:40:06",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Agave_Americana_2.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Agave_americana_1.jpg"
+            },
+            {
+                "credit_owner": "Stan Shebs",
+                "credit_date": "2004-05",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Agave_americana_a-m.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/3.0",
+                "filename": "Agave_americana_2.jpg"
+            },
+            {
+                "credit_owner": "Marc Ryckaert",
+                "credit_date": "2018-03-20 10:21:12",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Agave_americana_R02.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Agave_americana_3.jpg"
+            },
+            {
+                "credit_owner": "PROPOLI87",
+                "credit_date": "2019-04-05",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Agave_americana_10.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by\/4.0",
+                "filename": "Agave_americana_4.jpg"
+            },
+            {
+                "credit_owner": "Geertivp",
+                "credit_date": "2018-10-16 11:43:11",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Agave_Americana_in_Glendurgan.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Agave_americana_5.jpg"
+            },
+            {
+                "credit_owner": "Em\u0151ke D\u00e9nes",
+                "credit_date": "2018-04-29 09:32:08",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Asparagales_-_Agave_americana_-_4.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Agave_americana_6.jpg"
+            }
+        ]
     }
 ]
