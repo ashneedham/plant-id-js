@@ -415,5 +415,39 @@
                 "filename": "Bellis_perennis_5.jpg"
             }
         ]
+    },
+    {
+        "common_name": "Shepherd's purse",
+        "botanical_name": "Capsella bursa-pastoris",
+        "pictures": [
+            {
+                "credit_owner": "Tocekas",
+                "credit_date": "2008-05-01",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Capsella_bursa-pastoris.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/3.0",
+                "filename": "Capsella_bursa-pastoris_1.jpg"
+            },
+            {
+                "credit_owner": "Krzysztof Ziarnek, Kenraiz",
+                "credit_date": "2020-12-20 12:29:59",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Capsella_bursa-pastoris_kz02.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Capsella_bursa-pastoris_2.jpg"
+            },
+            {
+                "credit_owner": "Juan Carlos Fonseca Mata",
+                "credit_date": "2022-02-13 14:41:24",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Capsella_bursa-pastoris_(Brassicaceae).jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Capsella_bursa-pastoris_3.jpg"
+            },
+            {
+                "credit_owner": "Stefan.lefnaer",
+                "credit_date": "2016-04-03 09:38:30",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Capsella_bursa-pastoris_sl7.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Capsella_bursa-pastoris_4.jpg"
+            }
+        ]
     }
 ]
