@@ -613,5 +613,46 @@
                 "filename": "Cyclamen_hederifolium_4.jpg"
             }
         ]
+    },
+    {
+        "common_name": "Big blue lilyturf",
+        "botanical_name": "Liriope muscari",
+        "pictures": [
+            {
+                "credit_owner": "Syrio",
+                "credit_date": "2017-08-08 03:50:02",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Liriope_muscari,_Institute_for_Nature_Study,_Tokyo_02.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Liriope_muscari_1.jpg"
+            },
+            {
+                "credit_owner": "Photo by David J. Stang",
+                "credit_date": "2008-06-04",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Liriope_muscari_2zz.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Liriope_muscari_2.jpg"
+            },
+            {
+                "credit_owner": "P,TO 19104",
+                "credit_date": "2021-07-25 17:16:26",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Liriope_muscari_(domesticated)_in_Florida.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Liriope_muscari_3.jpg"
+            },
+            {
+                "credit_owner": "Denis.pr\u00e9v\u00f4t",
+                "credit_date": "2011-08-06",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Liriope_muscari_-_Floraison.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/3.0",
+                "filename": "Liriope_muscari_4.jpg"
+            },
+            {
+                "credit_owner": "Photo by David J. Stang",
+                "credit_date": "2008-06-05",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Liriope_muscari_7zz.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Liriope_muscari_5.jpg"
+            }
+        ]
     }
 ]
