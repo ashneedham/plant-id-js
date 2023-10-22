@@ -545,5 +545,39 @@
                 "filename": "Stellaria_media_6.jpg"
             }
         ]
+    },
+    {
+        "common_name": "Harts tongue fern",
+        "botanical_name": "Asplenium scolopendrium",
+        "pictures": [
+            {
+                "credit_owner": "Ashley Needham",
+                "credit_date": "2023-10-20",
+                "credit_url": "https:\/\/plants.needham.online",
+                "licence_url": "http:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/",
+                "filename": "Asplenium_scolopendrium_1.jpg"
+            },
+            {
+                "credit_owner": "Ashley Needham",
+                "credit_date": "2023-10-20",
+                "credit_url": "https:\/\/plants.needham.online",
+                "licence_url": "http:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/",
+                "filename": "Asplenium_scolopendrium_2.jpg"
+            },
+            {
+                "credit_owner": "Agnieszka Kwiecie\u0144, Nova",
+                "credit_date": "2014-06-19",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Asplenium_scolopendrium_syn._Phyllitis_scolopendrium_2014-06-19_02.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Asplenium_scolopendrium_3.jpg"
+            },
+            {
+                "credit_owner": "Pmau",
+                "credit_date": "2011-10-30 16:43:19",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Asplenium_scolopendrium_-_img_24129.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Asplenium_scolopendrium_4.jpg"
+            }
+        ]
     }
 ]
