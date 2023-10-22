@@ -497,5 +497,53 @@
                 "filename": "Plantago_major_6.jpg"
             }
         ]
+    },
+    {
+        "common_name": "Common chickweed",
+        "botanical_name": "Stellaria media",
+        "pictures": [
+            {
+                "credit_owner": "Yurii Basov",
+                "credit_date": "2021-08-14",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Stellaria_media_150861413.jpg",
+                "licence_url": "http:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/deed.en",
+                "filename": "Stellaria_media_1.jpg"
+            },
+            {
+                "credit_owner": "Ian Wolfe",
+                "credit_date": "2021-11-11",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Stellaria_media_168442192.jpg",
+                "licence_url": "http:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/deed.en",
+                "filename": "Stellaria_media_2.jpg"
+            },
+            {
+                "credit_owner": "Michel Langeveld",
+                "credit_date": "2022-01-05",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Stellaria_media_174951951.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Stellaria_media_3.jpg"
+            },
+            {
+                "credit_owner": "Stephen James McWilliam",
+                "credit_date": "2021-03-29",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Stellaria_media_117983654.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by\/4.0",
+                "filename": "Stellaria_media_4.jpg"
+            },
+            {
+                "credit_owner": "Michel Langeveld",
+                "credit_date": "2021-12-08",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Stellaria_media_171768008.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Stellaria_media_5.jpg"
+            },
+            {
+                "credit_owner": "fr:Utilisateur:Jeantosti",
+                "credit_date": "2005-05",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Stellaria_media.jpg",
+                "licence_url": "http:\/\/creativecommons.org\/licenses\/by-sa\/3.0\/",
+                "filename": "Stellaria_media_6.jpg"
+            }
+        ]
     }
 ]
