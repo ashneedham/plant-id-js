@@ -756,5 +756,39 @@
                 "filename": "Vinca_major_`Variegata`_4.jpg"
             }
         ]
+    },
+    {
+        "common_name": "Leyland cypress",
+        "botanical_name": "x Cuprocyparis leylandii",
+        "pictures": [
+            {
+                "credit_owner": "Photo by David J. Stang",
+                "credit_date": "2005-09-14",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Cupressocyparis_leylandii_1zz.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "x_Cuprocyparis_leylandii_1.jpg"
+            },
+            {
+                "credit_owner": "Photo by David J. Stang",
+                "credit_date": "2006-08-03",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Cupressocyparis_leylandii_4zz.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "x_Cuprocyparis_leylandii_2.jpg"
+            },
+            {
+                "credit_owner": "No machine-readable author provided. Czechmate assumed (based on copyright claims).",
+                "credit_date": "18 January 2007\u00a0(according to <a href=\"https:\/\/en.wikipedia.org\/wiki\/Exchangeable_image_file_format\" class=\"extiw\" title=\"en:Exchangeable image file format\">Exif<\/a> data)",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Raindrops_on_leyland_cypress.jpg",
+                "licence_url": "http:\/\/creativecommons.org\/licenses\/by-sa\/3.0\/",
+                "filename": "x_Cuprocyparis_leylandii_3.jpg"
+            },
+            {
+                "credit_owner": "Photo by David J. Stang",
+                "credit_date": "2006-08-03",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Cupressocyparis_leylandii_3zz.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "x_Cuprocyparis_leylandii_4.jpg"
+            }
+        ]
     }
 ]
