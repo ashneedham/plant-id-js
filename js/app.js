@@ -17,16 +17,27 @@ document.addEventListener("DOMContentLoaded", function() {
         score_board_rounds_played = document.getElementById('rounds-played'),
         final_score_modal = document.getElementById('final-score'),
         final_score_inner = final_score_modal.getElementsByClassName('inner')[0],
-        plant_list_in_play = plant_list.slice(),
         modal_close_buttons = document.getElementsByClassName('modal-close'),
         rounds_played = 0,
         players_score = 0,
         current_round = 0,
-        rounds_correct_answers = [];
+        rounds_correct_answers = [],
+        plant_list = null,
+        plant_list_in_play = null;
 
     blank_card.removeAttribute('id');
     sample_card.remove();
 
+    // Get list
+    let xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            plant_list = JSON.parse(this.responseText);
+            plant_list_in_play = plant_list.slice()
+        }
+    };
+    xmlhttp.open("GET", "https://plants.needham.online/plant-list.json", true);
+    xmlhttp.send();
 
     // Start game
     start_button.addEventListener('click', function() {
