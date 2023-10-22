@@ -4,7 +4,7 @@
  *
  */
 
-const round_length = 6;
+const round_length = 10;
 document.addEventListener("DOMContentLoaded", function() {
     let sample_card = document.getElementById('sample-card'),
         start_button = document.getElementById('start'),
