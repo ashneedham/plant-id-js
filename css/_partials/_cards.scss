@@ -5,8 +5,8 @@
   padding: 0;
   display: inline-block;
   position: relative;
-  width: 17.8rem;
-  height: 27rem;
+  width: 19rem;
+  height: 30rem;
   font-weight: bolder;
   color: #000;
   transition: all 0.4s cubic-bezier(.63,.15,.03,1.12);
@@ -17,11 +17,6 @@
   filter: drop-shadow(3px 3px 3px black);
   transform: rotate(-1.5deg);
   overflow: hidden;
-
-  @media screen and #{$mq-medium} {
-    width: 19rem;
-    height: 30rem;
-  }
 
   & ~ .card { margin-top: -30rem; }
   &:nth-child(2n) { transform: rotate(-0deg); }
@@ -40,14 +35,11 @@
   .picture {
     display: block;
     width: 100%;
-    height: 12.5rem;
+    height: 14rem;
     overflow: hidden;
     background-size: cover;
     background-position: center;
 
-    @media screen and #{$mq-medium} {
-      height: 14rem;
-    }
   }
 
   ul {
