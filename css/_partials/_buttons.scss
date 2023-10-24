@@ -38,14 +38,14 @@
 
     @media screen and #{$mq-medium}{
       font-size: 2rem;
-      height: 120px;
+      height: 100px;
     }
 
     &:after {
       height: 60px;
 
       @media screen and #{$mq-medium} {
-        height: 120px;
+        height: 110px;
       }
     }
   }
