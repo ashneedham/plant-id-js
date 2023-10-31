@@ -112,7 +112,7 @@ if (!empty($image_path) && !empty($selected_plant)) {
 
     <dialog id="help">
         <h3>Help</h3>
-        <p>Select the filename from the following location e.g. Aegopodium_podagraria_117864826</p>
+        <p>Select the filename from the following location e.g. Prunus_serrula_845 and add the correct file extensions e.g. .JPG. So this example would be Prunus_serrula_845.JPG</p>
         <img src="img/wikimedia_filename_example.png" alt="" style="width:800px;">
         <button id="help-close">Close</button>
     </dialog>
