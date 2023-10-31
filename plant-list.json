@@ -1744,6 +1744,367 @@
                 "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Prunus_serrula_845.JPG",
                 "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/3.0",
                 "filename": "Prunus_serrula_4.jpg"
+            },
+            {
+                "credit_owner": "Robert Flogaus-Faust",
+                "credit_date": "2016-04-30",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Quercus_robur_RF.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by\/4.0",
+                "filename": "Prunus_serrula_5.jpg"
+            }
+        ]
+    },
+    {
+        "common_name": "Common oak",
+        "botanical_name": "Quercus robur",
+        "pictures": [
+            {
+                "credit_owner": "Robert Flogaus-Faust",
+                "credit_date": "2007-08-04",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Quercus_robur_3_RF.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by\/4.0",
+                "filename": "Quercus_robur_1.jpg"
+            },
+            {
+                "credit_owner": "",
+                "credit_date": null,
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Quercus_robur.jpg",
+                "licence_url": "http:\/\/creativecommons.org\/licenses\/by-sa\/3.0\/",
+                "filename": "Quercus_robur_2.jpg"
+            },
+            {
+                "credit_owner": "Robert Flogaus-Faust",
+                "credit_date": "2003-08-01",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Quercus_robur_4_RF.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by\/4.0",
+                "filename": "Quercus_robur_3.jpg"
+            },
+            {
+                "credit_owner": "Mannivu",
+                "credit_date": "29 July 2020\u00a0(according to <a href=\"https:\/\/en.wikipedia.org\/wiki\/Exchangeable_image_file_format\" class=\"extiw\" title=\"en:Exchangeable image file format\">Exif<\/a> data)",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Quercus_robur_acorns_and_leaves.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Quercus_robur_4.jpg"
+            }
+        ]
+    },
+    {
+        "common_name": "Rosemary",
+        "botanical_name": "Salvia rosmarinus",
+        "pictures": [
+            {
+                "credit_owner": "Krzysztof Ziarnek, Kenraiz",
+                "credit_date": "2023-03-14 11:50:02",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Salvia_rosmarinus_kz07.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Salvia_rosmarinus_1.jpg"
+            },
+            {
+                "credit_owner": "Photo by David J. Stang",
+                "credit_date": "2006-04-06",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Rosmarinus_officinalis_10zz.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Salvia_rosmarinus_2.jpg"
+            },
+            {
+                "credit_owner": "Remont",
+                "credit_date": "2020-04-10 12:04:06",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Salvia_rosmarinus_(10-04-2020),_vue_d%27ensemble.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Salvia_rosmarinus_3.jpg"
+            }
+        ]
+    },
+    {
+        "common_name": "Variegated snake plant",
+        "botanical_name": "Sansevieria trifasciata `Laurentii`",
+        "pictures": [
+            {
+                "credit_owner": "Ashley Needham",
+                "credit_date": "2023-10-30",
+                "credit_url": "https:\/\/plants.needham.online",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Sansevieria_trifasciata_'Laurentii'_1.jpg"
+            },
+            {
+                "credit_owner": "Ashley Needham",
+                "credit_date": "2023-10-30",
+                "credit_url": "https:\/\/plants.needham.online",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Sansevieria_trifasciata_'Laurentii'_2.jpg"
+            },
+            {
+                "credit_owner": "Ashley Needham",
+                "credit_date": "2023-10-30",
+                "credit_url": "https:\/\/plants.needham.online",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Sansevieria_trifasciata_'Laurentii'_3.jpg"
+            },
+            {
+                "credit_owner": "Ashley Needham",
+                "credit_date": "2023-10-30",
+                "credit_url": "https:\/\/plants.needham.online",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Sansevieria_trifasciata_'Laurentii'_4.jpg"
+            }
+        ]
+    },
+    {
+        "common_name": "Sweet box",
+        "botanical_name": "Sarcococca confusa",
+        "pictures": [
+            {
+                "credit_owner": "Denis.pr\u00e9v\u00f4t",
+                "credit_date": "2011-05-29",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Sarcococca_confusa_-_Feuillage.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/3.0",
+                "filename": "Sarcococca_confusa_1.jpg"
+            },
+            {
+                "credit_owner": "Krzysztof Ziarnek, Kenraiz",
+                "credit_date": "2017-11-12 22:52:15",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Sarcococca_confusa_kz01.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Sarcococca_confusa_2.jpg"
+            },
+            {
+                "credit_owner": "Denis.pr\u00e9v\u00f4t",
+                "credit_date": "2011-05-29",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Sarcococca_confusa_-_Jeunes_fruits.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/3.0",
+                "filename": "Sarcococca_confusa_3.jpg"
+            },
+            {
+                "credit_owner": "Krzysztof Ziarnek, Kenraiz",
+                "credit_date": "2017-11-12 22:52:18",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Sarcococca_confusa_kz02.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Sarcococca_confusa_4.jpg"
+            }
+        ]
+    },
+    {
+        "common_name": "Cobweb houseleek",
+        "botanical_name": "Sempervivum arachnoideum",
+        "pictures": [
+            {
+                "credit_owner": "Kulawik.pl",
+                "credit_date": "2020-07-02 19:21:54",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Rojnik_paj%C4%99czynowaty.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Sempervivum_arachnoideum_1.jpg"
+            },
+            {
+                "credit_owner": "Rhododendrites",
+                "credit_date": "2016-12-24 20:55:53",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Sempervivum_arachnoideum_top.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Sempervivum_arachnoideum_2.jpg"
+            },
+            {
+                "credit_owner": "Stickpen",
+                "credit_date": "2012-06-09",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Sempervivum_arachnoideum_cobweb.jpg",
+                "licence_url": "http:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/deed.en",
+                "filename": "Sempervivum_arachnoideum_3.jpg"
+            },
+            {
+                "credit_owner": "SkywalkerPL",
+                "credit_date": "2013-08-26 10:50:19",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Sempervivum_arachnoideum_-_spider_web.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by\/3.0",
+                "filename": "Sempervivum_arachnoideum_4.jpg"
+            }
+        ]
+    },
+    {
+        "common_name": "Japanese skimmia",
+        "botanical_name": "Skimmia japonica",
+        "pictures": [
+            {
+                "credit_owner": "Krzysztof Ziarnek, Kenraiz",
+                "credit_date": "2022-04-26 11:00:21",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Skimmia_japonica_kz01.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Skimmia_japonica_1.jpg"
+            },
+            {
+                "credit_owner": "Photo by David J. Stang",
+                "credit_date": "2006-08-03",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Skimmia_japonica_4zz.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Skimmia_japonica_2.jpg"
+            },
+            {
+                "credit_owner": "Photo by David J. Stang",
+                "credit_date": "2006-10-12",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Skimmia_japonica_6zz.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Skimmia_japonica_3.jpg"
+            }
+        ]
+    },
+    {
+        "common_name": "Peace lilly",
+        "botanical_name": "Spathiphyllum wallisii",
+        "pictures": [
+            {
+                "credit_owner": "Jerzy Opio\u0142a",
+                "credit_date": null,
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Spathiphyllum_wallisii_a1.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Spathiphyllum_wallisii_1.jpg"
+            },
+            {
+                "credit_owner": "Krzysztof Ziarnek, Kenraiz",
+                "credit_date": "2016-09-26 20:51:38",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Spathiphyllum_wallisii_kz1.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Spathiphyllum_wallisii_2.jpg"
+            },
+            {
+                "credit_owner": "Jerzy Opio\u0142a",
+                "credit_date": null,
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Spathiphyllum_wallisii_a3.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Spathiphyllum_wallisii_3.jpg"
+            },
+            {
+                "credit_owner": "Vinayaraj",
+                "credit_date": "2019-02-03 16:38",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Spathiphyllum_Wallisii_-_Peace_Lily_Plant_at_Wayanad_(6).jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Spathiphyllum_wallisii_4.jpg"
+            },
+            {
+                "credit_owner": "Vinayaraj",
+                "credit_date": "2019-02-03 16:38",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Spathiphyllum_Wallisii_-_Peace_Lily_Plant_at_Wayanad_(1).jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Spathiphyllum_wallisii_5.jpg"
+            },
+            {
+                "credit_owner": "Fernando Losada Rodr\u00edguez",
+                "credit_date": "2022-04-02 10:20:15",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Spathiphyllum_wallisii.002_-_Aquarium_Finisterrae.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Spathiphyllum_wallisii_6.jpg"
+            }
+        ]
+    },
+    {
+        "common_name": "Yew",
+        "botanical_name": "Taxus baccata",
+        "pictures": [
+            {
+                "credit_owner": "\nDidier Descouens",
+                "credit_date": "Taken on\u00a010 August 2012",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Taxus_baccata_MHNT.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Taxus_baccata_1.jpg"
+            },
+            {
+                "credit_owner": "Michel Langeveld",
+                "credit_date": "2021-12-30",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Taxus_baccata_174148609.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Taxus_baccata_2.jpg"
+            },
+            {
+                "credit_owner": "Michel Langeveld",
+                "credit_date": "2020-06-24",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Taxus_baccata_95509878.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Taxus_baccata_3.jpg"
+            },
+            {
+                "credit_owner": "Agnieszka Kwiecie\u0144, Nova",
+                "credit_date": "2020-08-07",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Taxus_baccata_Cis_pospolity_2020-08-07_01.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Taxus_baccata_4.jpg"
+            }
+        ]
+    },
+    {
+        "common_name": "David viburnum",
+        "botanical_name": "Viburnum davidii",
+        "pictures": [
+            {
+                "credit_owner": "Kris Miller from Issaquah",
+                "credit_date": "2005-05-05 20:23:44",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Viburnum_Berries.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by\/2.0",
+                "filename": "Viburnum_davidii_1.jpg"
+            },
+            {
+                "credit_owner": "Sten Porse",
+                "credit_date": "2009-05-18",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Viburnum-davidii-flowers.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/3.0",
+                "filename": "Viburnum_davidii_2.jpg"
+            },
+            {
+                "credit_owner": "Krzysztof Ziarnek, Kenraiz",
+                "credit_date": "2016-05-07 16:59:23",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Viburnum_davidii_kz2.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Viburnum_davidii_3.jpg"
+            },
+            {
+                "credit_owner": "Jonathan Billinger\u00a0",
+                "credit_date": "2018-01-07",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Viburnum_davidii_-_geograph.org.uk_-_5649011.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/2.0",
+                "filename": "Viburnum_davidii_4.jpg"
+            },
+            {
+                "credit_owner": "Akchen2014",
+                "credit_date": "2014-02-05 09:55:14",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Berries2.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/3.0",
+                "filename": "Viburnum_davidii_5.jpg"
+            },
+            {
+                "credit_owner": "Kurt St\u00fcber [1]",
+                "credit_date": "2004",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Viburnum_davidii1.jpg",
+                "licence_url": "http:\/\/creativecommons.org\/licenses\/by-sa\/3.0\/",
+                "filename": "Viburnum_davidii_6.jpg"
+            }
+        ]
+    },
+    {
+        "common_name": "Fern arum",
+        "botanical_name": "Zamioculcas zamiifolia",
+        "pictures": [
+            {
+                "credit_owner": "User:WeFt",
+                "credit_date": "Prise le 13 mars 2005",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Zamioculcas_zamiifolia_1.jpg",
+                "licence_url": "http:\/\/creativecommons.org\/licenses\/by-sa\/3.0\/",
+                "filename": "Zamioculcas_zamiifolia_1.jpg"
+            },
+            {
+                "credit_owner": "Mokkie",
+                "credit_date": "2014-02-16 15:02:13",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:ZZ_Plant_(Zamioculcas_zamiifolia)_1.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/3.0",
+                "filename": "Zamioculcas_zamiifolia_2.jpg"
+            },
+            {
+                "credit_owner": "User:WeFt",
+                "credit_date": "Prise le 13 mars 2005",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Zamioculcas_zamiifolia_2.jpg",
+                "licence_url": "http:\/\/creativecommons.org\/licenses\/by-sa\/3.0\/",
+                "filename": "Zamioculcas_zamiifolia_3.jpg"
+            },
+            {
+                "credit_owner": "Forest &amp; Kim Starr",
+                "credit_date": "2008-01-17",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Starr_080117-1717_Zamioculcas_zamiifolia.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by\/3.0",
+                "filename": "Zamioculcas_zamiifolia_4.jpg"
             }
         ]
     }
