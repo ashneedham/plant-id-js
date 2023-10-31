@@ -20,14 +20,14 @@ if (!empty($image_path) && !empty($selected_plant)) {
         exit;
     }
 
-    $ch = curl_init("https://api.wikimedia.org/core/v1/commons/file/File:".urlencode($image_path).".jpg");
+    $ch = curl_init("https://api.wikimedia.org/core/v1/commons/file/File:".urlencode($image_path));
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($ch, CURLOPT_USERAGENT, 'plantle [downloads]');
     $download = json_decode(curl_exec($ch));
     curl_close($ch);
 
 
-    $ch = curl_init('https://en.wikipedia.org/w/api.php?action=query&prop=imageinfo&iiprop=extmetadata&titles=File%3a'.urlencode($image_path).'.jpg&format=json');
+    $ch = curl_init('https://en.wikipedia.org/w/api.php?action=query&prop=imageinfo&iiprop=extmetadata&titles=File%3a'.urlencode($image_path).'&format=json');
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($ch, CURLOPT_USERAGENT, 'plantle [downloads]');
     $meta = json_decode(curl_exec($ch));

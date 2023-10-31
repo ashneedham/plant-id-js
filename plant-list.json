@@ -1648,6 +1648,82 @@
     {
         "common_name": "Christmas berry 'Red Robin'",
         "botanical_name": "Photinia x Fraseri `Red Robin`",
-        "pictures": []
+        "pictures": [
+            {
+                "credit_owner": "Ashley Needham",
+                "credit_date": "2023-10-30",
+                "credit_url": "https:\/\/plants.needham.online",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Photinia_x_fraseri_'Red Robin'_1.jpg"
+            },
+            {
+                "credit_owner": "Ashley Needham",
+                "credit_date": "2023-10-30",
+                "credit_url": "https:\/\/plants.needham.online",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Photinia_x_fraseri_'Red Robin'_2.jpg"
+            },
+            {
+                "credit_owner": "Ashley Needham",
+                "credit_date": "2023-10-30",
+                "credit_url": "https:\/\/plants.needham.online",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Photinia_x_fraseri_'Red Robin'_3.jpg"
+            },
+            {
+                "credit_owner": "Ashley Needham",
+                "credit_date": "2023-10-30",
+                "credit_url": "https:\/\/plants.needham.online",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Photinia_x_fraseri_'Red Robin'_4.jpg"
+            }
+        ]
+    },
+    {
+        "common_name": "Fish pole bamboo",
+        "botanical_name": "Phyllostachys aurea",
+        "pictures": [
+            {
+                "credit_owner": "Kurt St\u00fcber [1]",
+                "credit_date": "2004",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Phyllostachys_aurea0.jpg",
+                "licence_url": "http:\/\/creativecommons.org\/licenses\/by-sa\/3.0\/",
+                "filename": "Phyllostachys_aurea_1.jpg"
+            },
+            {
+                "credit_owner": "Gary Rogers",
+                "credit_date": "2021-09-14",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Phyllostachys_aurea_157349870.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by\/4.0",
+                "filename": "Phyllostachys_aurea_2.jpg"
+            },
+            {
+                "credit_owner": "Matt Lavin",
+                "credit_date": "2003-08-02",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Phyllostachys_aurea_158950409.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Phyllostachys_aurea_3.jpg"
+            },
+            {
+                "credit_owner": "KENPEI",
+                "credit_date": "2007-10-06",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Phyllostachys_aurea1.jpg",
+                "licence_url": "http:\/\/creativecommons.org\/licenses\/by-sa\/3.0\/",
+                "filename": "Phyllostachys_aurea_4.jpg"
+            }
+        ]
+    },
+    {
+        "common_name": "Tibetan cherry tree",
+        "botanical_name": "Prunus serrula",
+        "pictures": [
+            {
+                "credit_owner": "wlcutler",
+                "credit_date": "2012-05-31 13:46:36",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:20120531_UBCBG_PrunusSerrula_Cutler_P1240471.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/2.0",
+                "filename": "Prunus_serrula_1.jpg"
+            }
+        ]
     }
 ]
