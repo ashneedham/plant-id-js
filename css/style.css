@@ -92,7 +92,13 @@ h2 {
 }
 @media screen and (min-height: 834px) {
   .btn.giant {
-    font-size: 2rem;
+    font-size: 2em;
+    height: 80px;
+  }
+}
+@media screen and (min-height: 1366px) {
+  .btn.giant {
+    font-size: 2.2em;
     height: 100px;
   }
 }
@@ -101,7 +107,12 @@ h2 {
 }
 @media screen and (min-height: 834px) {
   .btn.giant:after {
-    height: 110px;
+    height: 80px;
+  }
+}
+@media screen and (min-height: 1366px) {
+  .btn.giant:after {
+    height: 100px;
   }
 }
 .btn:after {
@@ -167,12 +178,28 @@ h2 {
     height: 33rem;
   }
 }
+@media screen and (min-height: 1366px) {
+  .card {
+    width: 25.08rem;
+    height: 39.6rem;
+  }
+}
 .card ~ .card {
   margin-top: -29.7rem;
 }
 @media screen and (min-height: 720px) {
   .card ~ .card {
     margin-top: -33rem;
+  }
+}
+@media screen and (min-height: 834px) {
+  .card ~ .card {
+    margin-top: -32rem;
+  }
+}
+@media screen and (min-height: 1366px) {
+  .card ~ .card {
+    margin-top: -38rem;
   }
 }
 .card:nth-child(2n) {
@@ -202,9 +229,9 @@ h2 {
     height: 15.4rem;
   }
 }
-@media screen and (min-height: 834px) {
+@media screen and (min-height: 1366px) {
   .card .picture {
-    height: 15.4rem;
+    height: 18.48rem;
   }
 }
 .card ul {
@@ -215,6 +242,11 @@ h2 {
 @media screen and (min-height: 720px) {
   .card ul {
     padding: 1.6em;
+  }
+}
+@media screen and (min-height: 1366px) {
+  .card ul {
+    padding: 1.8em;
   }
 }
 .card ul li {
@@ -238,6 +270,11 @@ h2 {
   cursor: pointer;
   position: relative;
   transition: all 0.2s;
+}
+@media screen and (min-height: 1366px) {
+  .card ul li button {
+    font-size: 1.5em;
+  }
 }
 .card ul li button::after {
   content: url("../img/icons/arrow-right.svg");
@@ -308,7 +345,7 @@ body, html {
   margin: 0;
   font-size: 12px;
 }
-@media screen and (min-height: 1024px) {
+@media screen and (min-height: 1366px) {
   body, html {
     font-size: 15px;
   }
@@ -337,9 +374,9 @@ header {
     padding: 1.5em 1.5em 0 1.5em;
   }
 }
-@media screen and (min-height: 1024px) {
+@media screen and (min-height: 1366px) {
   header {
-    height: 12rem;
+    height: 15rem;
   }
 }
 
@@ -371,17 +408,24 @@ body.unlocked #controls #play-again {
   flex-direction: column;
   justify-content: center;
   margin: 1.5em auto 0 auto;
-  width: 19.28rem;
+  width: 18.81rem;
   min-height: 30rem;
 }
 @media screen and (min-height: 720px) {
   #deck {
     margin: 3em auto 0 auto;
+    width: 20.9rem;
   }
 }
-@media screen and (min-height: 1024px) {
+@media screen and (min-height: 834px) {
   #deck {
     margin: 4em auto;
+  }
+}
+@media screen and (min-height: 1366px) {
+  #deck {
+    margin: 6em auto;
+    width: 25.08rem;
   }
 }
 #deck.spread {
@@ -414,6 +458,14 @@ body.unlocked #controls #play-again {
     bottom: 2em;
   }
 }
+@media screen and (min-height: 1366px) {
+  #score-board {
+    font-size: 1.8rem;
+    width: 22rem;
+    left: calc(50% - 11rem);
+    bottom: 2.5em;
+  }
+}
 #score-board::before {
   content: "";
   border: 2px solid #14474e;
@@ -438,7 +490,7 @@ body.unlocked #controls #play-again {
   transform: translate3d(-50%, -50%, 0) scale(0.99) rotate(-0.8deg);
   border-radius: 2% 6% 2% 4%/2% 6% 5% 4%;
 }
-@media screen and (min-height: 1024px) {
+@media screen and (min-height: 1366px) {
   #score-board {
     font-size: 1.4rem;
   }
@@ -448,9 +500,9 @@ body.unlocked #controls #play-again {
   display: inline;
   margin-right: 1.5em;
 }
-@media screen and (min-height: 1024px) {
+@media screen and (min-height: 1366px) {
   #score-board h3 {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
   }
 }
 #score-board #score {

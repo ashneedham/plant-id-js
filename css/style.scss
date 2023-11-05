@@ -41,7 +41,7 @@ header {
   }
 
   @media screen and #{$mq-large} {
-    height: 12rem;
+    height: 15rem;
   }
 }
 body.unlocked header {
@@ -76,15 +76,21 @@ body.unlocked #controls {
   flex-direction: column;
   justify-content: center;
   margin: 1.5em auto 0 auto;
-  width: 19.28rem;
+  width: 18.81rem; // Must be same width as card
   min-height: 30rem;
 
   @media screen and #{$mq-small} {
     margin: 3em auto 0 auto;
+    width: 20.9rem; // Must be same width as card
+  }
+
+  @media screen and #{$mq-medium} {
+    margin: 4em auto;
   }
 
   @media screen and #{$mq-large} {
-    margin: 4em auto;
+    margin: 6em auto;
+    width: 25.08rem; // Must be same width as card
   }
 
   &.spread {
@@ -115,6 +121,13 @@ body.unlocked #controls {
 
   @media screen and #{$mq-small} {
     bottom: 2em;
+  }
+
+  @media screen and #{$mq-large} {
+    font-size: 1.8rem;
+    width: 22rem;
+    left: calc(50% - 11rem);
+    bottom: 2.5em;
   }
 
 
@@ -153,7 +166,7 @@ body.unlocked #controls {
     margin-right: 1.5em;
 
     @media screen and #{$mq-large} {
-      font-size: 1.2rem;
+      font-size: 1.8rem;
     }
   }
   #score {

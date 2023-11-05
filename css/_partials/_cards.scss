@@ -23,11 +23,25 @@
     height: 33rem;
   }
 
+  @media screen and #{$mq-large} {
+    width: 25.08rem;
+    height: 39.6rem;
+  }
+
+
   & ~ .card {
     margin-top: -29.7rem;
 
     @media screen and #{$mq-small} {
       margin-top: -33rem;
+    }
+
+    @media screen and #{$mq-medium} {
+      margin-top: -32rem;
+    }
+
+    @media screen and #{$mq-large} {
+      margin-top: -38rem;
     }
   }
   &:nth-child(2n) { transform: rotate(-0deg); }
@@ -55,8 +69,8 @@
       height: 15.4rem;
     }
 
-    @media screen and #{$mq-medium} {
-      height: 15.4rem;
+    @media screen and #{$mq-large} {
+      height: 18.48rem;
     }
 
   }
@@ -68,6 +82,10 @@
 
     @media screen and #{$mq-small} {
       padding: 1.6em;
+    }
+
+    @media screen and #{$mq-large} {
+      padding: 1.8em;
     }
 
     li {
@@ -92,6 +110,10 @@
         cursor: pointer;
         position: relative;
         transition: all 0.2s;
+
+        @media screen and #{$mq-large} {
+          font-size: 1.5em;
+        }
 
         &::after {
           content: url("../img/icons/arrow-right.svg");
