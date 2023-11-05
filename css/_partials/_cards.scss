@@ -23,6 +23,11 @@
     height: 33rem;
   }
 
+  @media screen and #{$mq-medium} {
+    width: 22.99rem;
+    height: 36.3rem;
+  }
+
   @media screen and #{$mq-large} {
     width: 25.08rem;
     height: 39.6rem;
@@ -37,7 +42,7 @@
     }
 
     @media screen and #{$mq-medium} {
-      margin-top: -32rem;
+      margin-top: -35.3rem;
     }
 
     @media screen and #{$mq-large} {
@@ -68,6 +73,10 @@
 
     @media screen and #{$mq-small} {
       height: 15.4rem;
+    }
+
+    @media screen and #{$mq-medium} {
+      height: 16.94rem;
     }
 
     @media screen and #{$mq-large} {
@@ -103,6 +112,10 @@
 
     @media screen and #{$mq-small} {
       padding: 1.6em;
+    }
+
+    @media screen and #{$mq-medium} {
+      padding: 1.7em;
     }
 
     @media screen and #{$mq-large} {
