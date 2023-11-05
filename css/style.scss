@@ -35,7 +35,7 @@ header {
   background: $colour-primary;
   transition: all 1s;
 
-  @media screen and #{$mq-medium} {
+  @media screen and #{$mq-small} {
     height: 10rem;
     padding: 1.5em 1.5em 0 1.5em;
   }
@@ -109,7 +109,7 @@ body.unlocked #controls {
   letter-spacing: 0.3ch;
   line-height: 1;
   position: absolute;
-  bottom: 1.5em;
+  bottom: 1em;
   padding: 1rem;
   left: calc(50% - 8.5rem);
 

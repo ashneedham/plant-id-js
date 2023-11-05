@@ -202,6 +202,11 @@ h2 {
     height: 15.4rem;
   }
 }
+@media screen and (min-height: 834px) {
+  .card .picture {
+    height: 15.4rem;
+  }
+}
 .card ul {
   padding: 1.4em;
   display: block;
@@ -326,7 +331,7 @@ header {
   background: #dee5db;
   transition: all 1s;
 }
-@media screen and (min-height: 834px) {
+@media screen and (min-height: 720px) {
   header {
     height: 10rem;
     padding: 1.5em 1.5em 0 1.5em;
@@ -400,7 +405,7 @@ body.unlocked #controls #play-again {
   letter-spacing: 0.3ch;
   line-height: 1;
   position: absolute;
-  bottom: 1.5em;
+  bottom: 1em;
   padding: 1rem;
   left: calc(50% - 8.5rem);
 }

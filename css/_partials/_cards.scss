@@ -55,6 +55,10 @@
       height: 15.4rem;
     }
 
+    @media screen and #{$mq-medium} {
+      height: 15.4rem;
+    }
+
   }
 
   ul {
