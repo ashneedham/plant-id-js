@@ -47,7 +47,12 @@
     <main id="deck">
         <div id="sample-card" class="card hidden">
             <div class="front">
-                <div class="picture"></div>
+                <div class="picture">
+                    <span class="copyright">
+                        <span class="icon"></span>
+                        <span class="text"></span>
+                    </span>
+                </div>
                 <ul class="answers">
                     <li><button>Answer 1</button></li>
                     <li><button>Answer 2</button></li>
@@ -68,6 +73,12 @@
         <h2>Final score!</h2>
         <div class="inner"></div>
         <button class="btn modal-close">View results</button>
+    </dialog>
+
+    <dialog id="copy-info">
+        <h2>Copyright information</h2>
+        <div class="inner"></div>
+        <button class="btn modal-close">Close</button>
     </dialog>
 
 </body>

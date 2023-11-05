@@ -223,6 +223,7 @@ h2 {
   overflow: hidden;
   background-size: cover;
   background-position: center;
+  position: relative;
 }
 @media screen and (min-height: 720px) {
   .card .picture {
@@ -233,6 +234,23 @@ h2 {
   .card .picture {
     height: 18.48rem;
   }
+}
+.card .copyright {
+  display: block;
+  position: absolute;
+  bottom: 0.2em;
+  left: 0.2em;
+}
+.card .copyright .icon {
+  background: url("../img/icons/copyright.svg") no-repeat center center;
+  background-size: cover;
+  display: block;
+  width: 1.5em;
+  height: 1.5em;
+  cursor: pointer;
+}
+.card .copyright .text {
+  display: none;
 }
 .card ul {
   padding: 1.4em;
@@ -515,17 +533,17 @@ body.unlocked #score-board {
   margin-bottom: 2em;
 }
 
-#final-score h2 {
+#final-score h2, #copy-info h2 {
   font-size: 2.2rem;
   font-weight: 600;
   text-transform: uppercase;
   margin-bottom: 1em;
 }
-#final-score .inner {
+#final-score .inner, #copy-info .inner {
   font-size: 1.6em;
   margin-bottom: 1em;
 }
-#final-score button {
+#final-score button, #copy-info button {
   margin: 0 auto;
 }
 

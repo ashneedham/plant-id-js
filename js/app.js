@@ -17,6 +17,8 @@ document.addEventListener("DOMContentLoaded", function() {
         score_board_rounds_played = document.getElementById('rounds-played'),
         final_score_modal = document.getElementById('final-score'),
         final_score_inner = final_score_modal.getElementsByClassName('inner')[0],
+        copy_info_modal = document.getElementById('copy-info'),
+        copy_info_inner = copy_info_modal.getElementsByClassName('inner')[0],
         modal_close_buttons = document.getElementsByClassName('modal-close'),
         rounds_played = 0,
         players_score = 0,
@@ -36,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function() {
             plant_list_in_play = plant_list.slice()
         }
     };
-    xmlhttp.open("GET", "https://plants.needham.online/plant-list.json", true);
+    xmlhttp.open("GET", "https://www.plantle.app/plant-list.json", true);
     xmlhttp.send();
 
     // Start game
@@ -82,6 +84,9 @@ document.addEventListener("DOMContentLoaded", function() {
             new_card.style.zIndex = 100+round_number,
             chosen_plant = getRandomPlant(plant_list_provided),
             picture = new_card.getElementsByClassName('picture')[0],
+            copyright_block = new_card.getElementsByClassName('copyright')[0],
+            copyright_icon = copyright_block.getElementsByClassName('icon')[0],
+            copyright_text = copyright_block.getElementsByClassName('text')[0],
             answer_buttons = new_card.getElementsByTagName('button'),
             answers = generateAnswerList(chosen_plant),
             photo = getRandomPicture(chosen_plant);
@@ -91,6 +96,12 @@ document.addEventListener("DOMContentLoaded", function() {
         current_round = round_number;
         new_card.setAttribute('id', 'card_'+round_number);
         picture.style.backgroundImage = 'url("img/photos/'+photo.filename+'")';
+        copyright_text.innerHTML = '<a href="' + photo.credit_url + '" target="_blank">' + photo.credit_owner + '</a> <br> ' + photo.credit_date + ' <br> <a href="' + photo.licence_url + '" target="_blank">Licence</a>';
+
+        copyright_icon.addEventListener('click', function() {
+            copy_info_inner.innerHTML = copyright_text.innerHTML;
+            copy_info_modal.showModal();
+        });
 
         answers.forEach(function(answer, index) {
             answer_buttons[index].innerText = answer.name;

@@ -64,6 +64,7 @@
     overflow: hidden;
     background-size: cover;
     background-position: center;
+    position: relative;
 
     @media screen and #{$mq-small} {
       height: 15.4rem;
@@ -73,6 +74,26 @@
       height: 18.48rem;
     }
 
+  }
+
+  .copyright {
+    display: block;
+    position: absolute;
+    bottom: 0.2em;
+    left: 0.2em;
+
+    .icon {
+      background: url("../img/icons/copyright.svg") no-repeat center center;
+      background-size: cover;
+      display: block;
+      width: 1.5em;
+      height: 1.5em;
+      cursor: pointer;
+    }
+
+    .text {
+      display: none;
+    }
   }
 
   ul {
