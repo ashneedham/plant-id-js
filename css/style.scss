@@ -10,10 +10,10 @@ body, html {
   min-height: 100vh;
   padding: 0;
   margin: 0;
-  font-size: 13px;
+  font-size: $default-font-size;
 
   @media screen and #{$mq-large} {
-    font-size: 15px;
+    font-size: $large-font-size
   }
 }
 
@@ -30,10 +30,15 @@ body {
 }
 
 header {
-  padding: 1.5em 1.5em 0 1.5em;
-  height: 10rem;
+  padding: 1.2em 1.2em 0 1.2em;
+  height: 8rem;
   background: $colour-primary;
   transition: all 1s;
+
+  @media screen and #{$mq-medium} {
+    height: 10rem;
+    padding: 1.5em 1.5em 0 1.5em;
+  }
 
   @media screen and #{$mq-large} {
     height: 12rem;
@@ -70,12 +75,16 @@ body.unlocked #controls {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 3em auto 0 auto;
+  margin: 1.5em auto 0 auto;
   width: 19.28rem;
   min-height: 30rem;
 
+  @media screen and #{$mq-small} {
+    margin: 3em auto 0 auto;
+  }
+
   @media screen and #{$mq-large} {
-    margin: 2em auto;
+    margin: 4em auto;
   }
 
   &.spread {
@@ -100,9 +109,13 @@ body.unlocked #controls {
   letter-spacing: 0.3ch;
   line-height: 1;
   position: absolute;
-  bottom: 2em;
+  bottom: 1.5em;
   padding: 1rem;
-  left: calc(50% - 8rem);
+  left: calc(50% - 8.5rem);
+
+  @media screen and #{$mq-small} {
+    bottom: 2em;
+  }
 
 
   &::before {

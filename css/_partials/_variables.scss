@@ -1,20 +1,28 @@
+// Font sizes
+$default-font-size: 12px;
+$small-font-size: 13px;
+$medium-font-size: 13px;
+$large-font-size: 15px;
+$xlarge-font-size: 16px;
+$xxlarge-font-size: 18px;
+
 // Colours
 $colour-primary: #dee5db;
 $colour-secondary: #14474e;
 
-// Breakpoints
-$bp-small: 48em; // 768px
-$bp-medium: 64em; // 1024px
-$bp-large: 85.375em; // 1366px
-$bp-xlarge: 120em; // 1920px
-$bp-xxlarge: 160em; // 2560px
+// Breakpoints (based on height)
+$bp-small: 720px; // 720px (iPhone 8+)
+$bp-medium: 834px; // 834px (iPhone 14)
+$bp-large: 1024px; // 1024px
+$bp-xlarge: 1920px; // 1920px
+$bp-xxlarge: 2560px; // 2560px
 
 // Media Queries
-$mq-small: "(min-width: #{$bp-small})";
-$mq-medium: "(min-width: #{$bp-medium})";
-$mq-large: "(min-width: #{$bp-large})";
-$mq-xlarge: "(min-width: #{$bp-xlarge})";
-$mq-xxlarge: "(min-width: #{$bp-xxlarge})";
+$mq-small: "(min-height: #{$bp-small})";
+$mq-medium: "(min-height: #{$bp-medium})";
+$mq-large: "(min-height: #{$bp-large})";
+$mq-xlarge: "(min-height: #{$bp-xlarge})";
+$mq-xxlarge: "(min-height: #{$bp-xxlarge})";
 $mq-retina: "(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)";
 
 $cardWidth: 50vmin;
