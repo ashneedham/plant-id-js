@@ -454,6 +454,7 @@ body.unlocked #controls #play-again {
 @media screen and (min-height: 820px) {
   #deck {
     margin: 4em auto;
+    width: 22.99rem;
   }
 }
 @media screen and (min-height: 1366px) {
