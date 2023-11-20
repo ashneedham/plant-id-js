@@ -1941,6 +1941,27 @@
                 "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Skimmia_japonica_6zz.jpg",
                 "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
                 "filename": "Skimmia_japonica_3.jpg"
+            },
+            {
+                "credit_owner": "Ashley Needham",
+                "credit_date": "2023-11-20",
+                "credit_url": "https:\/\/ashley.needham.online",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/",
+                "filename": "Skimmia_japonica_4.jpg"
+            },
+            {
+                "credit_owner": "Ashley Needham",
+                "credit_date": "2023-11-20",
+                "credit_url": "https:\/\/ashley.needham.online",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/",
+                "filename": "Skimmia_japonica_5.jpg"
+            },
+            {
+                "credit_owner": "Ashley Needham",
+                "credit_date": "2023-11-20",
+                "credit_url": "https:\/\/ashley.needham.online",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/",
+                "filename": "Skimmia_japonica_6.jpg"
             }
         ]
     },
@@ -2071,6 +2092,27 @@
                 "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Viburnum_davidii1.jpg",
                 "licence_url": "http:\/\/creativecommons.org\/licenses\/by-sa\/3.0\/",
                 "filename": "Viburnum_davidii_6.jpg"
+            },
+            {
+                "credit_owner": "Ashley Needham",
+                "credit_date": "2023-11-20",
+                "credit_url": "https:\/\/ashley.needham.online",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/",
+                "filename": "Viburnum_davidii_7.jpg"
+            },
+            {
+                "credit_owner": "Ashley Needham",
+                "credit_date": "2023-11-20",
+                "credit_url": "https:\/\/ashley.needham.online",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/",
+                "filename": "Viburnum_davidii_8.jpg"
+            },
+            {
+                "credit_owner": "Ashley Needham",
+                "credit_date": "2023-11-20",
+                "credit_url": "https:\/\/ashley.needham.online",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/",
+                "filename": "Viburnum_davidii_9.jpg"
             }
         ]
     },
@@ -2357,6 +2399,47 @@
                 "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Salvia_Nemorosa.jpg",
                 "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
                 "filename": "Salvia_nemerosa_3.jpg"
+            }
+        ]
+    },
+    {
+        "common_name": "Ivy 'Oro di Bogliasco'",
+        "botanical_name": "Hedera helix `Goldheart`",
+        "pictures": [
+            {
+                "credit_owner": "Ashley Needham",
+                "credit_date": "2023-11-20",
+                "credit_url": "https:\/\/ashley.needham.online",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/",
+                "filename": "Hedera_helix_`Goldheart`_1.jpg"
+            },
+            {
+                "credit_owner": "Ashley Needham",
+                "credit_date": "2023-11-20",
+                "credit_url": "https:\/\/ashley.needham.online",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/",
+                "filename": "Hedera_helix_`Goldheart`_2.jpg"
+            },
+            {
+                "credit_owner": "Ashley Needham",
+                "credit_date": "2023-11-20",
+                "credit_url": "https:\/\/ashley.needham.online",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/",
+                "filename": "Hedera_helix_`Goldheart`_3.jpg"
+            },
+            {
+                "credit_owner": "Ashley Needham",
+                "credit_date": "2023-11-20",
+                "credit_url": "https:\/\/ashley.needham.online",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/",
+                "filename": "Hedera_helix_`Goldheart`_4.jpg"
+            },
+            {
+                "credit_owner": "Ashley Needham",
+                "credit_date": "2023-11-20",
+                "credit_url": "https:\/\/ashley.needham.online",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/",
+                "filename": "Hedera_helix_`Goldheart`_5.jpg"
             }
         ]
     }
