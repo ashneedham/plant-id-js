@@ -95,11 +95,12 @@ document.addEventListener("DOMContentLoaded", function() {
         plant_list_provided = removePlantFromList(plant_list_provided, chosen_plant);
         current_round = round_number;
         new_card.setAttribute('id', 'card_'+round_number);
+        // new_card.data.credit_owner = photo.credit_owner;
         picture.style.backgroundImage = 'url("img/photos/'+photo.filename+'")';
         copyright_text.innerHTML = '<a href="' + photo.credit_url + '" target="_blank">' + photo.credit_owner + '</a> <br> ' + photo.credit_date + ' <br> <a href="' + photo.licence_url + '" target="_blank">Licence</a>';
 
         copyright_icon.addEventListener('click', function() {
-            copy_info_inner.innerHTML = copyright_text.innerHTML;
+            copy_info_inner.innerHTML = this.nextElementSibling.innerHTML;
             copy_info_modal.showModal();
         });
 
