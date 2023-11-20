@@ -7,6 +7,7 @@
 const round_length = 10;
 document.addEventListener("DOMContentLoaded", function() {
     let sample_card = document.getElementById('sample-card'),
+        game_type_box = document.getElementById('game-type'),
         start_button = document.getElementById('start'),
         play_again_button = document.getElementById('play-again'),
         blank_card = sample_card.cloneNode(true),
@@ -43,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Start game
     start_button.addEventListener('click', function() {
-        this.style.display = 'none';
+        game_type_box.style.display = 'none';
         playRound(plant_list_in_play, 1);
     });
 

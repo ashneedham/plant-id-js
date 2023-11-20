@@ -42,7 +42,16 @@
     </header>
 
     <aside id="controls">
-        <button id="start" class="btn giant">Start</button>
+        <div id="game-type">
+            <h3>Game type</h3>
+            <div class="option">
+                <input type="radio" name="game_type" id="game_type_1_in_4" value="four"><label for="game_type_1_in_4">Answer 1-in-4</label>
+            </div>
+            <div class="option">
+                <input type="radio" name="game_type" id="game_type_1_in_all" vale="all"><label for="game_type_1_in_all">Answer all</label>
+            </div>
+            <button id="start" class="btn">Start</button>
+        </div>
         <button id="play-again" class="btn">Play again</button>
     </aside>
 

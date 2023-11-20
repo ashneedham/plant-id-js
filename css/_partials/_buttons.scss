@@ -69,7 +69,7 @@
     width: 100%;
     position: absolute;
     top: -2px;
-    transform: translate(8px, 8px);
+    transform: translate(4px, 4px);
     transition: transform .2s ease-out;
     z-index: -1;
 
@@ -78,11 +78,11 @@
     }
   }
   &.small-shadow:after {
-    transform: translate(4px, 4px);
+    transform: translate(2px, 2px);
   }
 
   &:hover:after {
-    transform: translate(4px, 4px);
+    transform: translate(0px, 0px);
   }
 
   &:active {
