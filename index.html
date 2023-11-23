@@ -42,13 +42,13 @@
     </header>
 
     <aside id="controls">
-        <div id="game-type">
-            <h3>Game type</h3>
+        <div id="game-difficulty">
+            <h3>Difficulty</h3>
             <div class="option">
-                <input type="radio" name="game_type" id="game_type_1_in_4" value="four"><label for="game_type_1_in_4">Answer 1-in-4</label>
+                <input type="radio" name="difficulty" id="difficulty_easy" checked value="easy"><label for="difficulty_easy">Easy</label>
             </div>
             <div class="option">
-                <input type="radio" name="game_type" id="game_type_1_in_all" vale="all"><label for="game_type_1_in_all">Answer all</label>
+                <input type="radio" name="difficulty" id="difficulty_hard" value="hard"><label for="difficulty_hard">Hard</label>
             </div>
             <button id="start" class="btn">Start</button>
         </div>
@@ -64,12 +64,23 @@
                         <span class="text"></span>
                     </span>
                 </div>
-                <ul class="answers">
+                <ul class="answers easy">
                     <li><button>Answer 1</button></li>
                     <li><button>Answer 2</button></li>
                     <li><button>Answer 3</button></li>
                     <li><button>Answer 4</button></li>
                 </ul>
+                <span class="answers hard">
+                    <div class="answer"></div>
+                    <div class="botanical-name"></div>
+                    <ul class="facts">
+                        <li><span class="common-name blurred">Plant common name, another common name, one more name</span></li>
+                        <li><span class="title">Leaf margin</span> Doubly Serrate</li>
+                        <li><span class="title">Leaf base</span> Auriculate</li>
+                        <li><span class="title">Leaf shape</span> Lancelote</li>
+                        <li><span class="title">Venation</span> Cross-venulate</li>
+                    </ul>
+                </span>
             </div>
             <div class="back"></div>
         </div>
@@ -89,6 +100,12 @@
     <dialog id="copy-info">
         <h2>Copyright information</h2>
         <div class="inner"></div>
+        <button class="btn modal-close">Close</button>
+    </dialog>
+
+    <dialog id="plant-list">
+        <h2>Select a plant</h2>
+        <aside id="full-plant-list"></aside>
         <button class="btn modal-close">Close</button>
     </dialog>
 

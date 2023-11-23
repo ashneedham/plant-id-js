@@ -4,10 +4,15 @@
  *
  */
 
-const round_length = 10;
+const ROUND_LENGTH = 10;
+const DIFFICULTY_EASY = 'easy';
+const DIFFICULTY_HARD = 'hard';
 document.addEventListener("DOMContentLoaded", function() {
     let sample_card = document.getElementById('sample-card'),
-        game_type_box = document.getElementById('game-type'),
+        game_difficulty_box = document.getElementById('game-difficulty'),
+        game_difficulty = null;
+        data_list = document.getElementById('full-plant-list'),
+        plant_list_modal = document.getElementById('plant-list'),
         start_button = document.getElementById('start'),
         play_again_button = document.getElementById('play-again'),
         blank_card = sample_card.cloneNode(true),
@@ -25,6 +30,8 @@ document.addEventListener("DOMContentLoaded", function() {
         players_score = 0,
         current_round = 0,
         rounds_correct_answers = [],
+        selected_answer = null,
+        check_answer_callback = null,
         plant_list = null,
         plant_list_in_play = null;
 
@@ -37,6 +44,14 @@ document.addEventListener("DOMContentLoaded", function() {
         if (this.readyState == 4 && this.status == 200) {
             plant_list = JSON.parse(this.responseText);
             plant_list_in_play = plant_list.slice()
+
+            plant_list.forEach(function(p) {
+                let o = document.createElement('div');
+                o.classList.add('item');
+                o.innerText = p.botanical_name;
+                o.setAttribute('data-botanical', p.botanical_name);
+                data_list.appendChild(o);
+            });
         }
     };
     xmlhttp.open("GET", "https://www.plantle.app/plant-list.json", true);
@@ -44,7 +59,26 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Start game
     start_button.addEventListener('click', function() {
-        game_type_box.style.display = 'none';
+        game_difficulty = document.querySelector('input[name=difficulty]:checked').value;
+        game_difficulty_box.style.display = 'none';
+
+        // Set the sample card based on the difficulty level
+        if (game_difficulty === DIFFICULTY_HARD) {
+            blank_card.querySelector('.answers.easy').style.display = 'none';
+
+            // Setup the data list events
+            data_list.querySelectorAll('.item').forEach(function(item) {
+                item.addEventListener('click', function() {
+                    selected_answer = this.getAttribute('data-botanical');
+                    plant_list_modal.close();
+                    check_answer_callback(selected_answer);
+                });
+            });
+
+        } else {
+            blank_card.querySelector('.answers.hard').style.display = 'none';
+        }
+
         playRound(plant_list_in_play, 1);
     });
 
@@ -88,15 +122,13 @@ document.addEventListener("DOMContentLoaded", function() {
             copyright_block = new_card.getElementsByClassName('copyright')[0],
             copyright_icon = copyright_block.getElementsByClassName('icon')[0],
             copyright_text = copyright_block.getElementsByClassName('text')[0],
-            answer_buttons = new_card.getElementsByTagName('button'),
-            answers = generateAnswerList(chosen_plant),
             photo = getRandomPicture(chosen_plant);
 
         // Remove chosen plant from list to prevent playing it more than once
         plant_list_provided = removePlantFromList(plant_list_provided, chosen_plant);
         current_round = round_number;
         new_card.setAttribute('id', 'card_'+round_number);
-        // new_card.data.credit_owner = photo.credit_owner;
+        new_card.setAttribute('data-botanical', chosen_plant.botanical_name);
         picture.style.backgroundImage = 'url("img/photos/'+photo.filename+'")';
         copyright_text.innerHTML = '<a href="' + photo.credit_url + '" target="_blank">' + photo.credit_owner + '</a> <br> ' + photo.credit_date + ' <br> <a href="' + photo.licence_url + '" target="_blank">Licence</a>';
 
@@ -105,31 +137,65 @@ document.addEventListener("DOMContentLoaded", function() {
             copy_info_modal.showModal();
         });
 
-        answers.forEach(function(answer, index) {
-            answer_buttons[index].innerText = answer.name;
-            answer_buttons[index].dataset.index = index;
-            if (answer.correct) {
-                answer_buttons[index].addEventListener('click', function() {
-                    if (!isCardLocked(new_card)){
-                        lockCard(new_card);
-                        correctAnswer(this, round_number, index);
-                        playNextRoundOrShowFinalScore(plant_list_provided);
-                    }
-                });
-            } else {
-                answer_buttons[index].addEventListener('click', function() {
-                    if (!isCardLocked(new_card)) {
-                        lockCard(new_card);
-                        wrongAnswer(this);
-                        playNextRoundOrShowFinalScore(plant_list_provided);
-                    }
-                });
-            }
-        });
+        if (game_difficulty === DIFFICULTY_HARD) {
+            /**
+             * HARD MODE
+             */
+            let botanical_name = new_card.querySelector('.botanical-name');
+            botanical_name.addEventListener('click', function() {
+                check_answer_callback = function(answer) {
+                    botanical_name.innerText = new_card.getAttribute('data-botanical');
+                    botanical_name.classList.add('selected');
+                    new_card.querySelector('.answer').innerText = answer;
+                    new_card.querySelector('.common-name').classList.remove('blurred');
 
-        // show
+                    if (new_card.getAttribute('data-botanical') === answer) {
+                        correctAnswer(new_card, round_number, 1);
+                    } else {
+                        new_card.classList.add('wrong');
+                        wrongAnswer(new_card);
+                    }
+                    playNextRoundOrShowFinalScore(plant_list_provided, 5000);
+                };
+                plant_list_modal.showModal();
+            });
+        } else {
+            /**
+             * EASY MODE
+             */
+            let answer_buttons = new_card.getElementsByTagName('button'),
+                answers = generateAnswerList(chosen_plant);
+            answers.forEach(function(answer, index) {
+                answer_buttons[index].innerText = answer.name;
+                answer_buttons[index].dataset.index = index;
+                if (answer.correct) {
+                    answer_buttons[index].addEventListener('click', function() {
+                        if (!isCardLocked(new_card)){
+                            lockCard(new_card);
+                            correctAnswer(this, round_number, index);
+                            playNextRoundOrShowFinalScore(plant_list_provided);
+                        }
+                    });
+                } else {
+                    answer_buttons[index].addEventListener('click', function() {
+                        if (!isCardLocked(new_card)) {
+                            lockCard(new_card);
+                            wrongAnswer(this);
+                            playNextRoundOrShowFinalScore(plant_list_provided);
+                        }
+                    });
+                }
+            });
+        }
+
+        // Show
         deck.appendChild(new_card);
         new_card.classList.remove('hidden');
+
+        // Set autcomplete list and focus on text field when playing hard
+        if (game_difficulty === DIFFICULTY_HARD) {
+            // new_card.querySelector('input[name=answer]').focus();
+        }
 
         return chosen_plant
     }
@@ -138,16 +204,16 @@ document.addEventListener("DOMContentLoaded", function() {
      * Check rounds left to play and trigger if so
      * @param updated_plant_list
      */
-    function playNextRoundOrShowFinalScore(updated_plant_list) {
-        if (rounds_played < round_length) {
+    function playNextRoundOrShowFinalScore(updated_plant_list, timeout = 1000) {
+        if (rounds_played < ROUND_LENGTH) {
             setTimeout(function() {
                 playRound(updated_plant_list, rounds_played+1);
-            }, 1000);
+            }, timeout);
         } else {
             setTimeout(function() {
                 document.body.classList.add('unlocked');
                 deck.classList.add('spread');
-            }, 1000);
+            }, timeout);
             setTimeout(function() {
                 final_score_inner.innerHTML = score.innerHTML;
                 final_score_modal.showModal();

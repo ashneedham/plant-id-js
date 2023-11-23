@@ -105,7 +105,7 @@
     }
   }
 
-  ul {
+  ul.answers.easy {
     padding: 1.4em;
     display: block;
     text-align: left;
@@ -202,6 +202,81 @@
 
   &.answered button.incorrect:hover {
     cursor: not-allowed;
+  }
+}
+
+.answers.hard {
+  display: block;
+  padding: 1.5em;
+  text-align: left;
+
+  .answer {
+    font-size: 0.9em;
+    font-weight: 200;
+    line-height: 1;
+
+    &:before {
+      content: "Answered: ";
+      opacity: 0.4;
+    }
+  }
+
+  .botanical-name {
+    border: none;
+    border-bottom: #333 dotted 1px;
+    padding: 0.4em 0;
+    width: 100%;
+    min-height: 1.4em;
+    outline: none;
+    font-size: 1.4em;
+    font-weight: 600;
+    position: relative;
+    cursor: pointer;
+    line-height: 1;
+
+    &:before {
+      content: "Press to select an answer";
+      font-weight: 300;
+      opacity: 0.4;
+    }
+
+    &.selected {
+      cursor: default;
+
+      &:before {
+        display: none;
+      }
+    }
+  }
+
+  .common-name {
+    display: block;
+    margin-bottom: 0.5em;
+    transition: filter 0.3s;
+
+    &.blurred {
+      filter: blur(0.3em);
+      transition: filter 0.3s;
+    }
+  }
+
+  ul {
+    margin-top: 1em;
+
+    li {
+      padding: 0.3em 0;
+      font-size: 1.1em;
+
+      .title {
+        font-weight: 500;
+        display: inline-block;
+        width: 35%;
+
+        &:after {
+          content: ":";
+        }
+      }
+    }
   }
 }
 
