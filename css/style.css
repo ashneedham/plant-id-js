@@ -287,6 +287,58 @@ h3 {
 .card .copyright .text {
   display: none;
 }
+.card.correct::after {
+  content: url("../img/icons/check-circle2.svg") !important;
+  height: 3em;
+  width: 3em;
+  position: absolute;
+  border-radius: 3em;
+  background: #fff;
+  translate: 0 -1.4rem;
+  right: 0.5rem;
+  top: 13.86rem;
+}
+@media screen and (min-height: 720px) {
+  .card.correct::after {
+    top: 15.4rem;
+  }
+}
+@media screen and (min-height: 820px) {
+  .card.correct::after {
+    top: 16.94rem;
+  }
+}
+@media screen and (min-height: 1366px) {
+  .card.correct::after {
+    top: 18.48rem;
+  }
+}
+.card.incorrect::after {
+  content: url("../img/icons/x-circle.svg") !important;
+  height: 3em;
+  width: 3em;
+  position: absolute;
+  border-radius: 3em;
+  background: #fff;
+  translate: 0 -1.4rem;
+  right: 0.5rem;
+  top: 13.86rem;
+}
+@media screen and (min-height: 720px) {
+  .card.incorrect::after {
+    top: 15.4rem;
+  }
+}
+@media screen and (min-height: 820px) {
+  .card.incorrect::after {
+    top: 16.94rem;
+  }
+}
+@media screen and (min-height: 1366px) {
+  .card.incorrect::after {
+    top: 18.48rem;
+  }
+}
 .card ul.answers.easy {
   padding: 1.4em;
   display: block;
@@ -365,22 +417,22 @@ h3 {
   margin-top: 0;
 }
 .card.answered button:hover {
-  cursor: not-allowed;
+  cursor: default;
 }
 .card.answered button:hover::after {
   content: "";
   animation: none;
 }
 .card.answered button.correct:hover {
-  cursor: not-allowed;
+  cursor: default;
 }
 .card.answered button.incorrect:hover {
-  cursor: not-allowed;
+  cursor: default;
 }
 
 .answers.hard {
   display: block;
-  padding: 1.5em;
+  padding: 1em 1.5em;
   text-align: left;
 }
 .answers.hard .answer {
@@ -426,7 +478,7 @@ h3 {
   transition: filter 0.3s;
 }
 .answers.hard ul {
-  margin-top: 1em;
+  margin-top: 0.3em;
 }
 .answers.hard ul li {
   padding: 0.3em 0;

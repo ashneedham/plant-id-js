@@ -45,6 +45,10 @@ document.addEventListener("DOMContentLoaded", function() {
             plant_list = JSON.parse(this.responseText);
             plant_list_in_play = plant_list.slice()
 
+            plant_list.sort(function(a, b) {
+                return (a.botanical_name < b.botanical_name) ? -1 : (a.botanical_name > b.botanical_name) ? 1 : 0
+            });
+
             plant_list.forEach(function(p) {
                 let o = document.createElement('div');
                 o.classList.add('item');
@@ -129,6 +133,7 @@ document.addEventListener("DOMContentLoaded", function() {
         current_round = round_number;
         new_card.setAttribute('id', 'card_'+round_number);
         new_card.setAttribute('data-botanical', chosen_plant.botanical_name);
+        new_card.querySelector('.common-name').innerText = chosen_plant.common_name;
         picture.style.backgroundImage = 'url("img/photos/'+photo.filename+'")';
         copyright_text.innerHTML = '<a href="' + photo.credit_url + '" target="_blank">' + photo.credit_owner + '</a> <br> ' + photo.credit_date + ' <br> <a href="' + photo.licence_url + '" target="_blank">Licence</a>';
 
@@ -155,7 +160,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         new_card.classList.add('wrong');
                         wrongAnswer(new_card);
                     }
-                    playNextRoundOrShowFinalScore(plant_list_provided, 5000);
+                    playNextRoundOrShowFinalScore(plant_list_provided, 3000);
                 };
                 plant_list_modal.showModal();
             });

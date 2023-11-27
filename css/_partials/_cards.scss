@@ -105,6 +105,54 @@
     }
   }
 
+  &.correct::after {
+    content: url("../img/icons/check-circle2.svg") !important;
+    height: 3em;
+    width: 3em;
+    position: absolute;
+    border-radius: 3em;
+    background: #fff;
+    translate: 0 -1.4rem;
+    right: 0.5rem;
+    top: 13.86rem;
+
+    @media screen and #{$mq-small} {
+      top: 15.4rem;
+    }
+
+    @media screen and #{$mq-medium} {
+      top: 16.94rem;
+    }
+
+    @media screen and #{$mq-large} {
+      top: 18.48rem;
+    }
+  }
+
+  &.incorrect::after {
+    content: url("../img/icons/x-circle.svg") !important;
+    height: 3em;
+    width: 3em;
+    position: absolute;
+    border-radius: 3em;
+    background: #fff;
+    translate: 0 -1.4rem;
+    right: 0.5rem;
+    top: 13.86rem;
+
+    @media screen and #{$mq-small} {
+      top: 15.4rem;
+    }
+
+    @media screen and #{$mq-medium} {
+      top: 16.94rem;
+    }
+
+    @media screen and #{$mq-large} {
+      top: 18.48rem;
+    }
+  }
+
   ul.answers.easy {
     padding: 1.4em;
     display: block;
@@ -188,7 +236,7 @@
   }
 
   &.answered button:hover {
-    cursor: not-allowed;
+    cursor: default;
 
     &::after {
       content: "";
@@ -197,17 +245,17 @@
   }
 
   &.answered button.correct:hover {
-    cursor: not-allowed;
+    cursor: default;
   }
 
   &.answered button.incorrect:hover {
-    cursor: not-allowed;
+    cursor: default;
   }
 }
 
 .answers.hard {
   display: block;
-  padding: 1.5em;
+  padding: 1em 1.5em;
   text-align: left;
 
   .answer {
@@ -261,7 +309,7 @@
   }
 
   ul {
-    margin-top: 1em;
+    margin-top: 0.3em;
 
     li {
       padding: 0.3em 0;
