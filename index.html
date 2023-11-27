@@ -42,7 +42,16 @@
     </header>
 
     <aside id="controls">
-        <button id="start" class="btn giant">Start</button>
+        <div id="game-difficulty">
+            <h3>Difficulty</h3>
+            <div class="option">
+                <input type="radio" name="difficulty" id="difficulty_easy" checked value="easy"><label for="difficulty_easy">Easy</label>
+            </div>
+            <div class="option">
+                <input type="radio" name="difficulty" id="difficulty_hard" value="hard"><label for="difficulty_hard">Hard</label>
+            </div>
+            <button id="start" class="btn">Start</button>
+        </div>
         <button id="play-again" class="btn">Play again</button>
     </aside>
 
@@ -55,12 +64,19 @@
                         <span class="text"></span>
                     </span>
                 </div>
-                <ul class="answers">
+                <ul class="answers easy">
                     <li><button>Answer 1</button></li>
                     <li><button>Answer 2</button></li>
                     <li><button>Answer 3</button></li>
                     <li><button>Answer 4</button></li>
                 </ul>
+                <span class="answers hard">
+                    <div class="answer"></div>
+                    <div class="botanical-name"></div>
+                    <ul class="facts">
+                        <li><span class="common-name blurred">Plant common name, another common name, one more name</span></li>
+                    </ul>
+                </span>
             </div>
             <div class="back"></div>
         </div>
@@ -80,6 +96,12 @@
     <dialog id="copy-info">
         <h2>Copyright information</h2>
         <div class="inner"></div>
+        <button class="btn modal-close">Close</button>
+    </dialog>
+
+    <dialog id="plant-list">
+        <h2>Select a plant</h2>
+        <aside id="full-plant-list"></aside>
         <button class="btn modal-close">Close</button>
     </dialog>
 
