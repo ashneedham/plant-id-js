@@ -1744,13 +1744,6 @@
                 "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Prunus_serrula_845.JPG",
                 "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/3.0",
                 "filename": "Prunus_serrula_4.jpg"
-            },
-            {
-                "credit_owner": "Robert Flogaus-Faust",
-                "credit_date": "2016-04-30",
-                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Quercus_robur_RF.jpg",
-                "licence_url": "https:\/\/creativecommons.org\/licenses\/by\/4.0",
-                "filename": "Prunus_serrula_5.jpg"
             }
         ]
     },
@@ -1785,6 +1778,13 @@
                 "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Quercus_robur_acorns_and_leaves.jpg",
                 "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
                 "filename": "Quercus_robur_4.jpg"
+            },
+            {
+                "credit_owner": "Robert Flogaus-Faust",
+                "credit_date": "2016-04-30",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Quercus_robur_RF.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by\/4.0",
+                "filename": "Quercus_robur_5.jpg"
             }
         ]
     },
