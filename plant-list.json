@@ -2839,8 +2839,159 @@
         ]
     },
     {
-        "common_name": "Star magnolia",
-        "botanical_name": "Magnolia stellata",
-        "pictures": []
+        "common_name": "Marsh marigold",
+        "botanical_name": "Caltha palustris",
+        "pictures": [
+            {
+                "credit_owner": "gailhampshire",
+                "credit_date": "2022-05-27 15:48",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Marsh_Marigold_-_Caltha_palustris_(52181331496).jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by\/2.0",
+                "filename": "Caltha_palustris_1.jpg"
+            },
+            {
+                "credit_owner": "Emma and Ben",
+                "credit_date": "2021-04-10",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Caltha_palustris_120006287.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by\/4.0",
+                "filename": "Caltha_palustris_2.jpg"
+            },
+            {
+                "credit_owner": "Robert Flogaus-Faust",
+                "credit_date": "2011-04-22",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Caltha_palustris_RF.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by\/4.0",
+                "filename": "Caltha_palustris_3.jpg"
+            },
+            {
+                "credit_owner": "gailhampshire",
+                "credit_date": "2022-05-27 15:48",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Marsh_Marigold_-_Caltha_palustris_(52181331496).jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by\/2.0",
+                "filename": "Caltha_palustris_4.jpg"
+            },
+            {
+                "credit_owner": "gailhampshire from Cradley, Malvern, U.K",
+                "credit_date": "2015-04-15 10:52",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Marsh_Marigold._Caltha_palustris._Ranunculaceae_-_Flickr_-_gailhampshire.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by\/2.0",
+                "filename": "Caltha_palustris_5.jpg"
+            },
+            {
+                "credit_owner": "Jay Sturner from USA",
+                "credit_date": "2005-05-10 18:38",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Yellow_Marsh_Marigold_(Caltha_palustris)_-_Flickr_-_Jay_Sturner.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by\/2.0",
+                "filename": "Caltha_palustris_6.jpg"
+            }
+        ]
+    },
+    {
+        "common_name": "Forsythia x intermedia",
+        "botanical_name": "Forsythia x intermedia",
+        "pictures": [
+            {
+                "credit_owner": "Rolf Dietrich Brecher from Germany",
+                "credit_date": "2018-04-13 09:33",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Forsythia_x_intermedia_(41396675372).jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by\/2.0",
+                "filename": "Forsythia_x_intermedia_1.jpg"
+            },
+            {
+                "credit_owner": "Anonymous101",
+                "credit_date": "2007",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Some_yellow_flowers.JPG",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by\/3.0",
+                "filename": "Forsythia_x_intermedia_2.jpg"
+            }
+        ]
+    },
+    {
+        "common_name": "Siskiyou lewisia",
+        "botanical_name": "Lewisia cotyledon",
+        "pictures": [
+            {
+                "credit_owner": "Maja Dumat from Deutschland (Germany)",
+                "credit_date": "2015-07-24 19:44",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Bitterwurz_(Lewisia_cotyledon)_(20483479251).jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by\/2.0",
+                "filename": "Lewisia_cotyledon_1.jpg"
+            },
+            {
+                "credit_owner": "John Rusk from Berkeley, CA, United States of America",
+                "credit_date": "2015-05-21 11:40",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:J20150521-0116%E2%80%94Lewisia_cotyledon%E2%80%94RPBG_(18153503306).jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by\/2.0",
+                "filename": "Lewisia_cotyledon_2.jpg"
+            },
+            {
+                "credit_owner": "John Rusk from Berkeley, CA, United States of America",
+                "credit_date": "2009-04-05 10:28",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:G20090405-4308--Lewisia_cotyledon--RPBG_(17081919852).jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by\/2.0",
+                "filename": "Lewisia_cotyledon_3.jpg"
+            }
+        ]
+    },
+    {
+        "common_name": "Star jasmine",
+        "botanical_name": "Trachelospermum jasminoides",
+        "pictures": [
+            {
+                "credit_owner": "Scott Zona from USA",
+                "credit_date": "2007-08-23 11:02",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Trachelospermum_jasminoides1215878198.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by\/2.0",
+                "filename": "Trachelospermum_jasminoides_1.jpg"
+            },
+            {
+                "credit_owner": "John Rusk from Berkeley, CA, United States of America",
+                "credit_date": "2017-06-18 21:44",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:J20170617-0007%E2%80%94Trachelospermum_jasminoides%E2%80%94DxO_(35261739251).jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by\/2.0",
+                "filename": "Trachelospermum_jasminoides_2.jpg"
+            },
+            {
+                "credit_owner": "\u0391\u03bd\u03ce\u03bd\u03c5\u03bc\u03bf\u03c2 \u0392\u03b9\u03ba\u03b9\u03c0\u03b1\u03b9\u03b4\u03b9\u03c3\u03c4\u03ae\u03c2",
+                "credit_date": "2017-07-12 00:06:20",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:%CE%A1%CF%85%CE%B3%CF%87%CE%BD%CF%8C%CF%83%CF%80%CE%B5%CF%81%CE%BC%CE%BF_-_Trachelospermum_jasminoides.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by\/3.0",
+                "filename": "Trachelospermum_jasminoides_3.jpg"
+            },
+            {
+                "credit_owner": "Forest and Kim Starr",
+                "credit_date": "2010-06-15 09:53",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Starr-100615-6975-Trachelospermum_jasminoides-flowers-Alii_Kula_Lavender_Farm_Waipoli_Rd-Maui_(24744619310).jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by\/3.0\/us\/deed.en",
+                "filename": "Trachelospermum_jasminoides_4.jpg"
+            },
+            {
+                "credit_owner": "F Delventhal",
+                "credit_date": "2010-05-19 19:36:27",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Jasmine_009.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by\/2.0",
+                "filename": "Trachelospermum_jasminoides_5.jpg"
+            }
+        ]
+    },
+    {
+        "common_name": "Lesser bulrush",
+        "botanical_name": "Typha angustifolia",
+        "pictures": [
+            {
+                "credit_owner": "Superior National Forest",
+                "credit_date": "2010-10-19 16:50",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Typha_angustifolia_4-eheep_(5098005620).jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by\/2.0",
+                "filename": "Typha_angustifolia_1.jpg"
+            },
+            {
+                "credit_owner": "Radio Tonreg from Vienna, Austria",
+                "credit_date": "2011-07-04 17:00",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Typha_angustifolia_(5902724554).jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by\/2.0",
+                "filename": "Typha_angustifolia_2.jpg"
+            }
+        ]
     }
 ]
