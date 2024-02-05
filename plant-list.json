@@ -3610,5 +3610,278 @@
                 "filename": "Wisteria_sinensis_7.jpg"
             }
         ]
+    },
+    {
+        "common_name": "English lavender",
+        "botanical_name": "Lavendula angustifolia",
+        "pictures": [
+            {
+                "credit_owner": "Sten Porse",
+                "credit_date": null,
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Lavandula-angustifolia-flowering.JPG",
+                "licence_url": "http:\/\/creativecommons.org\/licenses\/by-sa\/3.0\/",
+                "filename": "Lavendula_angustifolia_1.jpg"
+            },
+            {
+                "credit_owner": "Andrey Butko\n",
+                "credit_date": "2010",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Lavandula_angustifolia_in_Sedovo_1.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/3.0",
+                "filename": "Lavendula_angustifolia_2.jpg"
+            },
+            {
+                "credit_owner": "Laslovarga",
+                "credit_date": "2017-07-09 13:56:07",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Lavandula_angustifolia_(9).jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Lavendula_angustifolia_3.jpg"
+            },
+            {
+                "credit_owner": "Em\u0151ke D\u00e9nes",
+                "credit_date": "2011-06-07",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Lamiales_-_Lavandula_angustifolia_-_4.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Lavendula_angustifolia_4.jpg"
+            },
+            {
+                "credit_owner": "Em\u0151ke D\u00e9nes",
+                "credit_date": "2011-06-07",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Lamiales_-_Lavandula_angustifolia_-_5.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Lavendula_angustifolia_5.jpg"
+            },
+            {
+                "credit_owner": "Norbert Nagel, M\u00f6rfelden-Walldorf, Germany",
+                "credit_date": "2011-05-29",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Lavandula_angustifolia_lavender_Lavendel_01.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/3.0",
+                "filename": "Lavendula_angustifolia_6.jpg"
+            }
+        ]
+    },
+    {
+        "common_name": "Common yarrow",
+        "botanical_name": "Achillea millefolium",
+        "pictures": [
+            {
+                "credit_owner": "O. Pichard",
+                "credit_date": "2007-06-22",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Achillea_millefolium_vallee-de-grace-amiens_80_22062007_1.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/3.0",
+                "filename": "Achillea_millefolium_1.jpg"
+            },
+            {
+                "credit_owner": "Alexis",
+                "credit_date": "2020-11-20",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Achillea_millefolium_105272347.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by\/4.0",
+                "filename": "Achillea_millefolium_2.jpg"
+            },
+            {
+                "credit_owner": "Michel Langeveld",
+                "credit_date": "2022-05-07",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Achillea_millefolium_195715451.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Achillea_millefolium_3.jpg"
+            },
+            {
+                "credit_owner": "Chris Armstrong",
+                "credit_date": "2020-11-11",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Achillea_millefolium_104076578.jpg",
+                "licence_url": "http:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/deed.en",
+                "filename": "Achillea_millefolium_4.jpg"
+            },
+            {
+                "credit_owner": "Alpsdake",
+                "credit_date": "Taken on\u00a016 June 2015, 10:32:52",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Achillea_millefolium_(leaf).jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Achillea_millefolium_5.jpg"
+            },
+            {
+                "credit_owner": "\u041e\u043b\u044c\u0433\u0430 \u0411\u0435\u0432\u0445",
+                "credit_date": "2020-12-06",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Achillea_millefolium_106780355.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by\/4.0",
+                "filename": "Achillea_millefolium_6.jpg"
+            }
+        ]
+    },
+    {
+        "common_name": "Greater masterwort",
+        "botanical_name": "Astrantia major `Hadpen's Blood`",
+        "pictures": [
+            {
+                "credit_owner": "\u963f\u6a4b HQ",
+                "credit_date": "2012-05-20 15:39",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:%E5%A4%A7%E6%98%9F%E8%8A%B9_Astrantia_major_Hadspen_Blood_-%E6%AF%94%E5%88%A9%E6%99%82_Leuven_Botanical_Garden,_Belgium-_(9204836625).jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/2.0",
+                "filename": "Astrantia_major_1.jpg"
+            }
+        ]
+    },
+    {
+        "common_name": "Yellow trumpet vine",
+        "botanical_name": "Campsis radicans `Flava`",
+        "pictures": [
+            {
+                "credit_owner": "Lazaregagnidze",
+                "credit_date": "2014-05-28 00:16:32",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Campsis_radicans_flava_Yellow_Trumpet_Creeper_%E1%83%A7%E1%83%95%E1%83%98%E1%83%97%E1%83%94%E1%83%9A%E1%83%98_%E1%83%95%E1%83%90%E1%83%96%E1%83%98%E1%83%A1%E1%83%A2%E1%83%90%E1%83%9C%E1%83%90.JPG",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/3.0",
+                "filename": "Campsis_radicans_`Flava`_1.jpg"
+            },
+            {
+                "credit_owner": "Photo by David J. Stang",
+                "credit_date": "2008-05-02",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Campsis_Flava_0zz.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Campsis_radicans_`Flava`_2.jpg"
+            },
+            {
+                "credit_owner": "Paucabot",
+                "credit_date": "2006",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:%D0%9A%D0%B0%D0%BC%D0%BF%D1%81%D0%B8%D1%81_%D0%B0%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B0%D0%BD%D1%81%D1%8C%D0%BA%D0%B8%D0%B9,_%22%D0%A4%D0%BB%D0%B0%D0%B2%D0%B0%22.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/3.0",
+                "filename": "Campsis_radicans_`Flava`_3.jpg"
+            }
+        ]
+    },
+    {
+        "common_name": "Cosmea",
+        "botanical_name": "Cosmos bipinnatus",
+        "pictures": [
+            {
+                "credit_owner": "Juan Carlos Fonseca Mata",
+                "credit_date": "2021-09-11 10:19:05",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Mirasol_(Cosmos_bipinnatus).jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Cosmos_bipinnatus_1.jpg"
+            },
+            {
+                "credit_owner": "Syrio",
+                "credit_date": "2018-08-10 09:36:48",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Cosmos_bipinnatus_Stirling_01.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Cosmos_bipinnatus_2.jpg"
+            },
+            {
+                "credit_owner": "Hugo.arg",
+                "credit_date": "2007-07-22",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:CosmosBipinnatus002.JPG",
+                "licence_url": "http:\/\/creativecommons.org\/licenses\/by-sa\/3.0\/",
+                "filename": "Cosmos_bipinnatus_3.jpg"
+            },
+            {
+                "credit_owner": "Syrio",
+                "credit_date": "2017-07-29 10:11:39",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Cosmos_bipinnatus_De_Gasperi_01.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Cosmos_bipinnatus_4.jpg"
+            },
+            {
+                "credit_owner": "Syrio",
+                "credit_date": "2018-08-10 09:37:06",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Cosmos_bipinnatus_Stirling_06.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Cosmos_bipinnatus_5.jpg"
+            },
+            {
+                "credit_owner": "Macdon",
+                "credit_date": "2017-11-10 16:46:20",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Cosmos_bipinnatus_IMG_7350.jpg",
+                "licence_url": "http:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/deed.en",
+                "filename": "Cosmos_bipinnatus_6.jpg"
+            }
+        ]
+    },
+    {
+        "common_name": "Dahlia `Bishop of Llandaff`",
+        "botanical_name": "Dahlia `Bishop of Llandaff`",
+        "pictures": [
+            {
+                "credit_owner": "Dinkum",
+                "credit_date": "2012-09-15 13:59:12",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Dahlia_Bishop_of_Llandaff_2.JPG",
+                "licence_url": "http:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/deed.en",
+                "filename": "Dahlia_`Bishop_of_Llandaff`_1.jpg"
+            },
+            {
+                "credit_owner": "Wouter Hagens",
+                "credit_date": "2013-08-12 14:35:09",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Dahlia_%27Bishop_of_Llandaff%27_C.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/3.0",
+                "filename": "Dahlia_`Bishop_of_Llandaff`_2.jpg"
+            },
+            {
+                "credit_owner": "Wouter Hagens",
+                "credit_date": "2009-08-15",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Dahlia_%27Bishop_of_Llandaff%27_A.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/3.0",
+                "filename": "Dahlia_`Bishop_of_Llandaff`_3.jpg"
+            },
+            {
+                "credit_owner": "Photograph by Mike Peel (www.mikepeel.net).",
+                "credit_date": "2009-07-24",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Dahlia_%27Bishop_of_Llandaff%27_1.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Dahlia_`Bishop_of_Llandaff`_4.jpg"
+            },
+            {
+                "credit_owner": "Acabashi",
+                "credit_date": "Taken on\u00a09 August 2015, 13:45:15",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:%22Bishop_of_Llandaff%22_Dahlia_Victorian_garden_Quex_House_Birchington_Kent_England.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Dahlia_`Bishop_of_Llandaff`_5.jpg"
+            }
+        ]
+    },
+    {
+        "common_name": "Wild carrot",
+        "botanical_name": "Daucus carota",
+        "pictures": [
+            {
+                "credit_owner": "Alvesgaspar",
+                "credit_date": "2008-05",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Daucus_carota_May_2008-1_edit.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/3.0",
+                "filename": "Daucus_carota_1.jpg"
+            },
+            {
+                "credit_owner": "Krzysztof Ziarnek, Kenraiz",
+                "credit_date": "2007-07-19 12:42:40",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Daucus_carota_kz07.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Daucus_carota_2.jpg"
+            },
+            {
+                "credit_owner": "Andrew Sebastian",
+                "credit_date": "2021-08-02",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Daucus_carota_148083146.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by\/4.0",
+                "filename": "Daucus_carota_3.jpg"
+            },
+            {
+                "credit_owner": "Sandy Wolkenberg",
+                "credit_date": "2021-08-02",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Daucus_carota_148176323.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by\/4.0",
+                "filename": "Daucus_carota_4.jpg"
+            },
+            {
+                "credit_owner": "David McCorquodale",
+                "credit_date": "2021-08-01",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Daucus_carota_148173577.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by\/4.0",
+                "filename": "Daucus_carota_5.jpg"
+            },
+            {
+                "credit_owner": "Jules Verne Times Two",
+                "credit_date": "2022-07-18 11:42:34",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Wild_carrot_(Daucus_carota)_at_Spohr_Gardens,_Falmouth,_Massachusetts,_US_(PPL1-Corrected)_julesvernex2.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Daucus_carota_6.jpg"
+            }
+        ]
     }
 ]
