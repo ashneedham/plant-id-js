@@ -183,18 +183,18 @@ body.unlocked #score-board {
   margin-bottom: 2em;
 }
 
-#game-difficulty {
+#game-difficulty, #filters {
   width: 20rem;
-  margin: 4rem auto;
+  margin: 0 auto;
   padding: 1em;
   position: relative;
 
   h3 {
     text-transform: uppercase;
     letter-spacing: 0.2ch;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     font-weight: bold;
-    line-height: 3em;
+    line-height: 2em;
     color: $colour-secondary;
     border-bottom: 1px dotted $colour-secondary;
   }
@@ -211,6 +211,14 @@ body.unlocked #score-board {
         cursor: pointer;
       }
   }
+}
+
+#game-difficulty {
+  margin-top: 3rem;
+}
+
+#start {
+  margin-top: 4rem;
 }
 
 #full-plant-list {

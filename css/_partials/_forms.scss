@@ -21,3 +21,26 @@ input[type=radio] {
     box-shadow: inset #fff 0px 0px 0px 3px;
   }
 }
+
+input[type=checkbox] {
+  display: none;
+
+  ~ label {
+    &:before {
+      display: inline-block;
+      content: "";
+      border: $colour-secondary solid 2px;
+      background: #fff;
+      width: 1.3em;
+      height: 1.3em;
+      vertical-align: text-top;
+      margin-right: 0.75em;
+      transform: all 0.5s;
+    }
+  }
+
+  &:checked ~ label:before {
+    background: $colour-secondary;
+    box-shadow: inset #fff 0px 0px 0px 3px;
+  }
+}
