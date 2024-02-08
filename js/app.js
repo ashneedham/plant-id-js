@@ -7,10 +7,13 @@
 const ROUND_LENGTH = 10;
 const DIFFICULTY_EASY = 'easy';
 const DIFFICULTY_HARD = 'hard';
+const TAGS = ['PCA1', 'PCA2'];
 document.addEventListener("DOMContentLoaded", function() {
     let sample_card = document.getElementById('sample-card'),
         game_difficulty_box = document.getElementById('game-difficulty'),
-        game_difficulty = null;
+        game_difficulty = null,
+        filters_box = document.getElementById('filters'),
+        filters = [],
         data_list = document.getElementById('full-plant-list'),
         plant_list_modal = document.getElementById('plant-list'),
         start_button = document.getElementById('start'),
@@ -32,6 +35,7 @@ document.addEventListener("DOMContentLoaded", function() {
         rounds_correct_answers = [],
         selected_answer = null,
         check_answer_callback = null,
+        master_plant_list = null,
         plant_list = null,
         plant_list_in_play = null;
 
@@ -42,20 +46,15 @@ document.addEventListener("DOMContentLoaded", function() {
     let xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
-            plant_list = JSON.parse(this.responseText);
-            plant_list_in_play = plant_list.slice()
+            master_plant_list = JSON.parse(this.responseText);
+            plant_list = master_plant_list.slice();
+            plant_list_in_play = plant_list.slice();
 
             plant_list.sort(function(a, b) {
                 return (a.botanical_name < b.botanical_name) ? -1 : (a.botanical_name > b.botanical_name) ? 1 : 0
             });
 
-            plant_list.forEach(function(p) {
-                let o = document.createElement('div');
-                o.classList.add('item');
-                o.innerText = p.botanical_name;
-                o.setAttribute('data-botanical', p.botanical_name);
-                data_list.appendChild(o);
-            });
+            buildDataList(plant_list);
         }
     };
     xmlhttp.open("GET", "https://www.plantle.app/plant-list.json", true);
@@ -65,6 +64,22 @@ document.addEventListener("DOMContentLoaded", function() {
     start_button.addEventListener('click', function() {
         game_difficulty = document.querySelector('input[name=difficulty]:checked').value;
         game_difficulty_box.style.display = 'none';
+        filters_box.style.display = 'none';
+        filters = document.querySelectorAll('input.filters_tags');
+
+        let filters_applied = Array.from(filters).filter(node => node.checked).map(node => node.value);
+
+        // Apply filters
+        if (filters_applied.length > 0) {
+            master_plant_list.forEach(function(p) {
+                if (!p.tags.some((tag => filters_applied.includes(tag)))) {
+                    console.log(p.tags);
+                    plant_list = removePlantFromList(plant_list, p)
+                }
+            });
+            plant_list_in_play = plant_list.slice();
+            buildDataList(plant_list); // Needs rebuilding
+        }
 
         // Set the sample card based on the difficulty level
         if (game_difficulty === DIFFICULTY_HARD) {
@@ -337,6 +352,21 @@ document.addEventListener("DOMContentLoaded", function() {
     function removePlantFromList(list, plant) {
         list.splice(list.map(e => e.botanical_name).indexOf(plant.botanical_name), 1);
         return list;
+    }
+
+    /**
+     * Builds a data list from the given list
+     * @param list
+     */
+    function buildDataList(list) {
+        data_list.innerHTML = '';
+        list.forEach(function(p) {
+            let o = document.createElement('div');
+            o.classList.add('item');
+            o.innerText = p.botanical_name;
+            o.setAttribute('data-botanical', p.botanical_name);
+            data_list.appendChild(o);
+        });
     }
 
     /**
