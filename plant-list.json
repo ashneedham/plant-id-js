@@ -4177,5 +4177,46 @@
         "tags": [
             "PCA2"
         ]
+    },
+    {
+        "common_name": "Blue corydalis",
+        "botanical_name": "Corydalis flexuosa",
+        "pictures": [
+            {
+                "credit_owner": "Photo by David J. Stang",
+                "credit_date": "2007-05-21",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Corydalis_flexuosa_Blue_Panda_0zz.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Corydalis_flexuosa_1.jpg"
+            },
+            {
+                "credit_owner": "Photo by David J. Stang",
+                "credit_date": "2007-05-21",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Corydalis_flexuosa_Blue_Panda_1zz.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Corydalis_flexuosa_2.jpg"
+            },
+            {
+                "credit_owner": "Ghislain118 http:\/\/www.fleurs-des-montagnes.net",
+                "credit_date": "2010-04-11 01:45:52",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Corydalis_flexuosa_%27China_Blue%27_2.JPG",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/3.0",
+                "filename": "Corydalis_flexuosa_3.jpg"
+            },
+            {
+                "credit_owner": "Krzysztof Ziarnek, Kenraiz",
+                "credit_date": "2017-11-16 01:29:24",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Corydalis_flexuosa_%27China_Blue%27_kz01.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Corydalis_flexuosa_4.jpg"
+            },
+            {
+                "credit_owner": "Photo by David J. Stang",
+                "credit_date": "2007-05-21",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Corydalis_flexuosa_Purple_Leaf_1zz.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Corydalis_flexuosa_5.jpg"
+            }
+        ]
     }
 ]
