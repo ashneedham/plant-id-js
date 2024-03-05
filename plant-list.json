@@ -1570,6 +1570,20 @@
                 "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Hamamelis_mollis_(Chinese_Witch-hazel)_(36392133403).jpg",
                 "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/2.0",
                 "filename": "Hamamelis_mollis_4.jpg"
+            },
+            {
+                "credit_owner": "Plant Image Library from Boston, USA",
+                "credit_date": "2017-03-23 16:02",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Hamamelis_mollis_(Chinese_Witch-hazel)_(33611128405).jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/2.0",
+                "filename": "Hamamelis_mollis_5.jpg"
+            },
+            {
+                "credit_owner": "Plant Image Library from Boston, USA",
+                "credit_date": "2017-12-15 16:40",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Hamamelis_mollis_(Chinese_Witch-hazel)_(24215977227).jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/2.0",
+                "filename": "Hamamelis_mollis_6.jpg"
             }
         ],
         "tags": [
@@ -1931,6 +1945,20 @@
                 "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Quercus_robur_RF.jpg",
                 "licence_url": "https:\/\/creativecommons.org\/licenses\/by\/4.0",
                 "filename": "Quercus_robur_5.jpg"
+            },
+            {
+                "credit_owner": "JonRichfield",
+                "credit_date": "2011-07-05",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Dormant_buds_on_twig_of_English_Oak_Quercus_robur_5523.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/3.0",
+                "filename": "Quercus_robur_6.jpg"
+            },
+            {
+                "credit_owner": "Mehmet Karatay",
+                "credit_date": "2007-06",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Pedunculate_oak_leaves_2.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/3.0",
+                "filename": "Quercus_robur_7.jpg"
             }
         ],
         "tags": [
@@ -4234,6 +4262,71 @@
         ],
         "tags": [
             "PCA2"
+        ]
+    },
+    {
+        "common_name": "Common beech",
+        "botanical_name": "Fagus sylvatica",
+        "pictures": [
+            {
+                "credit_owner": "Dominicus Johannes Bergsma",
+                "credit_date": "2020-12-18 14:07:58",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Opengebarsten_lege_vrucht_(nap)_van_beuk_(Fagus_sylvatica)_18-12-2020_(d.j.b.)_01.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Fagus_sylvatica_1.jpg"
+            },
+            {
+                "credit_owner": "Michel Langeveld",
+                "credit_date": "2020-06-24",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Fagus_sylvatica_95509787.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Fagus_sylvatica_2.jpg"
+            },
+            {
+                "credit_owner": "Michel Langeveld",
+                "credit_date": "2021-12-12",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Fagus_sylvatica_172180221.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Fagus_sylvatica_3.jpg"
+            },
+            {
+                "credit_owner": "Alexis",
+                "credit_date": "2020-12-29",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Fagus_sylvatica_108981129.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by\/4.0",
+                "filename": "Fagus_sylvatica_4.jpg"
+            },
+            {
+                "credit_owner": "tylototriton",
+                "credit_date": "2021-04-25",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Fagus_sylvatica_123229930.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by\/4.0",
+                "filename": "Fagus_sylvatica_5.jpg"
+            },
+            {
+                "credit_owner": "Fagus_sylvatica_020.jpg: Willow\nderivative work: Bff (talk)",
+                "credit_date": "2011-02-22 11:14",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Fagus_sylvatica_020-2.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by\/2.5",
+                "filename": "Fagus_sylvatica_6.jpg"
+            },
+            {
+                "credit_owner": "Mirek256",
+                "credit_date": "2020-07-04 07:32:17",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Fagus_sylvatica_seeds.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Fagus_sylvatica_7.jpg"
+            },
+            {
+                "credit_owner": "Krzysztof Golik",
+                "credit_date": "2017-05-23 11:12:42",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Fagus_sylvatica_in_Jardin_Botanique_de_l%27Aubrac_07.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Fagus_sylvatica_8.jpg"
+            }
+        ],
+        "tags": [
+            "PCA1"
         ]
     }
 ]
