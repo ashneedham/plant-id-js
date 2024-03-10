@@ -47,7 +47,8 @@
             }
         ],
         "tags": [
-            "PCA1"
+            "PCA1",
+            "PCA2"
         ]
     },
     {
@@ -98,7 +99,8 @@
             }
         ],
         "tags": [
-            "PCA1"
+            "PCA1",
+            "PCA2"
         ]
     },
     {
@@ -179,7 +181,8 @@
             }
         ],
         "tags": [
-            "PCA1"
+            "PCA1",
+            "PCA2"
         ]
     },
     {
@@ -216,7 +219,8 @@
             }
         ],
         "tags": [
-            "PCA1"
+            "PCA1",
+            "PCA2"
         ]
     },
     {
@@ -582,7 +586,8 @@
             }
         ],
         "tags": [
-            "PCA1"
+            "PCA1",
+            "PCA2"
         ]
     },
     {
@@ -3475,6 +3480,48 @@
                 "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Canna_indica_(1).jpg",
                 "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
                 "filename": "Canna_indica_5.jpg"
+            },
+            {
+                "credit_owner": "Hameltion",
+                "credit_date": "2023-06-27 15:12:03",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Canna_indica_at_Coker_Arboretum_01.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Canna_indica_6.jpg"
+            },
+            {
+                "credit_owner": "Dolon Prova",
+                "credit_date": "2018-02-18 09:06:04",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Canna_indica_Flower.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Canna_indica_7.jpg"
+            },
+            {
+                "credit_owner": "Shijan Kaakkara",
+                "credit_date": "2015-02-21 06:45:02",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Canna_Indica_-_%E0%B4%A4%E0%B5%8B%E0%B4%9F%E0%B5%8D%E0%B4%9F%E0%B4%B5%E0%B4%BE%E0%B4%B4_16.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Canna_indica_8.jpg"
+            },
+            {
+                "credit_owner": "Shijan Kaakkara",
+                "credit_date": "2017-08-22 20:26:48",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Canna_Indica_-_%E0%B4%A4%E0%B5%8B%E0%B4%9F%E0%B5%8D%E0%B4%9F%E0%B4%B5%E0%B4%BE%E0%B4%B4_14.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Canna_indica_9.jpg"
+            },
+            {
+                "credit_owner": "Shijan Kaakkara",
+                "credit_date": "2017-08-22 20:26:39",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Canna_Indica_-_%E0%B4%A4%E0%B5%8B%E0%B4%9F%E0%B5%8D%E0%B4%9F%E0%B4%B5%E0%B4%BE%E0%B4%B4_13.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Canna_indica_10.jpg"
+            },
+            {
+                "credit_owner": "Dolon Prova",
+                "credit_date": "2018-02-18 09:05:40",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Canna_indica_(1).jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Canna_indica_11.jpg"
             }
         ],
         "tags": [
@@ -4327,6 +4374,532 @@
         ],
         "tags": [
             "PCA1"
+        ]
+    },
+    {
+        "common_name": "Indian shot",
+        "botanical_name": "Canna indica",
+        "pictures": [
+            {
+                "credit_owner": "Hameltion",
+                "credit_date": "2023-06-27 15:12:03",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Canna_indica_at_Coker_Arboretum_01.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Canna_indica_1.jpg"
+            },
+            {
+                "credit_owner": "Dolon Prova",
+                "credit_date": "2018-02-18 09:06:04",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Canna_indica_Flower.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Canna_indica_2.jpg"
+            },
+            {
+                "credit_owner": "Shijan Kaakkara",
+                "credit_date": "2015-02-21 06:45:02",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Canna_Indica_-_%E0%B4%A4%E0%B5%8B%E0%B4%9F%E0%B5%8D%E0%B4%9F%E0%B4%B5%E0%B4%BE%E0%B4%B4_16.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Canna_indica_3.jpg"
+            },
+            {
+                "credit_owner": "Shijan Kaakkara",
+                "credit_date": "2017-08-22 20:26:48",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Canna_Indica_-_%E0%B4%A4%E0%B5%8B%E0%B4%9F%E0%B5%8D%E0%B4%9F%E0%B4%B5%E0%B4%BE%E0%B4%B4_14.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Canna_indica_4.jpg"
+            },
+            {
+                "credit_owner": "Shijan Kaakkara",
+                "credit_date": "2017-08-22 20:26:39",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Canna_Indica_-_%E0%B4%A4%E0%B5%8B%E0%B4%9F%E0%B5%8D%E0%B4%9F%E0%B4%B5%E0%B4%BE%E0%B4%B4_13.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Canna_indica_5.jpg"
+            },
+            {
+                "credit_owner": "Dolon Prova",
+                "credit_date": "2018-02-18 09:05:40",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Canna_indica_(1).jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Canna_indica_6.jpg"
+            }
+        ],
+        "tags": [
+            "PCA2"
+        ]
+    },
+    {
+        "common_name": "Common hawthorn",
+        "botanical_name": "Crataegus monogyna",
+        "pictures": [
+            {
+                "credit_owner": "Sdjurovic",
+                "credit_date": "2023-05-02 13:52:31",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:20230502_135231_Crataegus_monogyna_Jacq.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Crataegus_monogyna_1.jpg"
+            },
+            {
+                "credit_owner": "Agnieszka Kwiecie\u0144, Nova",
+                "credit_date": "2020-12-30",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Crataegus_monogyna_G%C5%82%C3%B3g_jednoszyjkowy_2020-12-30_01.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Crataegus_monogyna_2.jpg"
+            },
+            {
+                "credit_owner": "\nDidier Descouens",
+                "credit_date": "Taken on\u00a027 April 2021",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:(MHNT)_Crataegus_monogyna_-_Leaves_and_stipules.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Crataegus_monogyna_3.jpg"
+            },
+            {
+                "credit_owner": "Agnieszka Kwiecie\u0144, Nova",
+                "credit_date": "2021-10-02",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Crataegus_monogyna_G%C5%82%C3%B3g_jednoszyjkowy_2021-10-02_05.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Crataegus_monogyna_4.jpg"
+            },
+            {
+                "credit_owner": "\nDidier Descouens",
+                "credit_date": "Taken on\u00a08 August 2021",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:(MHNT)_Crataegus_monogyna_-_Fruits.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Crataegus_monogyna_5.jpg"
+            }
+        ],
+        "tags": [
+            "PCA2"
+        ]
+    },
+    {
+        "common_name": "Purple coneflower",
+        "botanical_name": "Echinacea purpurea `Alba`",
+        "pictures": [
+            {
+                "credit_owner": "Ghislain118 (AD) http:\/\/www.fleurs-des-montagnes.net",
+                "credit_date": "2009-01-16 22:56:27",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Echinacea_purpurea_%27alba%27.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/3.0",
+                "filename": "Echinacea_purpurea_`Alba`_1.jpg"
+            },
+            {
+                "credit_owner": "Cephas",
+                "credit_date": "2023-09-16 07:24:18",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Echinacea_purpurea_Spinus_tristis_JRVdH_12.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Echinacea_purpurea_`Alba`_2.jpg"
+            },
+            {
+                "credit_owner": "W. Bulach",
+                "credit_date": "2021-09-05 11:13:21",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:00_5002_Purpur-Sonnenhut_(Echinacea_purpurea).jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Echinacea_purpurea_`Alba`_3.jpg"
+            },
+            {
+                "credit_owner": "Cephas",
+                "credit_date": "2022-09-28 07:39:04",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Echinacea_purpurea_Spinus_tristis_JRVdH_07.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Echinacea_purpurea_`Alba`_4.jpg"
+            }
+        ],
+        "tags": [
+            "PCA2"
+        ]
+    },
+    {
+        "common_name": "Tall eryngo",
+        "botanical_name": "Eryngium giganteum `Silver Ghost`",
+        "pictures": [
+            {
+                "credit_owner": "Photograph by Mike Peel (www.mikepeel.net).",
+                "credit_date": "2009-07-24",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Eryngium_giganteum_%27Silver_Ghost%27_1.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Eryngium_giganteum_`Silver_Ghost`_1.jpg"
+            },
+            {
+                "credit_owner": "Magnus Manske",
+                "credit_date": "2009-09-20",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Eryngium_giganteum_%22Silver_Ghost%22_(Eryngium)_plant).JPG",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/3.0",
+                "filename": "Eryngium_giganteum_`Silver_Ghost`_2.jpg"
+            },
+            {
+                "credit_owner": "Ulimw",
+                "credit_date": "2020-06-12 11:46:28",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Eryngium_giganteum_Elfenbein_Mannstreu_Ulimw_2020.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Eryngium_giganteum_`Silver_Ghost`_3.jpg"
+            },
+            {
+                "credit_owner": "Haeferl",
+                "credit_date": "2022-07-23 12:22:44",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Klaffer_-_Kr%C3%A4utergarten_-_Elfenbein-Mannstreu_(Eryngium_giganteum)_-_2.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Eryngium_giganteum_`Silver_Ghost`_4.jpg"
+            }
+        ],
+        "tags": [
+            "PCA2"
+        ]
+    },
+    {
+        "common_name": "Common heliotrope",
+        "botanical_name": "Heliotropium arborescens",
+        "pictures": [
+            {
+                "credit_owner": "Photo (c)2006 Derek Ramsey (Ram-Man)",
+                "credit_date": "2006-09-09",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Heliotropium_arborescens_%27Mini_Marine%27_Heliotrope_Flower_2500px.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/2.5",
+                "filename": "Heliotropium_arborescens_1.jpg"
+            },
+            {
+                "credit_owner": "Photo by David J. Stang",
+                "credit_date": "2007-04-18",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Heliotropium_arborescens_Marine_3zz.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Heliotropium_arborescens_2.jpg"
+            },
+            {
+                "credit_owner": "Niepok\u00f3j Zbigniew",
+                "credit_date": "2017-06-14 11:32:21",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Heliotrop._Heliotropium_arborescens_01.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Heliotropium_arborescens_3.jpg"
+            },
+            {
+                "credit_owner": "Photo by David J. Stang",
+                "credit_date": "2007-04-18",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Heliotropium_arborescens_Marine_2zz.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Heliotropium_arborescens_4.jpg"
+            },
+            {
+                "credit_owner": "H. Zell",
+                "credit_date": "2009-06-27",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Heliotropium_arborescens_002.JPG",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/3.0",
+                "filename": "Heliotropium_arborescens_5.jpg"
+            },
+            {
+                "credit_owner": "Photo (c)2006 Derek Ramsey (Ram-Man)",
+                "credit_date": "2006-09-09",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Heliotropium_arborescens_%27Mini_Marine%27_Heliotrope_Leaves_2580px.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/2.5",
+                "filename": "Heliotropium_arborescens_6.jpg"
+            }
+        ],
+        "tags": [
+            "PCA2"
+        ]
+    },
+    {
+        "common_name": "Cardinal flower",
+        "botanical_name": "Lobelia cardinalis",
+        "pictures": [
+            {
+                "credit_owner": "Hardyplants",
+                "credit_date": "2020-03-01 03:16:49",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Lobelia_cardinalis_habit.jpg",
+                "licence_url": "http:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/deed.en",
+                "filename": "Lobelia_cardinalis_1.jpg"
+            },
+            {
+                "credit_owner": "Photo by David J. Stang",
+                "credit_date": "2005-09-16",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Lobelia_cardinalis_7zz.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Lobelia_cardinalis_2.jpg"
+            },
+            {
+                "credit_owner": "sonnia hill",
+                "credit_date": "2021-09-17 11:19:56",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Lobelia_cardinalis_-_51500370772.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by\/2.0",
+                "filename": "Lobelia_cardinalis_3.jpg"
+            },
+            {
+                "credit_owner": "Krzysztof Ziarnek, Kenraiz",
+                "credit_date": "2016-08-30 23:24:07",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Lobelia_cardinalis_kz1.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Lobelia_cardinalis_4.jpg"
+            },
+            {
+                "credit_owner": "\nAyotte, Gilles, 1948-",
+                "credit_date": null,
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Lobelia_cardinalis_15-p.bot-lobel.card-034.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Lobelia_cardinalis_5.jpg"
+            },
+            {
+                "credit_owner": "Photo by David J. Stang",
+                "credit_date": "2006-08-03",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Lobelia_cardinalis_17zz.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Lobelia_cardinalis_6.jpg"
+            }
+        ],
+        "tags": [
+            "PCA2"
+        ]
+    },
+    {
+        "common_name": "Common honeysuckle",
+        "botanical_name": "Lonicera periclymenum `Serotina`",
+        "pictures": [
+            {
+                "credit_owner": "Salicyna",
+                "credit_date": "2018-04-11 11:25:25",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Lonicera_periclymenum_Serotina_2018-04-11_8142.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Lonicera_periclymenum_`Serotina`_1.jpg"
+            },
+            {
+                "credit_owner": "Salicyna",
+                "credit_date": "2018-06-07 18:12:27",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Lonicera_periclymenum_Serotina_2018-06-07_3240.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Lonicera_periclymenum_`Serotina`_2.jpg"
+            },
+            {
+                "credit_owner": "Salicyna",
+                "credit_date": "2017-04-30 13:51:33",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Lonicera_periclymenum_Serotina_2017-04-30_8866.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Lonicera_periclymenum_`Serotina`_3.jpg"
+            },
+            {
+                "credit_owner": "Salicyna",
+                "credit_date": "2017-04-30 13:50:34",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Lonicera_periclymenum_Serotina_2017-04-30_8861.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Lonicera_periclymenum_`Serotina`_4.jpg"
+            },
+            {
+                "credit_owner": "Salicyna",
+                "credit_date": "2018-06-07 18:12:34",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Lonicera_periclymenum_Serotina_2018-06-07_3241.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Lonicera_periclymenum_`Serotina`_5.jpg"
+            },
+            {
+                "credit_owner": "Krzysztof Ziarnek, Kenraiz",
+                "credit_date": "2020-03-26 13:21:36",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Lonicera_periclymenum_kz11.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Lonicera_periclymenum_`Serotina`_6.jpg"
+            },
+            {
+                "credit_owner": "Michel Langeveld",
+                "credit_date": "2022-03-20",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Lonicera_periclymenum_183726919.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Lonicera_periclymenum_`Serotina`_7.jpg"
+            },
+            {
+                "credit_owner": "Stephen James McWilliam",
+                "credit_date": "2022-04-03",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Lonicera_periclymenum_189829964.jpg",
+                "licence_url": "http:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/deed.en",
+                "filename": "Lonicera_periclymenum_`Serotina`_8.jpg"
+            }
+        ],
+        "tags": [
+            "PCA2"
+        ]
+    },
+    {
+        "common_name": "Common evening primrose",
+        "botanical_name": "Oenothera biennis",
+        "pictures": [
+            {
+                "credit_owner": "",
+                "credit_date": null,
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Oenothera_biennis_20050825_962.jpg",
+                "licence_url": "http:\/\/creativecommons.org\/licenses\/by-sa\/3.0\/",
+                "filename": "Oenothera_biennis_1.jpg"
+            },
+            {
+                "credit_owner": "Accuruss",
+                "credit_date": "2020-08-11 20:22:51",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Evening_Primrose_(Oenothera_Biennis).jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Oenothera_biennis_2.jpg"
+            },
+            {
+                "credit_owner": "Cbaile19",
+                "credit_date": "2022-08-30 10:03:22",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Oenothera_biennis,_2022-08-30,_South_Side_Slopes,_01.jpg",
+                "licence_url": "http:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/deed.en",
+                "filename": "Oenothera_biennis_3.jpg"
+            },
+            {
+                "credit_owner": "Enrico Blasutto",
+                "credit_date": "2006-10-29 12:03:53",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Oenothera_biennis_ENBLA10.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Oenothera_biennis_4.jpg"
+            },
+            {
+                "credit_owner": "Enrico Blasutto",
+                "credit_date": "2006-10-29 12:04:21",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Oenothera_biennis_ENBLA11.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Oenothera_biennis_5.jpg"
+            },
+            {
+                "credit_owner": "Meneerke bloem",
+                "credit_date": "2022-09-17",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Oenothera_biennis_002.JPG",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Oenothera_biennis_6.jpg"
+            },
+            {
+                "credit_owner": "Sunny365days",
+                "credit_date": "2017-07-11 14:36:55",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Oenothera_biennis_IMG_1287_03.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Oenothera_biennis_7.jpg"
+            }
+        ],
+        "tags": [
+            "PCA2"
+        ]
+    },
+    {
+        "common_name": "Perennial phlox",
+        "botanical_name": "Phlox paniculata",
+        "pictures": [
+            {
+                "credit_owner": "Kristian Peters -- Fabelfroh 08:34, 24 September 2005 (UTC)",
+                "credit_date": "created 24.9.2005",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Phlox_paniculata_eva_cullum.jpeg",
+                "licence_url": "http:\/\/creativecommons.org\/licenses\/by-sa\/3.0\/",
+                "filename": "Phlox_paniculata_1.jpg"
+            },
+            {
+                "credit_owner": "Frank K.",
+                "credit_date": "2008-08-31 17:47:20",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Fall_Phlox_(Phlox_paniculata)_in_a_West_Seattle_park.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by\/2.0",
+                "filename": "Phlox_paniculata_2.jpg"
+            },
+            {
+                "credit_owner": "Dinesh Valke from Thane, India",
+                "credit_date": "2007-01-28 16:35",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Phlox_paniculata_(372193348).jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/2.0",
+                "filename": "Phlox_paniculata_3.jpg"
+            },
+            {
+                "credit_owner": "Uleli",
+                "credit_date": "2010-08",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Phlox_paniculata_Europa3_(2).JPG",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by\/3.0",
+                "filename": "Phlox_paniculata_4.jpg"
+            }
+        ],
+        "tags": [
+            "PCA2"
+        ]
+    },
+    {
+        "common_name": "African marigold",
+        "botanical_name": "Tagetes erecta",
+        "pictures": [
+            {
+                "credit_owner": "Dolon Prova",
+                "credit_date": "2018-02-21 11:56:13",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Tagetes_Erecta_Flower.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Tagetes_erecta_1.jpg"
+            },
+            {
+                "credit_owner": "Sabina Bajracharya",
+                "credit_date": "2020-04-05 10:42:34",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Tagetes_Erecta-Flower_02.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Tagetes_erecta_2.jpg"
+            },
+            {
+                "credit_owner": "JDP90 (Joydeep)",
+                "credit_date": "2013-01-30",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Tagetes_erecta,_Burdwan,_West_Bengal,_India_30_01_2013.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/3.0",
+                "filename": "Tagetes_erecta_3.jpg"
+            },
+            {
+                "credit_owner": "Wee Hong",
+                "credit_date": "2019-02-09 14:00:48",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Tagetes_erecta_(190209-1400).jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Tagetes_erecta_4.jpg"
+            },
+            {
+                "credit_owner": "Sixflashphoto",
+                "credit_date": "2018-08-15 17:06:42",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Inniswood_-_Tagetes_erecta_1.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Tagetes_erecta_5.jpg"
+            }
+        ],
+        "tags": [
+            "PCA2"
+        ]
+    },
+    {
+        "common_name": "Purple top",
+        "botanical_name": "Verbena bonariensis",
+        "pictures": [
+            {
+                "credit_owner": "frank wouters",
+                "credit_date": "2007-07-21 17:02:41",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Verbena_bonariensis.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by\/2.0",
+                "filename": "Verbena_bonariensis_1.jpg"
+            },
+            {
+                "credit_owner": "Photo by David J. Stang",
+                "credit_date": "2006-08-06",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Verbena_bonariensis_11zz.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Verbena_bonariensis_2.jpg"
+            },
+            {
+                "credit_owner": "Dominicus Johannes Bergsma",
+                "credit_date": "2021-08-28 14:14:15",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Verbena_bonariensis,_bloeiwijze._28-08-2021._(d.j.b)_01.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Verbena_bonariensis_3.jpg"
+            },
+            {
+                "credit_owner": "Photo by David J. Stang",
+                "credit_date": "2006-08-11",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Verbena_bonariensis_15zz.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Verbena_bonariensis_4.jpg"
+            },
+            {
+                "credit_owner": "Photo by David J. Stang",
+                "credit_date": "2006-08-11",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Verbena_bonariensis_19zz.jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Verbena_bonariensis_5.jpg"
+            },
+            {
+                "credit_owner": "Andrea Moro",
+                "credit_date": "2005-10-05",
+                "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Verbena_bonariensis_flower_(02).jpg",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Verbena_bonariensis_6.jpg"
+            }
+        ],
+        "tags": [
+            "PCA2"
         ]
     }
 ]
