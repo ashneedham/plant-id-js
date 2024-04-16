@@ -541,6 +541,10 @@ dialog h2 {
   text-transform: uppercase;
   margin-bottom: 1em;
 }
+dialog p {
+  font-size: 1.4rem;
+  max-width: 280px;
+}
 dialog .inner {
   font-size: 1.6em;
   margin-bottom: 1em;
@@ -600,6 +604,9 @@ body.unlocked header {
   transition: all 1s;
 }
 
+#controls #learn {
+  margin: 2em auto 1em auto;
+}
 #controls #start {
   margin: 2em auto 0 auto;
 }
@@ -752,6 +759,16 @@ body.unlocked #score-board {
 }
 #game-difficulty .option label, #filters .option label {
   cursor: pointer;
+}
+#game-difficulty .option p, #filters .option p {
+  font-size: 1.1rem;
+  margin: 0.3em 0 0.6em;
+  padding-left: 2.4em;
+  text-transform: none;
+}
+
+#filters {
+  margin-top: 5rem;
 }
 
 #game-difficulty {

@@ -16,6 +16,9 @@ document.addEventListener("DOMContentLoaded", function() {
         filters = [],
         data_list = document.getElementById('full-plant-list'),
         plant_list_modal = document.getElementById('plant-list'),
+        challenge_difficulty_modal = document.getElementById('challenge-difficulty'),
+        learn_button = document.getElementById('learn'),
+        challenge_button = document.getElementById('challenge'),
         start_button = document.getElementById('start'),
         play_again_button = document.getElementById('play-again'),
         blank_card = sample_card.cloneNode(true),
@@ -41,6 +44,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     blank_card.removeAttribute('id');
     sample_card.remove();
+    score_board.style.visibility = 'hidden';
 
     // Get list
     let xmlhttp = new XMLHttpRequest();
@@ -60,12 +64,18 @@ document.addEventListener("DOMContentLoaded", function() {
     xmlhttp.open("GET", "https://www.plantle.app/plant-list.json", true);
     xmlhttp.send();
 
+    // Challenge button action
+    challenge_button.addEventListener('click', function() {
+        challenge_difficulty_modal.showModal();
+    });
+
     // Start game
     start_button.addEventListener('click', function() {
         game_difficulty = document.querySelector('input[name=difficulty]:checked').value;
-        game_difficulty_box.style.display = 'none';
         filters_box.style.display = 'none';
+        challenge_difficulty_modal.close();
         filters = document.querySelectorAll('input.filters_tags');
+        score_board.style.visibility = 'visible';
 
         let filters_applied = Array.from(filters).filter(node => node.checked).map(node => node.value);
 
