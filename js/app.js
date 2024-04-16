@@ -94,7 +94,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
 
         blank_card.querySelector('.answers.easy').style.display = 'none';
-        blank_card.querySelector('.answers .answer').style.visibility = 'hidden';
+        blank_card.querySelector('.answers .answer').style.display = 'none';
 
         data_list.querySelectorAll('.item').forEach(function(item) {
             item.addEventListener('click', function() {
