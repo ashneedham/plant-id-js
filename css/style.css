@@ -487,12 +487,12 @@ h3 {
 .answers.hard .botanical-name.selected:before {
   display: none;
 }
-.answers.hard .common-name {
+.answers.hard .common-name, .answers.hard .description {
   display: block;
   margin-bottom: 0.5em;
   transition: filter 0.3s;
 }
-.answers.hard .common-name.blurred {
+.answers.hard .common-name.blurred, .answers.hard .description.blurred {
   filter: blur(0.3em);
   transition: filter 0.3s;
 }

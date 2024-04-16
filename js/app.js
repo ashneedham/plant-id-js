@@ -207,6 +207,7 @@ document.addEventListener("DOMContentLoaded", function() {
         new_card.setAttribute('id', 'card_'+round_number);
         new_card.setAttribute('data-botanical', chosen_plant.botanical_name);
         new_card.querySelector('.common-name').innerText = chosen_plant.common_name;
+        new_card.querySelector('.description').innerText = chosen_plant.description ?? '';
         picture.style.backgroundImage = 'url("img/photos/'+photo.filename+'")';
         copyright_text.innerHTML = '<a href="' + photo.credit_url + '" target="_blank">' + photo.credit_owner + '</a> <br> ' + photo.credit_date + ' <br> <a href="' + photo.licence_url + '" target="_blank">Licence</a>';
 
@@ -219,6 +220,7 @@ document.addEventListener("DOMContentLoaded", function() {
         botanical_name.innerText = new_card.getAttribute('data-botanical');
         botanical_name.classList.add('selected');
         new_card.querySelector('.common-name').classList.remove('blurred');
+        new_card.querySelector('.description').classList.remove('blurred');
 
         // Show
         deck.appendChild(new_card);
@@ -259,6 +261,7 @@ document.addEventListener("DOMContentLoaded", function() {
         new_card.setAttribute('id', 'card_'+round_number);
         new_card.setAttribute('data-botanical', chosen_plant.botanical_name);
         new_card.querySelector('.common-name').innerText = chosen_plant.common_name;
+        new_card.querySelector('.description').innerText = chosen_plant.description ?? '';
         picture.style.backgroundImage = 'url("img/photos/'+photo.filename+'")';
         copyright_text.innerHTML = '<a href="' + photo.credit_url + '" target="_blank">' + photo.credit_owner + '</a> <br> ' + photo.credit_date + ' <br> <a href="' + photo.licence_url + '" target="_blank">Licence</a>';
 
@@ -278,6 +281,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     botanical_name.classList.add('selected');
                     new_card.querySelector('.answer').innerText = answer;
                     new_card.querySelector('.common-name').classList.remove('blurred');
+                    new_card.querySelector('.description').classList.remove('blurred');
 
                     if (new_card.getAttribute('data-botanical') === answer) {
                         correctAnswer(new_card, round_number, 1);
