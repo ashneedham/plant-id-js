@@ -16,6 +16,10 @@ document.addEventListener("DOMContentLoaded", function() {
         filters = [],
         data_list = document.getElementById('full-plant-list'),
         plant_list_modal = document.getElementById('plant-list'),
+        challenge_difficulty_modal = document.getElementById('challenge-difficulty'),
+        learn_button = document.getElementById('learn'),
+        learn_next_button = document.getElementById('learn-next'),
+        challenge_button = document.getElementById('challenge'),
         start_button = document.getElementById('start'),
         play_again_button = document.getElementById('play-again'),
         blank_card = sample_card.cloneNode(true),
@@ -35,12 +39,16 @@ document.addEventListener("DOMContentLoaded", function() {
         rounds_correct_answers = [],
         selected_answer = null,
         check_answer_callback = null,
+        learn_next_callback = null,
         master_plant_list = null,
         plant_list = null,
         plant_list_in_play = null;
 
     blank_card.removeAttribute('id');
     sample_card.remove();
+    score_board.style.visibility = 'hidden';
+    hideButton(learn_next_button);
+    hideButton(play_again_button);
 
     // Get list
     let xmlhttp = new XMLHttpRequest();
@@ -60,12 +68,17 @@ document.addEventListener("DOMContentLoaded", function() {
     xmlhttp.open("GET", "https://www.plantle.app/plant-list.json", true);
     xmlhttp.send();
 
-    // Start game
-    start_button.addEventListener('click', function() {
-        game_difficulty = document.querySelector('input[name=difficulty]:checked').value;
-        game_difficulty_box.style.display = 'none';
+    // Challenge button action
+    challenge_button.addEventListener('click', function() {
+        challenge_difficulty_modal.showModal();
+    });
+
+    // Learn mode
+    learn_button.addEventListener('click', function() {
         filters_box.style.display = 'none';
         filters = document.querySelectorAll('input.filters_tags');
+        showButton(learn_next_button);
+        spreadCards();
 
         let filters_applied = Array.from(filters).filter(node => node.checked).map(node => node.value);
 
@@ -73,7 +86,47 @@ document.addEventListener("DOMContentLoaded", function() {
         if (filters_applied.length > 0) {
             master_plant_list.forEach(function(p) {
                 if (!p.tags.some((tag => filters_applied.includes(tag)))) {
-                    console.log(p.tags);
+                    plant_list = removePlantFromList(plant_list, p)
+                }
+            });
+            plant_list_in_play = plant_list.slice();
+            buildDataList(plant_list); // Needs rebuilding
+        }
+
+        blank_card.querySelector('.answers.easy').style.display = 'none';
+        blank_card.querySelector('.answers .answer').style.visibility = 'hidden';
+
+        data_list.querySelectorAll('.item').forEach(function(item) {
+            item.addEventListener('click', function() {
+                selected_answer = this.getAttribute('data-botanical');
+                plant_list_modal.close();
+                check_answer_callback(selected_answer);
+            });
+        });
+
+        learnRound(plant_list_in_play, 1);
+    });
+
+    learn_next_button.addEventListener('click', function() {
+        learn_next_callback();
+        scrollToBottom();
+    });
+
+    // Start challenge
+    start_button.addEventListener('click', function() {
+        game_difficulty = document.querySelector('input[name=difficulty]:checked').value;
+        filters_box.style.display = 'none';
+        challenge_difficulty_modal.close();
+        filters = document.querySelectorAll('input.filters_tags');
+        score_board.style.visibility = 'visible';
+        blank_card.querySelector('.answers .answer').style.visibility = 'visible';
+
+        let filters_applied = Array.from(filters).filter(node => node.checked).map(node => node.value);
+
+        // Apply filters
+        if (filters_applied.length > 0) {
+            master_plant_list.forEach(function(p) {
+                if (!p.tags.some((tag => filters_applied.includes(tag)))) {
                     plant_list = removePlantFromList(plant_list, p)
                 }
             });
@@ -126,6 +179,65 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 
+    /**
+     * Displays a new card for a given learn round
+     * @param plant_list_provided
+     * @param round_number
+     * @return {{botanical_name: string, common_name: string, pictures: string[]}|{botanical_name: string, common_name: string, pictures}|{botanical_name: string, common_name: string, pictures: string[]}|{botanical_name: string, common_name: string, pictures: string[]}}
+     */
+    function learnRound(plant_list_provided, round_number) {
+        let new_card = blank_card.cloneNode(true)
+        new_card.style.zIndex = 100+round_number,
+            chosen_plant = getRandomPlant(plant_list_provided),
+            picture = new_card.getElementsByClassName('picture')[0],
+            copyright_block = new_card.getElementsByClassName('copyright')[0],
+            copyright_icon = copyright_block.getElementsByClassName('icon')[0],
+            copyright_text = copyright_block.getElementsByClassName('text')[0],
+            photo = getRandomPicture(chosen_plant);
+
+        // Remove chosen plant from list to prevent playing it more than once
+        plant_list_provided = removePlantFromList(plant_list_provided, chosen_plant);
+        current_round = round_number;
+
+        // Hide next button if ran out of cards
+        if (plant_list_provided.length === 0) {
+            hideButton(learn_next_button);
+        }
+
+        new_card.setAttribute('id', 'card_'+round_number);
+        new_card.setAttribute('data-botanical', chosen_plant.botanical_name);
+        new_card.querySelector('.common-name').innerText = chosen_plant.common_name;
+        new_card.querySelector('.description').innerText = chosen_plant.description ?? '';
+        picture.style.backgroundImage = 'url("img/photos/'+photo.filename+'")';
+        copyright_text.innerHTML = '<a href="' + photo.credit_url + '" target="_blank">' + photo.credit_owner + '</a> <br> ' + photo.credit_date + ' <br> <a href="' + photo.licence_url + '" target="_blank">Licence</a>';
+
+        copyright_icon.addEventListener('click', function() {
+            copy_info_inner.innerHTML = this.nextElementSibling.innerHTML;
+            copy_info_modal.showModal();
+        });
+
+        let botanical_name = new_card.querySelector('.botanical-name');
+        botanical_name.innerText = new_card.getAttribute('data-botanical');
+        botanical_name.classList.add('selected');
+        new_card.querySelector('.common-name').classList.remove('blurred');
+        new_card.querySelector('.description').classList.remove('blurred');
+
+        // Show
+        deck.appendChild(new_card);
+        new_card.classList.remove('hidden');
+
+        // Set autcomplete list and focus on text field when playing hard
+        if (game_difficulty === DIFFICULTY_HARD) {
+            // new_card.querySelector('input[name=answer]').focus();
+        }
+
+        learn_next_callback = function() {
+            learnRound(plant_list_provided, rounds_played+1);
+        };
+
+        return chosen_plant
+    }
+
 
     /**
      * Displays a new card for a given round and set triggers for correct answer
@@ -149,6 +261,7 @@ document.addEventListener("DOMContentLoaded", function() {
         new_card.setAttribute('id', 'card_'+round_number);
         new_card.setAttribute('data-botanical', chosen_plant.botanical_name);
         new_card.querySelector('.common-name').innerText = chosen_plant.common_name;
+        new_card.querySelector('.description').innerText = chosen_plant.description ?? '';
         picture.style.backgroundImage = 'url("img/photos/'+photo.filename+'")';
         copyright_text.innerHTML = '<a href="' + photo.credit_url + '" target="_blank">' + photo.credit_owner + '</a> <br> ' + photo.credit_date + ' <br> <a href="' + photo.licence_url + '" target="_blank">Licence</a>';
 
@@ -168,6 +281,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     botanical_name.classList.add('selected');
                     new_card.querySelector('.answer').innerText = answer;
                     new_card.querySelector('.common-name').classList.remove('blurred');
+                    new_card.querySelector('.description').classList.remove('blurred');
 
                     if (new_card.getAttribute('data-botanical') === answer) {
                         correctAnswer(new_card, round_number, 1);
@@ -231,8 +345,8 @@ document.addEventListener("DOMContentLoaded", function() {
             }, timeout);
         } else {
             setTimeout(function() {
-                document.body.classList.add('unlocked');
-                deck.classList.add('spread');
+                spreadCards();
+                showButton(play_again_button);
             }, timeout);
             setTimeout(function() {
                 final_score_inner.innerHTML = score.innerHTML;
@@ -397,5 +511,51 @@ document.addEventListener("DOMContentLoaded", function() {
         }
         return a;
     }
+
+    /**
+     * Unlock the body and spread the deck
+     */
+    function spreadCards() {
+        document.body.classList.add('unlocked');
+        deck.classList.add('spread');
+    }
+
+    /**
+     * Hide a button [display: none]
+     * @param btn
+     */
+    function hideButton(btn) {
+        btn.style.display = 'none';
+    }
+
+    /**
+     * Show a button [display: inline-block]
+     * @param btn
+     */
+    function showButton(btn) {
+        btn.style.display = 'inline-block';
+    }
+
+    /**
+     * Auto scroll to the bottom of the page
+     */
+    function scrollToBottom() {
+        let distanceToScroll = document.documentElement.scrollHeight - document.documentElement.scrollTop - window.innerHeight;
+        let scrollStep = Math.PI / (500 / 15);
+        let count = 0;
+        let cosParameter = distanceToScroll / 2;
+
+        let scrollInterval = setInterval(function() {
+            if (document.documentElement.scrollTop !== document.documentElement.scrollHeight - window.innerHeight) {
+                count = count + 1;
+                let scrollPosition = cosParameter - cosParameter * Math.cos(count * scrollStep);
+                window.scrollTo(0, (document.documentElement.scrollTop + scrollPosition));
+            }
+            else {
+                clearInterval(scrollInterval);
+            }
+        }, 15);
+    }
+
 
 });

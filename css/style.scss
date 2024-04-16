@@ -24,6 +24,7 @@ body {
   background-color: $colour-primary;
   font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
   overflow: hidden;
+  position: relative;
 
   &.unlocked {
     overflow: auto;
@@ -56,15 +57,12 @@ body.unlocked header {
 }
 
 #controls {
+  #learn {
+    margin: 2em auto 1em auto;
+  }
   #start {
     margin: 2em auto 0 auto;
   }
-  #play-again {
-    display: none;
-  }
-}
-
-body.unlocked #controls {
   #play-again {
     display: inline-block;
     margin: 1em 0;
@@ -99,6 +97,7 @@ body.unlocked #controls {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
+    max-width: 1300px;
     transition: all 2s;
     padding: 0 2rem 3.5rem 2rem;
     margin-top: 1.5em;
@@ -177,6 +176,13 @@ body.unlocked #controls {
   }
 }
 
+#learn-next {
+  width: 15rem;
+  position: absolute;
+  bottom: 1em;
+  left: calc(50% - 7.5rem);
+}
+
 body.unlocked #score-board {
   position: relative;
   left: auto;
@@ -207,10 +213,21 @@ body.unlocked #score-board {
     text-align: left;
     margin: 0 auto;
 
-      label {
-        cursor: pointer;
-      }
+    label {
+      cursor: pointer;
+    }
+
+    p {
+      font-size: 1.1rem;
+      margin: 0.3em 0 0.6em;
+      padding-left: 2.4em;
+      text-transform: none;
+    }
   }
+}
+
+#filters {
+  margin-top: 5rem;
 }
 
 #game-difficulty {
