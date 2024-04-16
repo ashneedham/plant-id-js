@@ -571,6 +571,7 @@ body {
   background-color: #dee5db;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   overflow: hidden;
+  position: relative;
 }
 body.unlocked {
   overflow: auto;
@@ -611,10 +612,6 @@ body.unlocked header {
   margin: 2em auto 0 auto;
 }
 #controls #play-again {
-  display: none;
-}
-
-body.unlocked #controls #play-again {
   display: inline-block;
   margin: 1em 0;
 }
@@ -650,6 +647,7 @@ body.unlocked #controls #play-again {
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
+  max-width: 1300px;
   transition: all 2s;
   padding: 0 2rem 3.5rem 2rem;
   margin-top: 1.5em;
@@ -726,6 +724,13 @@ body.unlocked #controls #play-again {
 }
 #score-board #score {
   display: inline;
+}
+
+#learn-next {
+  width: 15rem;
+  position: absolute;
+  bottom: 1em;
+  left: calc(50% - 7.5rem);
 }
 
 body.unlocked #score-board {
