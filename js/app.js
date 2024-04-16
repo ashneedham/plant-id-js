@@ -109,6 +109,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     learn_next_button.addEventListener('click', function() {
         learn_next_callback();
+        scrollToBottom();
     });
 
     // Start challenge
@@ -530,5 +531,27 @@ document.addEventListener("DOMContentLoaded", function() {
     function showButton(btn) {
         btn.style.display = 'inline-block';
     }
+
+    /**
+     * Auto scroll to the bottom of the page
+     */
+    function scrollToBottom() {
+        let distanceToScroll = document.documentElement.scrollHeight - document.documentElement.scrollTop - window.innerHeight;
+        let scrollStep = Math.PI / (500 / 15);
+        let count = 0;
+        let cosParameter = distanceToScroll / 2;
+
+        let scrollInterval = setInterval(function() {
+            if (document.documentElement.scrollTop !== document.documentElement.scrollHeight - window.innerHeight) {
+                count = count + 1;
+                let scrollPosition = cosParameter - cosParameter * Math.cos(count * scrollStep);
+                window.scrollTo(0, (document.documentElement.scrollTop + scrollPosition));
+            }
+            else {
+                clearInterval(scrollInterval);
+            }
+        }, 15);
+    }
+
 
 });
