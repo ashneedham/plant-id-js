@@ -274,9 +274,9 @@
     border-bottom: #333 dotted 1px;
     padding: 0.4em 0;
     width: 100%;
-    min-height: 1.4em;
+    min-height: 1.3em;
     outline: none;
-    font-size: 1.4em;
+    font-size: 1.3em;
     font-weight: 600;
     position: relative;
     cursor: pointer;
@@ -299,13 +299,21 @@
 
   .common-name, .description {
     display: block;
-    margin-bottom: 0.5em;
+    margin-bottom: 0;
     transition: filter 0.3s;
 
     &.blurred {
       filter: blur(0.3em);
       transition: filter 0.3s;
     }
+  }
+
+  .common-name {
+    font-weight: bold;
+  }
+
+  .description {
+    line-height: 1.1;
   }
 
   ul {
