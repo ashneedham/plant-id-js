@@ -188,7 +188,7 @@ document.addEventListener("DOMContentLoaded", function() {
     function learnRound(plant_list_provided, round_number) {
         let new_card = blank_card.cloneNode(true)
         new_card.style.zIndex = 100+round_number,
-            chosen_plant = getRandomPlant(plant_list_provided),
+            chosen_plant = plant_list_provided[0],
             picture = new_card.getElementsByClassName('picture')[0],
             copyright_block = new_card.getElementsByClassName('copyright')[0],
             copyright_icon = copyright_block.getElementsByClassName('icon')[0],
