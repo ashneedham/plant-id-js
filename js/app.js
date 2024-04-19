@@ -441,11 +441,12 @@ document.addEventListener("DOMContentLoaded", function() {
      * @returns {string}
      */
     function getPrimaryPicture(plant) {
-        plant.pictures.forEach(function(p) {
-           if (p.hasOwnProperty('primary_picture')) {
-               return p;
-           }
-        });
+
+        for (let i= 0; i < plant.pictures.length; i++) {
+            if (plant.pictures[i].hasOwnProperty('primary_picture')) {
+                return plant.pictures[i];
+            }
+        }
         return getRandomPicture(plant);
     }
 
