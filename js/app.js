@@ -169,6 +169,7 @@ document.addEventListener("DOMContentLoaded", function() {
         document.body.classList.remove('unlocked');
         deck.classList.remove('spread');
         resetScore();
+        hideButton(play_again_button);
         playRound(plant_list_in_play, 1);
     });
 
