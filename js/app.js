@@ -194,7 +194,7 @@ document.addEventListener("DOMContentLoaded", function() {
             copyright_block = new_card.getElementsByClassName('copyright')[0],
             copyright_icon = copyright_block.getElementsByClassName('icon')[0],
             copyright_text = copyright_block.getElementsByClassName('text')[0],
-            photo = getRandomPicture(chosen_plant);
+            photo = getPrimaryPicture(chosen_plant);
 
         // Remove chosen plant from list to prevent playing it more than once
         plant_list_provided = removePlantFromList(plant_list_provided, chosen_plant);
@@ -433,6 +433,20 @@ document.addEventListener("DOMContentLoaded", function() {
     function getRandomPicture(plant) {
         let random_number = Math.floor(Math.random() * plant.pictures.length);
         return plant.pictures[random_number];
+    }
+
+    /**
+     * Gets the primary picture or a random picture if not available
+     * @param plant
+     * @returns {string}
+     */
+    function getPrimaryPicture(plant) {
+        plant.pictures.forEach(function(p) {
+           if (p.hasOwnProperty('primary_picture')) {
+               return p;
+           }
+        });
+        return getRandomPicture(plant);
     }
 
     /**
