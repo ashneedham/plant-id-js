@@ -619,7 +619,11 @@ body.unlocked header {
 }
 #controls #play-again {
   display: inline-block;
-  margin: 1em 0;
+  margin: 1em 0.5em;
+}
+#controls #reset {
+  display: inline-block;
+  margin: 1em 0.5em;
 }
 
 #deck {
