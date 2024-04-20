@@ -23,6 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
         challenge_button = document.getElementById('challenge'),
         start_button = document.getElementById('start'),
         play_again_button = document.getElementById('play-again'),
+        reset_button = document.getElementById('reset'),
         blank_card = sample_card.cloneNode(true),
         deck = document.getElementById('deck'),
         score_board = document.getElementById('score-board'),
@@ -50,6 +51,7 @@ document.addEventListener("DOMContentLoaded", function() {
     score_board.style.visibility = 'hidden';
     hideButton(learn_next_button);
     hideButton(play_again_button);
+    hideButton(reset_button);
 
     // Get list
     let xmlhttp = new XMLHttpRequest();
@@ -78,6 +80,7 @@ document.addEventListener("DOMContentLoaded", function() {
     learn_button.addEventListener('click', function() {
         filters_box.style.display = 'none';
         filters = document.querySelectorAll('input.filters_tags');
+        document.body.classList.add('learn-mode');
         showButton(learn_next_button);
         spreadCards();
 
@@ -171,7 +174,13 @@ document.addEventListener("DOMContentLoaded", function() {
         deck.classList.remove('spread');
         resetScore();
         hideButton(play_again_button);
+        hideButton(reset_button);
         playRound(plant_list_in_play, 1);
+    });
+
+    // Reset
+    reset_button.addEventListener('click', function() {
+        window.location.reload();
     });
 
     // Modal close buttons
@@ -204,6 +213,7 @@ document.addEventListener("DOMContentLoaded", function() {
         // Hide next button if ran out of cards
         if (plant_list_provided.length === 0) {
             hideButton(learn_next_button);
+            showButton(reset_button);
         }
 
         new_card.setAttribute('id', 'card_'+round_number);
@@ -349,6 +359,7 @@ document.addEventListener("DOMContentLoaded", function() {
             setTimeout(function() {
                 spreadCards();
                 showButton(play_again_button);
+                showButton(reset_button);
             }, timeout);
             setTimeout(function() {
                 final_score_inner.innerHTML = score.innerHTML;
