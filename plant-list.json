@@ -3307,10 +3307,19 @@
             },
             {
                 "credit_owner": "Catherine Davies",
-                "credit_date": "2024-04-14",
+                "credit_date": "2024-03-22",
                 "credit_url": "",
                 "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/",
                 "filename": "Lewisia_cotyledon_7.jpg"
+            },
+            {
+                "credit_owner": "Catherine Davies",
+                "credit_date": "2024-04-14",
+                "credit_url": "",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/",
+                "filename": "Lewisia_cotyledon_8.jpg",
+                "exam_mode": true
+
             }],
         "tags": ["PCA2"]
     },
@@ -3430,6 +3439,14 @@
                 "credit_url": "https:\/\/ashley.needham.online",
                 "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/",
                 "filename": "Acer_palmatum_7.jpg",
+                "exam_mode": true
+            },
+            {
+                "credit_owner": "Catherine Davies",
+                "credit_date": "2024-03-22",
+                "credit_url": "",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/",
+                "filename": "Acer_palmatum_8.jpg",
                 "exam_mode": true
             }],
         "tags": ["PCA2"]
@@ -4742,6 +4759,14 @@
                 "credit_url": "https:\/\/ashley.needham.online",
                 "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/",
                 "filename": "Eryngium_giganteum_`Silver_Ghost`_5.jpg",
+                "exam_mode": true
+            },
+            {
+                "credit_owner": "Catherine Davies",
+                "credit_date": "2024-03-22",
+                "credit_url": "",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/",
+                "filename": "Eryngium_giganteum_`Silver_Ghost`_6.jpg",
                 "primary_picture": true,
                 "exam_mode": true
             }],
@@ -4848,6 +4873,7 @@
                 "credit_date": "2024-04-19",
                 "credit_url": "https:\/\/ashley.needham.online",
                 "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/",
+                "filename": "Lobelia_cardinalis_7.jpg",
                 "primary_picture": true,
                 "exam_mode": true
             }],
@@ -4913,6 +4939,15 @@
                 "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Lonicera_periclymenum_189829964.jpg",
                 "licence_url": "http:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/deed.en",
                 "filename": "Lonicera_periclymenum_`Serotina`_8.jpg"
+            },
+            {
+                "credit_owner": "Catherine Davies",
+                "credit_date": "2024-03-22",
+                "credit_url": "",
+                "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+                "filename": "Lonicera_periclymenum_`Serotina`_9.jpg",
+                "exam_mode": true,
+                "primary_picture": true
             }],
         "tags": ["PCA2"]
     },
