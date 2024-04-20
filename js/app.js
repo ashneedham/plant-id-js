@@ -7,6 +7,7 @@
 const ROUND_LENGTH = 10;
 const DIFFICULTY_EASY = 'easy';
 const DIFFICULTY_HARD = 'hard';
+const DIFFICULTY_EXAM = 'exam';
 const TAGS = ['PCA1', 'PCA2'];
 document.addEventListener("DOMContentLoaded", function() {
     let sample_card = document.getElementById('sample-card'),
@@ -135,7 +136,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
 
         // Set the sample card based on the difficulty level
-        if (game_difficulty === DIFFICULTY_HARD) {
+        if (game_difficulty === DIFFICULTY_HARD || game_difficulty === DIFFICULTY_EXAM) {
             blank_card.querySelector('.answers.easy').style.display = 'none';
 
             // Setup the data list events
@@ -228,7 +229,7 @@ document.addEventListener("DOMContentLoaded", function() {
         new_card.classList.remove('hidden');
 
         // Set autcomplete list and focus on text field when playing hard
-        if (game_difficulty === DIFFICULTY_HARD) {
+        if (game_difficulty === DIFFICULTY_HARD || game_difficulty === DIFFICULTY_EXAM) {
             // new_card.querySelector('input[name=answer]').focus();
         }
 
@@ -254,7 +255,7 @@ document.addEventListener("DOMContentLoaded", function() {
             copyright_block = new_card.getElementsByClassName('copyright')[0],
             copyright_icon = copyright_block.getElementsByClassName('icon')[0],
             copyright_text = copyright_block.getElementsByClassName('text')[0],
-            photo = getRandomPicture(chosen_plant);
+            photo = (game_difficulty === DIFFICULTY_EXAM) ? getRandomExamPicture(chosen_plant) : getRandomPicture(chosen_plant);
 
         // Remove chosen plant from list to prevent playing it more than once
         plant_list_provided = removePlantFromList(plant_list_provided, chosen_plant);
@@ -271,7 +272,7 @@ document.addEventListener("DOMContentLoaded", function() {
             copy_info_modal.showModal();
         });
 
-        if (game_difficulty === DIFFICULTY_HARD) {
+        if (game_difficulty === DIFFICULTY_HARD || game_difficulty === DIFFICULTY_EXAM) {
             /**
              * HARD MODE
              */
@@ -328,7 +329,7 @@ document.addEventListener("DOMContentLoaded", function() {
         new_card.classList.remove('hidden');
 
         // Set autcomplete list and focus on text field when playing hard
-        if (game_difficulty === DIFFICULTY_HARD) {
+        if (game_difficulty === DIFFICULTY_HARD || game_difficulty === DIFFICULTY_EXAM) {
             // new_card.querySelector('input[name=answer]').focus();
         }
 
@@ -448,6 +449,26 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         }
         return getRandomPicture(plant);
+    }
+
+    /**
+     * Selects a random picture labelled as exam picture if any are present otherwise selects any random picture
+     * @param plant
+     * @returns {*|string}
+     */
+    function getRandomExamPicture(plant) {
+        let exam_pictures = [];
+        plant.pictures.forEach(function(p) {
+            if (p.hasOwnProperty('exam_mode')) {
+                exam_pictures.push(p);
+            }
+        }, exam_pictures);
+        if (exam_pictures.length > 0) {
+            let random_number = Math.floor(Math.random() * exam_pictures.length);
+            return exam_pictures[random_number];
+        } else {
+            return getRandomPicture(plant);
+        }
     }
 
     /**
