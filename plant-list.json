@@ -94,6 +94,15 @@
                 "credit_url": "",
                 "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
                 "filename": "Ranunculus_repens_6.jpg"
+            },
+            {
+                "credit_owner": "Ashley Needham",
+                "credit_date": "2024-10-15",
+                "credit_url": "",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Ranunculus_repens_7.jpg",
+                "primary_picture": true,
+                "exam_mode": true
             }],
         "tags": ["PCA1", "PCA2"]
     },
@@ -142,7 +151,15 @@
                 "credit_date": "2024-04-19",
                 "credit_url": "https:\/\/ashley.needham.online",
                 "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/",
-                "filename": "Buddleja_davidii_5.jpg",
+                "filename": "Buddleja_davidii_6.jpg",
+                "exam_mode": true
+            },
+            {
+                "credit_owner": "Ashley Needham",
+                "credit_date": "2024-04-19",
+                "credit_url": "https:\/\/ashley.needham.online",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/",
+                "filename": "Buddleja_davidii_7.jpg",
                 "primary_picture": true,
                 "exam_mode": true
             }],
@@ -297,6 +314,14 @@
                 "credit_url": "https:\/\/ashley.needham.online",
                 "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/",
                 "filename": "Aegopodium_podagraria_7.jpg",
+                "exam_mode": true
+            },
+            {
+                "credit_owner": "Ashley Needham",
+                "credit_date": "2024-04-19",
+                "credit_url": "https:\/\/ashley.needham.online",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/",
+                "filename": "Aegopodium_podagraria_8.jpg",
                 "primary_picture": true,
                 "exam_mode": true
             }],
@@ -511,6 +536,15 @@
                 "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Capsella_bursa-pastoris_sl7.jpg",
                 "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
                 "filename": "Capsella_bursa-pastoris_4.jpg"
+            },
+            {
+                "credit_owner": "Ashley Needham",
+                "credit_date": "2024-04-26",
+                "credit_url": "https:\/\/ashley.needham.online",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Capsella_bursa-pastoris_5.jpg",
+                "primary_picture": true,
+                "exam_mode": true
             }],
         "tags": ["PCA2"]
     },
@@ -609,6 +643,15 @@
                 "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Stellaria_media.jpg",
                 "licence_url": "http:\/\/creativecommons.org\/licenses\/by-sa\/3.0\/",
                 "filename": "Stellaria_media_6.jpg"
+            },
+            {
+                "credit_owner": "Ashley Needham",
+                "credit_date": "2024-04-27",
+                "credit_url": "https:\/\/ashley.needham.online",
+                "licence_url": "http:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/",
+                "filename": "Stellaria_media_7.jpg",
+                "primary_picture": true,
+                "exam_mode": true
             }],
         "tags": ["PCA1", "PCA2"]
     },
@@ -2481,6 +2524,14 @@
                 "filename": "Pulsatilla_vulgaris_7.jpg",
                 "primary_picture": true,
                 "exam_mode": true
+            },
+            {
+                "credit_owner": "Ashley Needham",
+                "credit_date": "2024-04-19",
+                "credit_url": "https:\/\/ashley.needham.online",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/",
+                "filename": "Pulsatilla_vulgaris_8.jpg",
+                "exam_mode": true
             }],
         "tags": ["PCA2"]
     },
@@ -2596,7 +2647,6 @@
                 "credit_url": "https:\/\/ashley.needham.online",
                 "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/",
                 "filename": "Salvia_nemerosa_4.jpg",
-                "primary_picture": true,
                 "exam_mode": true
             },
             {
@@ -2605,6 +2655,15 @@
                 "credit_url": "https:\/\/ashley.needham.online",
                 "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/",
                 "filename": "Salvia_nemerosa_5.jpg",
+                "exam_mode": true
+            },
+            {
+                "credit_owner": "Ashley Needham",
+                "credit_date": "2024-04-19",
+                "credit_url": "https:\/\/ashley.needham.online",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/",
+                "filename": "Salvia_nemerosa_6.jpg",
+                "primary_picture": true,
                 "exam_mode": true
             }],
         "tags": ["PCA2"]
@@ -2844,6 +2903,14 @@
                 "credit_url": "https:\/\/ashley.needham.online",
                 "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/",
                 "filename": "Armeria_maritima_5.jpg",
+                "exam_mode": true
+            },
+            {
+                "credit_owner": "Ashley Needham",
+                "credit_date": "2024-04-19",
+                "credit_url": "https:\/\/ashley.needham.online",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/",
+                "filename": "Armeria_maritima_6.jpg",
                 "primary_picture": true,
                 "exam_mode": true
             }],
@@ -3034,6 +3101,15 @@
                 "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:2011-09-23_Miscanthus_sinensis_(Matsudo,_Chiba,_Japan).jpg",
                 "licence_url": "https:\/\/creativecommons.org\/licenses\/by\/2.0",
                 "filename": "Miscanthus_sinensis_`Zebrinus`_2.jpg"
+            },
+            {
+                "credit_owner": "Ashley Needham",
+                "credit_date": "2024-04-27",
+                "credit_url": "https:\/\/ashley.needham.online",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by\/4.0",
+                "filename": "Miscanthus_sinensis_`Zebrinus`_3.jpg",
+                "primary_picture": true,
+                "exam_mode": true
             }],
         "tags": ["PCA2"]
     },
@@ -3055,6 +3131,15 @@
                 "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:2016.06.21_18.27.55_DSC04970_-_Flickr_-_andrey_zharkikh.jpg",
                 "licence_url": "https:\/\/creativecommons.org\/licenses\/by\/2.0",
                 "filename": "Stipa_gigantea_2.jpg"
+            },
+            {
+                "credit_owner": "Ashley Needham",
+                "credit_date": "2024-04-27",
+                "credit_url": "https:\/\/ashley.needham.online",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by\/4.0",
+                "filename": "Stipa_gigantea_3.jpg",
+                "primary_picture": true,
+                "exam_mode": true
             }],
         "tags": ["PCA2"]
     },
@@ -3140,6 +3225,15 @@
                 "licence_url": "https:\/\/creativecommons.org\/licenses\/by\/4.0",
                 "filename": "Magnolia_stellata_6.jpg",
                 "primary_picture": true
+            },
+            {
+                "credit_owner": "Ashley Needham",
+                "credit_date": "2024-04-27",
+                "credit_url": "https:\/\/ashley.needham.online",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by\/4.0",
+                "filename": "Magnolia_stellata_7.jpg",
+                "primary_picture": true,
+                "exam_mode":  true
             }],
         "tags": ["PCA2"]
     },
@@ -3250,6 +3344,14 @@
                 "credit_url": "https:\/\/ashley.needham.online",
                 "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/",
                 "filename": "Forsythia_x_intermedia_5.jpg",
+                "exam_mode": true
+            },
+            {
+                "credit_owner": "Ashley Needham",
+                "credit_date": "2024-04-19",
+                "credit_url": "https:\/\/ashley.needham.online",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/",
+                "filename": "Forsythia_x_intermedia_6.jpg",
                 "primary_picture": true,
                 "exam_mode": true
             }],
@@ -3287,7 +3389,6 @@
                 "credit_url": "https:\/\/ashley.needham.online",
                 "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/",
                 "filename": "Lewisia_cotyledon_4.jpg",
-                "primary_picture": true,
                 "exam_mode": true
             },
             {
@@ -3320,6 +3421,15 @@
                 "filename": "Lewisia_cotyledon_8.jpg",
                 "exam_mode": true
 
+            },
+            {
+                "credit_owner": "Ashley Needham",
+                "credit_date": "2024-04-19",
+                "credit_url": "https:\/\/ashley.needham.online",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/",
+                "filename": "Lewisia_cotyledon_9.jpg",
+                "exam_mode": true,
+                "primary_picture": true
             }],
         "tags": ["PCA2"]
     },
@@ -3504,6 +3614,13 @@
                 "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Betula_pendula_tree.jpg",
                 "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/2.0",
                 "filename": "Betula_pendula_7.jpg"
+            },
+            {
+                "credit_owner": "Ashley Needham",
+                "credit_date": "2024-04-27",
+                "credit_url": "https:\/\/ashley.needham.online",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Betula_pendula_8.jpg"
             }],
         "tags": ["PCA2"]
     },
@@ -3567,6 +3684,15 @@
                 "credit_url": "",
                 "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
                 "filename": "Iris_pseudacorus_8.jpg"
+            },
+            {
+                "credit_owner": "Ashley Needham",
+                "credit_date": "2024-04-27",
+                "credit_url": "https:\/\/ashley.needham.online",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Iris_pseudacorus_9.jpg",
+                "primary_picture": true,
+                "exam_mode": true
             }],
         "tags": ["PCA2"]
     },
@@ -3616,6 +3742,15 @@
                 "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Centaurea_cyanus_12.jpg",
                 "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
                 "filename": "Centaurea_cyanus_6.jpg"
+            },
+            {
+                "credit_owner": "Ashley Needham",
+                "credit_date": "2024-04-27",
+                "credit_url": "https:\/\/ashley.needham.online",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0",
+                "filename": "Centaurea_cyanus_7.jpg",
+                "primary_picture": true,
+                "exam_mode": true
             }],
         "tags": ["PCA2"]
     },
@@ -3665,7 +3800,6 @@
                 "credit_url": "https:\/\/ashley.needham.online",
                 "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/",
                 "filename": "Cotinus_coggygria_6.jpg",
-                "exam_mode": true,
                 "exam_mode": true
             },
             {
@@ -3849,6 +3983,15 @@
                 "credit_url": "https:\/\/ashley.needham.online",
                 "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/",
                 "filename": "Leucanthemum_valgare_7.jpg",
+                "exam_mode": true
+            },
+            {
+                "credit_owner": "Ashley Needham",
+                "credit_date": "2024-04-19",
+                "credit_url": "https:\/\/ashley.needham.online",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/",
+                "filename": "Leucanthemum_valgare_8.jpg",
+                "primary_picture": true,
                 "exam_mode": true
             }],
         "tags": ["PCA2"]
@@ -4241,7 +4384,6 @@
                 "credit_url": "https:\/\/ashley.needham.online",
                 "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/",
                 "filename": "Astrantia_major_2.jpg",
-                "primary_picture": true,
                 "exam_mode": true
             },{
                 "credit_owner": "Ashley Needham",
@@ -4250,6 +4392,14 @@
                 "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/",
                 "filename": "Astrantia_major_3.jpg",
                 "exam_mode": true
+            },{
+                "credit_owner": "Ashley Needham",
+                "credit_date": "2024-04-19",
+                "credit_url": "https:\/\/ashley.needham.online",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/",
+                "filename": "Astrantia_major_4.jpg",
+                "exam_mode": true,
+                "primary_picture": true
             }],
         "tags": ["PCA2"]
     },
@@ -4715,6 +4865,15 @@
                 "credit_url": "https:\/\/ashley.needham.online",
                 "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/",
                 "filename": "Echinacea_purpurea_`Alba`_5.jpg",
+                "primary_picture": false,
+                "exam_mode": true
+            },
+            {
+                "credit_owner": "Ashley Needham",
+                "credit_date": "2024-04-19",
+                "credit_url": "https:\/\/ashley.needham.online",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/",
+                "filename": "Echinacea_purpurea_`Alba`_6.jpg",
                 "primary_picture": true,
                 "exam_mode": true
             }],
@@ -4874,6 +5033,14 @@
                 "credit_url": "https:\/\/ashley.needham.online",
                 "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/",
                 "filename": "Lobelia_cardinalis_7.jpg",
+                "exam_mode": true
+            },
+            {
+                "credit_owner": "Ashley Needham",
+                "credit_date": "2024-04-19",
+                "credit_url": "https:\/\/ashley.needham.online",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/",
+                "filename": "Lobelia_cardinalis_8.jpg",
                 "primary_picture": true,
                 "exam_mode": true
             }],
@@ -5056,6 +5223,14 @@
                 "filename": "Phlox_paniculata_6.jpg",
                 "primary_picture": true,
                 "exam_mode": true
+            },
+            {
+                "credit_owner": "Ashley Needham",
+                "credit_date": "2024-04-19",
+                "credit_url": "https:\/\/ashley.needham.online",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/",
+                "filename": "Phlox_paniculata_7.jpg",
+                "exam_mode": true
             }],
         "tags": ["PCA2"]
     },
@@ -5154,6 +5329,14 @@
                 "credit_url": "https:\/\/ashley.needham.online",
                 "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/",
                 "filename": "Verbena_bonariensis_7.jpg",
+                "exam_mode": true
+            },
+            {
+                "credit_owner": "Ashley Needham",
+                "credit_date": "2024-04-19",
+                "credit_url": "https:\/\/ashley.needham.online",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/",
+                "filename": "Verbena_bonariensis_8.jpg",
                 "primary_picture": true,
                 "exam_mode": true
             }],
