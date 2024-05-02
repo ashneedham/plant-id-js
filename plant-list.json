@@ -2574,6 +2574,15 @@
                 "credit_url": "https:\/\/commons.wikimedia.org\/wiki\/File:Rhinanthus_minor_(Yellow_Rattle)_-_Flickr_-_S._Rae.jpg",
                 "licence_url": "https:\/\/creativecommons.org\/licenses\/by\/2.0",
                 "filename": "Rhinanthus_minor_5.jpg"
+            },
+            {
+                "credit_owner": "Erika Jones",
+                "credit_date": "2024-05-02",
+                "credit_url": "",
+                "licence_url": "https:\/\/creativecommons.org\/licenses\/by\/4.0",
+                "filename": "Rhinanthus_minor_6.jpg",
+                "exam_mode": true,
+                "primary_picture": true
             }],
         "tags": ["PCA2"]
     },
