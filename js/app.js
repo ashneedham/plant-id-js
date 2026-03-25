@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", function() {
             buildDataList(plant_list);
         }
     };
-    xmlhttp.open("GET", "plant-list.json", true);
+    xmlhttp.open("GET", "https://learn.plantle.app/plant-list.json", true);
     xmlhttp.send();
 
     // Challenge button action
