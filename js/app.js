@@ -35,6 +35,7 @@ document.addEventListener("DOMContentLoaded", function() {
         copy_info_modal = document.getElementById('copy-info'),
         copy_info_inner = copy_info_modal.getElementsByClassName('inner')[0],
         modal_close_buttons = document.getElementsByClassName('modal-close'),
+        support_us_modal = document.getElementById('support-us'),
         rounds_played = 0,
         players_score = 0,
         current_round = 0,
@@ -53,6 +54,8 @@ document.addEventListener("DOMContentLoaded", function() {
     hideButton(play_again_button);
     hideButton(reset_button);
 
+    support_us_modal.showModal();
+
     // Get list
     let xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
@@ -68,7 +71,7 @@ document.addEventListener("DOMContentLoaded", function() {
             buildDataList(plant_list);
         }
     };
-    xmlhttp.open("GET", "https://www.plantle.app/plant-list.json", true);
+    xmlhttp.open("GET", "plant-list.json", true);
     xmlhttp.send();
 
     // Challenge button action
